@@ -13,7 +13,7 @@ const Navigation = ({ activePage, navigate, mobileMenuOpen, setMobileMenuOpen })
   return (
     <nav className="fixed w-full z-50 transition-all duration-300 glass bg-navy-900/90 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <div 
             className="flex-shrink-0 flex items-center cursor-pointer" 
