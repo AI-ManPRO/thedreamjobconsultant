@@ -5,9 +5,9 @@ const Logo = ({ className = "" }) => {
 
   return (
     <img 
-      src="https://prnt.sc/4j0vjAnqOpEk" 
-      alt="The Dream Job Consultant - Dream Job Comes True" 
-      className={`h-12 md:h-14 w-auto object-contain ${className}`}
+      src="logo.png" 
+     // alt="The Dream Job Consultant - Dream Job Comes True" 
+     // className={`h-12 md:h-14 w-auto object-contain ${className}`}
       onError={(e) => {
         setImgError(true);
       }}
