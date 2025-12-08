@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ROICalculator = () => {
   const [salary, setSalary] = useState(8000);
   const [months, setMonths] = useState(6);
   const [loss, setLoss] = useState(48000);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setLoss(salary * months);
@@ -55,7 +57,7 @@ const ROICalculator = () => {
               <p className="text-sm text-slate-400 uppercase tracking-widest">Potential Income Lost</p>
               <div className="text-5xl font-bold text-red-500 my-4">${loss.toLocaleString()}</div>
               <p className="text-xs text-slate-500">Based on standard manual job search duration vs. our 2-3 month average.</p>
-              <button onClick={() => document.getElementById('pricing-link')?.click()} className="block mt-6 text-gold-400 text-sm font-bold hover:underline">Stop Losing Money &rarr;</button>
+              <button onClick={() => navigate('/pricing')} className="block mt-6 text-gold-400 text-sm font-bold hover:underline w-full text-center">Stop Losing Money &rarr;</button>
             </div>
           </div>
         </div>

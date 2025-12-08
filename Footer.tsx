@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from './Logo';
 
-const Footer = ({ navigate }) => {
+const Footer = () => {
   return (
     <footer className="bg-navy-900 border-t border-slate-800 pt-16 pb-8 text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Col 1 */}
           <div>
-            <div onClick={() => navigate('home')} className="cursor-pointer mb-4 inline-block">
+            <Link to="/" className="cursor-pointer mb-4 inline-block">
                <Logo />
-            </div>
+            </Link>
             <p className="text-slate-400 mt-4 leading-relaxed">
               The only Reverse Recruiting service that executes 85% of your job search. Specialized for Executives and Tech Professionals globally.
             </p>
@@ -26,10 +27,10 @@ const Footer = ({ navigate }) => {
           <div>
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Company</h4>
             <ul className="space-y-3">
-              <li><button onClick={() => navigate('about')} className="text-slate-400 hover:text-gold-400">About Ayman</button></li>
-              <li><button onClick={() => navigate('stories')} className="text-slate-400 hover:text-gold-400">Case Studies</button></li>
+              <li><Link to="/about" className="text-slate-400 hover:text-gold-400">About Ayman</Link></li>
+              <li><Link to="/case-studies" className="text-slate-400 hover:text-gold-400">Case Studies</Link></li>
+              <li><Link to="/faq" className="text-slate-400 hover:text-gold-400">FAQ</Link></li>
               <li><a href="#" className="text-slate-400 hover:text-gold-400">Contact Us</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-gold-400">Blog / Insights</a></li>
             </ul>
           </div>
 

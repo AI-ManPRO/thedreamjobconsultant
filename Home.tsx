@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ROICalculator from './ROICalculator';
 
-const Home = ({ navigate }) => (
+const Home = () => (
   <>
     <header className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       {/* Abstract Background Blobs */}
@@ -25,18 +26,18 @@ const Home = ({ navigate }) => (
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <button 
-            onClick={() => navigate('pricing')}
-            className="gold-btn px-8 py-4 rounded-lg text-navy-900 font-bold text-lg shadow-lg hover:shadow-gold-400/20"
+          <Link 
+            to="/pricing"
+            className="gold-btn px-8 py-4 rounded-lg text-navy-900 font-bold text-lg shadow-lg hover:shadow-gold-400/20 inline-block text-center"
           >
             Check Eligibility
-          </button>
-          <button 
-            onClick={() => navigate('services')}
-            className="px-8 py-4 rounded-lg border border-slate-600 text-white font-medium hover:bg-slate-800 transition"
+          </Link>
+          <Link 
+            to="/services"
+            className="px-8 py-4 rounded-lg border border-slate-600 text-white font-medium hover:bg-slate-800 transition inline-block text-center"
           >
             How It Works
-          </button>
+          </Link>
         </div>
 
         {/* Trust Bar */}
