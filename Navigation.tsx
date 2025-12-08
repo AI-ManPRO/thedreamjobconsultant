@@ -8,6 +8,7 @@ const Navigation = ({ activePage, navigate, mobileMenuOpen, setMobileMenuOpen })
     { id: 'process', label: 'Process' },
     { id: 'stories', label: 'Success Stories' },
     { id: 'pricing', label: 'Pricing' },
+    { id: 'about', label: 'About' },
   ];
 
   return (
@@ -24,7 +25,7 @@ const Navigation = ({ activePage, navigate, mobileMenuOpen, setMobileMenuOpen })
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {navItems.slice(1).map((item) => (
+            {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => navigate(item.id)}
@@ -63,7 +64,7 @@ const Navigation = ({ activePage, navigate, mobileMenuOpen, setMobileMenuOpen })
       {mobileMenuOpen && (
         <div className="md:hidden glass border-t border-slate-700">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navItems.slice(1).map((item) => (
+            {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => {

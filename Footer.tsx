@@ -26,7 +26,7 @@ const Footer = ({ navigate }) => {
           <div>
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Company</h4>
             <ul className="space-y-3">
-              <li><button onClick={() => navigate('home')} className="text-slate-400 hover:text-gold-400">About Ayman</button></li>
+              <li><button onClick={() => navigate('about')} className="text-slate-400 hover:text-gold-400">About Ayman</button></li>
               <li><button onClick={() => navigate('stories')} className="text-slate-400 hover:text-gold-400">Case Studies</button></li>
               <li><a href="#" className="text-slate-400 hover:text-gold-400">Contact Us</a></li>
               <li><a href="#" className="text-slate-400 hover:text-gold-400">Blog / Insights</a></li>

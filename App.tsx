@@ -5,6 +5,7 @@ import Home from './Home';
 import Services from './Services';
 import SuccessStories from './SuccessStories';
 import Pricing from './Pricing';
+import AboutUs from './AboutUs';
 
 const App = () => {
   const [activePage, setActivePage] = useState('home');
@@ -20,6 +21,8 @@ const App = () => {
     switch (activePage) {
       case 'home':
         return <Home navigate={navigate} />;
+      case 'about':
+        return <AboutUs />;
       case 'services':
       case 'process':
         return <Services />;
