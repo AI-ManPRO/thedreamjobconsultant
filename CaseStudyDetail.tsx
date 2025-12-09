@@ -215,14 +215,30 @@ const CaseStudyDetail = () => {
                     onClick={() => setSelectedEvidence(item)}
                     className="group cursor-pointer"
                   >
-                    <div className="bg-navy-800 border-2 border-dashed border-slate-700 rounded-xl h-48 flex flex-col items-center justify-center hover:border-gold-400 transition duration-300 relative px-4 text-center hover:bg-navy-800/80">
-                      {renderIcon(item.type)}
-                      <span className="text-slate-400 text-sm font-bold group-hover:text-white transition-colors block mb-1">{item.label}</span>
-                      <p className="text-xs text-slate-500 line-clamp-2">{item.desc}</p>
+                    <div className="relative overflow-hidden bg-navy-800 border-2 border-dashed border-slate-700 rounded-xl h-48 flex flex-col items-center justify-center hover:border-gold-400 transition duration-300 px-4 text-center group-hover:border-solid">
 
-                      {/* Hover Overlay */}
-                      <div className="absolute inset-0 bg-navy-900/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-xl backdrop-blur-sm">
-                        <span className="text-gold-400 font-bold border border-gold-400 px-4 py-2 rounded-full text-sm">View Screenshot</span>
+                      {/* Background Thumbnail with Overlay */}
+                      {item.image && (
+                        <>
+                          <img
+                            src={item.image}
+                            alt=""
+                            className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-30 transition-all duration-500 group-hover:scale-105 filter blur-[1px]"
+                          />
+                          <div className="absolute inset-0 bg-navy-900/40"></div>
+                        </>
+                      )}
+
+                      {/* Content */}
+                      <div className="relative z-10 flex flex-col items-center w-full">
+                        {renderIcon(item.type)}
+                        <span className="text-slate-300 text-sm font-bold group-hover:text-white transition-colors block mb-1 drop-shadow-md">{item.label}</span>
+                        <p className="text-xs text-slate-400 line-clamp-2 drop-shadow-sm">{item.desc}</p>
+                      </div>
+
+                      {/* Hover Overlay Button */}
+                      <div className="absolute inset-0 bg-navy-900/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm z-20">
+                        <span className="text-gold-400 font-bold border border-gold-400 px-4 py-2 rounded-full text-sm shadow-lg bg-navy-900/50">View Screenshot</span>
                       </div>
                     </div>
                   </div>
