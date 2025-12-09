@@ -123,6 +123,7 @@ const caseDetails = {
 const CaseStudyDetail = () => {
   const { id } = useParams();
   const [selectedEvidence, setSelectedEvidence] = useState<EvidenceItem | null>(null);
+  const [isZoomed, setIsZoomed] = useState(false);
 
   const study = caseDetails[id as keyof typeof caseDetails];
 
@@ -275,41 +276,56 @@ const CaseStudyDetail = () => {
       {selectedEvidence && (
         <div
           className="fixed inset-0 z-[100] bg-navy-900/95 backdrop-blur-md flex items-center justify-center p-4 transition-all"
-          onClick={() => setSelectedEvidence(null)}
+          onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
         >
           {/* Close Button */}
           <button
-            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none"
-            onClick={() => setSelectedEvidence(null)}
+            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none z-[110]"
+            onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
           >
             <i className="fas fa-times"></i>
           </button>
 
           <div
-            className="max-w-4xl w-full max-h-[90vh] flex flex-col items-center justify-center relative"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking content
+            className={`flex flex-col items-center justify-center relative transition-all duration-300 ${isZoomed ? 'w-full h-full overflow-hidden' : 'max-w-5xl w-full'}`}
+            onClick={(e) => e.stopPropagation()}
           >
-            {/* Image Container */}
-            <div className="relative w-full overflow-auto rounded-lg shadow-2xl border border-slate-700 bg-navy-800 mb-4 p-2">
+            {/* Image Scroll Container */}
+            <div
+              className={`relative bg-navy-800 rounded-lg shadow-2xl border border-slate-700 overflow-auto scrollbar-hide flex justify-center 
+                  ${isZoomed ? 'w-full h-full p-0 cursor-zoom-out' : 'w-full max-h-[75vh] p-2 cursor-zoom-in'}`}
+              onClick={() => setIsZoomed(!isZoomed)}
+            >
               <img
                 src={selectedEvidence.image || 'https://via.placeholder.com/800x600?text=Screenshot+Not+Available'}
                 alt={selectedEvidence.label}
-                className="w-full h-auto object-contain max-h-[70vh] rounded"
+                className={`transition-all duration-300 ${isZoomed ? 'max-w-none min-w-full' : 'w-full h-full object-contain'}`}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.onerror = null; // Prevent loop
+                  target.onerror = null;
                   const fileName = selectedEvidence.image?.split('/').pop() || 'unknown';
-                  // Show specific error using a placeholder service that supports text
                   target.src = `https://placehold.co/800x400/1e293b/ef4444?text=Missing+File%0A${fileName}`;
                 }}
               />
             </div>
 
-            {/* Caption */}
-            <div className="text-center">
-              <h3 className="text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
-              <p className="text-slate-400 max-w-2xl mx-auto">{selectedEvidence.desc}</p>
-            </div>
+            {/* Caption & Controls */}
+            {!isZoomed && (
+              <div className="text-center mt-4 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50">
+                <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
+                <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">{selectedEvidence.desc}</p>
+                <div className="mt-3 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                  <i className="fas fa-search-plus"></i> Click image to Zoom
+                </div>
+              </div>
+            )}
+
+            {/* Floating Zoom Hints if Zoomed */}
+            {isZoomed && (
+              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-xs font-medium backdrop-blur-md pointer-events-none">
+                <i className="fas fa-arrows-alt mr-2"></i> Scroll to pan • Click to exit zoom
+              </div>
+            )}
           </div>
         </div>
       )}
