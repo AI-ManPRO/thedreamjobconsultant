@@ -38,18 +38,15 @@ const CaseStudies = () => (
       </div>
 
       <div className="grid md:grid-cols-2 gap-8">
-        
+
         {cases.map((study) => (
-          <Link 
-            to={`/case-studies/${study.id}`} 
+          <Link
+            to={`/case-studies/${study.id}`}
             key={study.id}
             className="block h-full"
           >
             <div className="glass h-full rounded-2xl overflow-hidden group hover:border-gold-400/50 transition duration-500 relative">
-              <div className="absolute top-4 right-4 text-xs font-bold text-gold-400 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
-                Read Full Story <i className="fas fa-arrow-right"></i>
-              </div>
-              
+
               <div className="p-8">
                 <div className="flex justify-between items-start mb-6">
                   <div>
@@ -58,7 +55,7 @@ const CaseStudies = () => (
                   </div>
                   <i className={`${study.icon} text-4xl text-slate-700 group-hover:text-gold-400 transition`}></i>
                 </div>
-                
+
                 <div className="space-y-4 mb-8">
                   <div className="flex items-center gap-3 text-sm text-slate-300">
                     <i className="fas fa-check-circle text-green-500"></i>
@@ -69,10 +66,15 @@ const CaseStudies = () => (
                     <span>{study.offers}</span>
                   </div>
                 </div>
-                
+
                 <div className="mt-6 pt-6 border-t border-slate-700">
                   <p className="italic text-slate-400 text-sm">{study.quote}</p>
                 </div>
+              </div>
+
+              {/* Read Full Story - Bottom Right */}
+              <div className="absolute bottom-8 right-8 text-xs font-bold text-gold-400 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
+                Read Full Story <i className="fas fa-arrow-right"></i>
               </div>
             </div>
           </Link>

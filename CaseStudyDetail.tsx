@@ -1,5 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+
+// TYPE DEFINITION
+interface EvidenceItem {
+  type: string;
+  label: string;
+  desc: string;
+  image?: string; // Optional image path
+}
 
 // Data strictly for the details view (mocking a database)
 const caseDetails = {
@@ -21,9 +29,68 @@ const caseDetails = {
       'Accepted a fully remote role with a €100k package.'
     ],
     testimonial: "I never thought a remote role in Europe was possible without relocating. The strategy changed how I viewed my own career. I'm not just a coder anymore; I'm a consultant.",
-    screenshots: [
-        { label: 'LinkedIn Optimization', desc: 'Profile views increased by 400% in 2 weeks.' },
-        { label: 'Offer Letter', desc: 'The final signed offer with relocation optionality.' }
+    // UPDATED: Flexible Evidence Array with Image Paths
+    // NOTE: Paths are simple relative filenames, expecting files in the root directory.
+    evidence: [
+      {
+        type: 'linkedin',
+        label: 'Opportunity #1: Cairo Lead',
+        desc: 'Recruitment Consultant "Hossam" reaching out for a PHP-Laravel full-stack role in Cairo.',
+        image: './evidence-islam-1.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #2: Germany (€100k)',
+        desc: 'Recruiter "Reece" offering Senior PHP role in Munich. Package: €75k-€100k + Relocation & Visa.',
+        image: './evidence-islam-2.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #3: Contract Role',
+        desc: 'Founder "Tamer" discussing a contract-to-hire Lead Developer role for a marketing platform.',
+        image: './evidence-islam-3.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #4: HR Inquiry',
+        desc: 'HR Executive "Prabu" requesting CV and WhatsApp details for immediate submission.',
+        image: './evidence-islam-4.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #5: Noida/Remote',
+        desc: 'HR Executive "Jagriti" offering React/Vue profile. Islam negotiated for full remote options.',
+        image: './evidence-islam-5.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #6: UK Lead Role',
+        desc: 'Recruitment Manager "Karen" discussing a London-based role. Salary negotiation around £4,000/month.',
+        image: './evidence-islam-6.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #7: Mumbai Senior',
+        desc: 'IT Recruiter "Basavaraj" seeking Senior Backend Developer. Islam positioned for remote work.',
+        image: './evidence-islam-7.png'
+      },
+      {
+        type: 'linkedin',
+        label: 'Opportunity #8: CEO Outreach',
+        desc: 'CEO "Matthias" reached out directly: "Your tech stack is a great fit." Encouraged application.',
+        image: './evidence-islam-8.png'
+      },
+      {
+        type: 'email',
+        label: 'Opportunity #9: Saudi Remote',
+        desc: 'Managing Director "Soha" offering a Senior Full Stack role for a Saudi company, working remotely from Egypt.',
+        image: './evidence-islam-9.png'
+      },
+
+      // Original Evidence Items (Placeholders)
+      { type: 'email', label: 'Salary Negotiation Email', desc: 'Counter-offer email thread securing an additional €15k.', image: './evidence-placeholder.png' },
+      { type: 'stats', label: 'LinkedIn Optimization', desc: 'Profile views increased by 400% in 2 weeks.', image: './evidence-placeholder.png' },
+      { type: 'document', label: 'Offer Letter', desc: 'The final signed offer with relocation optionality.', image: './evidence-placeholder.png' }
     ]
   },
   'essam-construction': {
@@ -44,20 +111,34 @@ const caseDetails = {
       'Landed a Director role with a top-tier firm in Riyadh.'
     ],
     testimonial: "The Hidden Job Market is real. I spent months applying with no luck. One week of networking changed everything.",
-    screenshots: [
-        { label: 'Network Growth', desc: 'Connected with key decision makers at NEOM.' },
-        { label: 'Interview Invite', desc: 'Direct message invitation for an interview.' }
+    evidence: [
+      { type: 'linkedin', label: 'NEOM Director Connection', desc: 'Accepted connection request and follow-up chat with a Project Director.', image: './evidence-placeholder.png' },
+      { type: 'email', label: 'Interview Confirmation', desc: 'Calendar invite for a panel interview with the executive board.', image: './evidence-placeholder.png' },
+      { type: 'stats', label: 'Network Growth', desc: 'Connected with key decision makers at NEOM.', image: './evidence-placeholder.png' },
+      { type: 'linkedin', label: 'Interview Invite', desc: 'Direct message invitation for an interview.', image: './evidence-placeholder.png' }
     ]
   }
 };
 
 const CaseStudyDetail = () => {
   const { id } = useParams();
+  const [selectedEvidence, setSelectedEvidence] = useState<EvidenceItem | null>(null);
+
   const study = caseDetails[id as keyof typeof caseDetails];
 
   if (!study) {
     return <Navigate to="/case-studies" replace />;
   }
+
+  // Helper to render icon based on evidence type
+  const renderIcon = (type: string) => {
+    switch (type) {
+      case 'email': return <i className="fas fa-envelope-open-text text-4xl text-slate-600 mb-3 group-hover:text-gold-400 transition-colors"></i>;
+      case 'linkedin': return <i className="fab fa-linkedin-in text-4xl text-slate-600 mb-3 group-hover:text-gold-400 transition-colors"></i>;
+      case 'document': return <i className="fas fa-file-contract text-4xl text-slate-600 mb-3 group-hover:text-gold-400 transition-colors"></i>;
+      case 'stats': default: return <i className="fas fa-chart-line text-4xl text-slate-600 mb-3 group-hover:text-gold-400 transition-colors"></i>;
+    }
+  };
 
   return (
     <div className="bg-navy-900 min-h-screen pt-32 pb-20 px-4">
@@ -89,7 +170,7 @@ const CaseStudyDetail = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Main Story */}
           <div className="md:col-span-2 space-y-12">
-            
+
             {/* Challenge */}
             <div>
               <h2 className="text-2xl font-serif font-bold text-white mb-4">The Challenge</h2>
@@ -122,19 +203,30 @@ const CaseStudyDetail = () => {
               </div>
             </div>
 
-            {/* Screenshots / Visuals Placeholder */}
+            {/* Evidence Section */}
             <div>
-              <h2 className="text-2xl font-serif font-bold text-white mb-6">Evidence</h2>
+              <h2 className="text-2xl font-serif font-bold text-white mb-6">Evidence & Opportunities</h2>
+              <p className="text-sm text-slate-400 mb-6 -mt-4">Click on any box below to view the actual screenshot/proof.</p>
+
               <div className="grid md:grid-cols-2 gap-6">
-                 {study.screenshots.map((shot, idx) => (
-                   <div key={idx} className="group cursor-pointer">
-                     <div className="bg-navy-800 border-2 border-dashed border-slate-700 rounded-xl h-48 flex flex-col items-center justify-center hover:border-gold-400 transition duration-300">
-                        <i className="fas fa-image text-4xl text-slate-600 mb-3 group-hover:text-gold-400"></i>
-                        <span className="text-slate-500 text-sm">{shot.label}</span>
-                     </div>
-                     <p className="text-xs text-center text-slate-500 mt-2">{shot.desc}</p>
-                   </div>
-                 ))}
+                {study.evidence.map((item, idx) => (
+                  <div
+                    key={idx}
+                    onClick={() => setSelectedEvidence(item)}
+                    className="group cursor-pointer"
+                  >
+                    <div className="bg-navy-800 border-2 border-dashed border-slate-700 rounded-xl h-48 flex flex-col items-center justify-center hover:border-gold-400 transition duration-300 relative px-4 text-center hover:bg-navy-800/80">
+                      {renderIcon(item.type)}
+                      <span className="text-slate-400 text-sm font-bold group-hover:text-white transition-colors block mb-1">{item.label}</span>
+                      <p className="text-xs text-slate-500 line-clamp-2">{item.desc}</p>
+
+                      {/* Hover Overlay */}
+                      <div className="absolute inset-0 bg-navy-900/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity rounded-xl backdrop-blur-sm">
+                        <span className="text-gold-400 font-bold border border-gold-400 px-4 py-2 rounded-full text-sm">View Screenshot</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -142,18 +234,18 @@ const CaseStudyDetail = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             <div className="glass p-8 rounded-xl border border-gold-400/30 text-center relative overflow-hidden">
-               <div className="absolute top-0 right-0 -mr-10 -mt-10 w-24 h-24 bg-gold-400 blur-2xl opacity-20 rounded-full"></div>
-               <i className="fas fa-quote-left text-4xl text-gold-400 mb-6 opacity-50 block mx-auto"></i>
-               <p className="text-white italic leading-relaxed mb-6">"{study.testimonial}"</p>
-               <div className="font-bold text-gold-400">— {study.name}</div>
+              <div className="absolute top-0 right-0 -mr-10 -mt-10 w-24 h-24 bg-gold-400 blur-2xl opacity-20 rounded-full"></div>
+              <i className="fas fa-quote-left text-4xl text-gold-400 mb-6 opacity-50 block mx-auto"></i>
+              <p className="text-white italic leading-relaxed mb-6">"{study.testimonial}"</p>
+              <div className="font-bold text-gold-400">— {study.name}</div>
             </div>
 
             <div className="bg-navy-800 p-6 rounded-xl border border-slate-700 text-center">
               <h3 className="font-bold text-white mb-2">Want similar results?</h3>
               <p className="text-slate-400 text-sm mb-6">Let's discuss how we can apply this strategy to your career.</p>
-              <a 
-                href="https://calendly.com/thedreamjobconsultant/60min/" 
-                target="_blank" 
+              <a
+                href="https://calendly.com/thedreamjobconsultant/60min/"
+                target="_blank"
                 className="gold-btn block w-full py-3 rounded-lg text-navy-900 font-bold"
               >
                 Book Strategy Call
@@ -162,6 +254,49 @@ const CaseStudyDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* LIGHTBOX MODAL */}
+      {selectedEvidence && (
+        <div
+          className="fixed inset-0 z-[100] bg-navy-900/95 backdrop-blur-md flex items-center justify-center p-4 transition-all"
+          onClick={() => setSelectedEvidence(null)}
+        >
+          {/* Close Button */}
+          <button
+            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none"
+            onClick={() => setSelectedEvidence(null)}
+          >
+            <i className="fas fa-times"></i>
+          </button>
+
+          <div
+            className="max-w-4xl w-full max-h-[90vh] flex flex-col items-center justify-center relative"
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking content
+          >
+            {/* Image Container */}
+            <div className="relative w-full overflow-auto rounded-lg shadow-2xl border border-slate-700 bg-navy-800 mb-4 p-2">
+              <img
+                src={selectedEvidence.image || 'https://via.placeholder.com/800x600?text=Screenshot+Not+Available'}
+                alt={selectedEvidence.label}
+                className="w-full h-auto object-contain max-h-[70vh] rounded"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.onerror = null; // Prevent loop
+                  const fileName = selectedEvidence.image?.split('/').pop() || 'unknown';
+                  // Show specific error using a placeholder service that supports text
+                  target.src = `https://placehold.co/800x400/1e293b/ef4444?text=Missing+File%0A${fileName}`;
+                }}
+              />
+            </div>
+
+            {/* Caption */}
+            <div className="text-center">
+              <h3 className="text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
+              <p className="text-slate-400 max-w-2xl mx-auto">{selectedEvidence.desc}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
