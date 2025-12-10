@@ -141,6 +141,18 @@ const CaseStudyDetail = () => {
     }
   };
 
+  // Lock body scroll when modal is open
+  React.useEffect(() => {
+    if (selectedEvidence) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedEvidence]);
+
   return (
     <div className="bg-navy-900 min-h-screen pt-32 pb-20 px-4">
       <div className="max-w-5xl mx-auto">
@@ -287,19 +299,26 @@ const CaseStudyDetail = () => {
           </button>
 
           <div
-            className={`flex flex-col items-center justify-center relative transition-all duration-300 ${isZoomed ? 'w-full h-full overflow-hidden' : 'max-w-5xl w-full'}`}
+            className={`flex-1 w-full h-full flex flex-col relative transition-all duration-300 overflow-hidden ${isZoomed ? '' : 'p-4 items-center justify-center'}`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Image Scroll Container */}
             <div
-              className={`relative bg-navy-800 rounded-lg shadow-2xl border border-slate-700 overflow-auto scrollbar-hide flex justify-center 
-                  ${isZoomed ? 'w-full h-full p-0 cursor-zoom-out' : 'w-full max-h-[75vh] p-2 cursor-zoom-in'}`}
+              className={`transition-all duration-300 flex 
+                  ${isZoomed
+                  ? 'w-full h-full overflow-auto cursor-zoom-out'
+                  : 'w-full max-w-5xl max-h-[80vh] items-center justify-center cursor-zoom-in overflow-hidden'
+                }`}
               onClick={() => setIsZoomed(!isZoomed)}
             >
               <img
                 src={selectedEvidence.image || 'https://via.placeholder.com/800x600?text=Screenshot+Not+Available'}
                 alt={selectedEvidence.label}
-                className={`transition-all duration-300 ${isZoomed ? 'max-w-none min-w-full' : 'w-full h-full object-contain'}`}
+                className={`object-contain transition-all duration-300 
+                    ${isZoomed
+                    ? 'm-auto min-w-full min-h-full max-w-none'
+                    : 'w-full h-full rounded-lg shadow-2xl border border-slate-700 bg-navy-800'
+                  }`}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.onerror = null;
@@ -309,7 +328,7 @@ const CaseStudyDetail = () => {
               />
             </div>
 
-            {/* Caption & Controls */}
+            {/* Caption & Controls (Hidden when zoomed) */}
             {!isZoomed && (
               <div className="text-center mt-4 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50">
                 <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
@@ -322,7 +341,7 @@ const CaseStudyDetail = () => {
 
             {/* Floating Zoom Hints if Zoomed */}
             {isZoomed && (
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-xs font-medium backdrop-blur-md pointer-events-none">
+              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-xs font-medium backdrop-blur-md pointer-events-none z-20">
                 <i className="fas fa-arrows-alt mr-2"></i> Scroll to pan • Click to exit zoom
               </div>
             )}
