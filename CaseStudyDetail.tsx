@@ -303,7 +303,7 @@ const CaseStudyDetail = () => {
             onClick={(e) => e.stopPropagation()}
           >
             {/* Caption & Controls (Always Visible) */}
-            <div className="text-center mb-6 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50 shrink-0 z-10 px-8 mx-4">
+            <div className="text-center mb-6 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50 shrink-0 z-[120] relative px-8 mx-4">
               <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
               <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">{selectedEvidence.desc}</p>
               <div className="mt-3 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2">
