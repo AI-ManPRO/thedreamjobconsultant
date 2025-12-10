@@ -287,36 +287,38 @@ const CaseStudyDetail = () => {
       {/* LIGHTBOX MODAL */}
       {selectedEvidence && (
         <div
-          className="fixed inset-0 z-[100] bg-navy-900/95 backdrop-blur-md flex items-center justify-center p-4 transition-all"
+          className="fixed inset-0 z-[200] bg-navy-900/95 backdrop-blur-md flex flex-col pt-20 pb-4 px-4 transition-all"
           onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
         >
           {/* Close Button */}
           <button
-            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none z-[110]"
+            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none z-[210] cursor-pointer"
             onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
           >
             <i className="fas fa-times"></i>
           </button>
 
           <div
-            className={`flex-1 w-full h-full flex flex-col relative transition-all duration-300 overflow-hidden pt-24 ${isZoomed ? '' : 'p-4 items-center'}`}
+            className={`flex-1 w-full flex flex-col relative transition-all duration-300 overflow-hidden ${isZoomed ? '' : 'items-center'}`}
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Caption & Controls (Always Visible) */}
-            <div className="text-center mb-6 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50 shrink-0 z-[120] relative px-8 mx-4">
-              <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
-              <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">{selectedEvidence.desc}</p>
-              <div className="mt-3 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2">
-                <i className="fas fa-search-plus"></i> {isZoomed ? 'Scroll to Pan • Click to Exit' : 'Click image to Zoom'}
-              </div>
+            {/* Caption & Controls */}
+            <div className="text-center mb-6 shrink-0 z-[120] relative w-full max-w-4xl mx-auto px-4">
+               <div className="bg-navy-900/80 p-6 rounded-xl backdrop-blur-sm border border-slate-800/50 shadow-xl inline-block w-full">
+                  <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
+                  <p className="text-slate-400 text-sm md:text-base">{selectedEvidence.desc}</p>
+                  <div className="mt-4 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2 border-t border-slate-700/50 pt-4">
+                    <i className="fas fa-search-plus text-lg"></i> {isZoomed ? 'Scroll to Pan' : 'Click image to Zoom'}
+                  </div>
+               </div>
             </div>
 
             {/* Image Scroll Container */}
             <div
-              className={`transition-all duration-300 flex 
+              className={`transition-all duration-300 flex w-full
                    ${isZoomed
-                  ? 'w-full h-full overflow-auto cursor-zoom-out'
-                  : 'w-full max-w-5xl max-h-[80vh] items-center justify-center cursor-zoom-in overflow-hidden'
+                  ? 'flex-1 min-h-0 overflow-auto cursor-zoom-out'
+                  : 'flex-1 min-h-0 items-center justify-center cursor-zoom-in overflow-hidden'
                 }`}
               onClick={() => setIsZoomed(!isZoomed)}
             >
@@ -326,7 +328,7 @@ const CaseStudyDetail = () => {
                 className={`object-contain transition-all duration-300 
                      ${isZoomed
                     ? 'm-auto min-w-full min-h-full max-w-none'
-                    : 'w-full h-full rounded-lg shadow-2xl border border-slate-700 bg-navy-800'
+                    : 'w-full h-full max-h-[70vh] rounded-lg shadow-2xl border border-slate-700 bg-navy-800'
                   }`}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -339,8 +341,11 @@ const CaseStudyDetail = () => {
 
             {/* Floating Zoom Hints if Zoomed */}
             {isZoomed && (
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-xs font-medium backdrop-blur-md pointer-events-none z-20">
-                <i className="fas fa-arrows-alt mr-2"></i> Scroll to pan • Click to exit zoom
+              <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-navy-900/90 text-white px-6 py-3 rounded-full text-sm font-medium backdrop-blur-md shadow-lg border border-slate-700 pointer-events-none z-[220] flex items-center gap-3">
+                <i className="fas fa-arrows-alt text-gold-400"></i>
+                <span>Scroll to pan</span>
+                <span className="w-1 h-1 bg-slate-500 rounded-full"></span>
+                <span>Click to exit</span>
               </div>
             )}
           </div>
