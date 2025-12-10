@@ -299,7 +299,7 @@ const CaseStudyDetail = () => {
           </button>
 
           <div
-            className={`flex-1 w-full h-full flex flex-col relative transition-all duration-300 overflow-hidden pt-24 ${isZoomed ? '' : 'p-4 items-center justify-center'}`}
+            className={`flex-1 w-full h-full flex flex-col relative transition-all duration-300 overflow-hidden pt-24 ${isZoomed ? '' : 'p-4 items-center'}`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Caption & Controls (Always Visible) */}
