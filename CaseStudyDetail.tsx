@@ -302,10 +302,21 @@ const CaseStudyDetail = () => {
             className={`flex-1 w-full h-full flex flex-col relative transition-all duration-300 overflow-hidden ${isZoomed ? '' : 'p-4 items-center justify-center'}`}
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Caption & Controls (Hidden when zoomed) */}
+            {!isZoomed && (
+              <div className="text-center mb-6 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50">
+                <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
+                <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">{selectedEvidence.desc}</p>
+                <div className="mt-3 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                  <i className="fas fa-search-plus"></i> Click image to Zoom
+                </div>
+              </div>
+            )}
+
             {/* Image Scroll Container */}
             <div
               className={`transition-all duration-300 flex 
-                  ${isZoomed
+                   ${isZoomed
                   ? 'w-full h-full overflow-auto cursor-zoom-out'
                   : 'w-full max-w-5xl max-h-[80vh] items-center justify-center cursor-zoom-in overflow-hidden'
                 }`}
@@ -315,7 +326,7 @@ const CaseStudyDetail = () => {
                 src={selectedEvidence.image || 'https://via.placeholder.com/800x600?text=Screenshot+Not+Available'}
                 alt={selectedEvidence.label}
                 className={`object-contain transition-all duration-300 
-                    ${isZoomed
+                     ${isZoomed
                     ? 'm-auto min-w-full min-h-full max-w-none'
                     : 'w-full h-full rounded-lg shadow-2xl border border-slate-700 bg-navy-800'
                   }`}
@@ -327,17 +338,6 @@ const CaseStudyDetail = () => {
                 }}
               />
             </div>
-
-            {/* Caption & Controls (Hidden when zoomed) */}
-            {!isZoomed && (
-              <div className="text-center mt-4 bg-navy-900/80 p-4 rounded-xl backdrop-blur-sm border border-slate-800/50">
-                <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
-                <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base">{selectedEvidence.desc}</p>
-                <div className="mt-3 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2">
-                  <i className="fas fa-search-plus"></i> Click image to Zoom
-                </div>
-              </div>
-            )}
 
             {/* Floating Zoom Hints if Zoomed */}
             {isZoomed && (
