@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import Logo from './Logo';
+import nbeIcon from './nbe-logo.png';
 
 const Footer = () => {
   return (
@@ -10,7 +12,7 @@ const Footer = () => {
           {/* Col 1 */}
           <div>
             <Link to="/" className="cursor-pointer mb-4 inline-block">
-               <Logo />
+              <Logo />
             </Link>
             <p className="text-slate-400 mt-4 leading-relaxed">
               The only Reverse Recruiting service that executes 85% of your job search. Specialized for Executives and Tech Professionals globally.
@@ -60,12 +62,15 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-500">&copy; 2025 The Dream Job Consultant. All Rights Reserved.</p>
-          <div className="flex gap-4 mt-4 md:mt-0 opacity-50">
-            <i className="fab fa-stripe text-2xl text-white"></i>
-            <i className="fab fa-paypal text-2xl text-white"></i>
+
+        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-center relative gap-4">
+          <p className="text-slate-500 md:absolute md:left-0">&copy; 2025 The Dream Job Consultant. All Rights Reserved.</p>
+          <div className="flex gap-6 transition-all duration-300">
+            <img src="https://cdn.simpleicons.org/stripe" alt="Stripe" className="h-6 object-contain" title="Stripe" />
+            <img src="https://cdn.simpleicons.org/paypal" alt="PayPal" className="h-6 object-contain" title="PayPal" />
+            <img src="https://cdn.brandfetch.io/payoneer.com/icon" alt="Payoneer" className="h-6 object-contain" title="Payoneer" />
+            <img src={nbeIcon} alt="National Bank of Egypt" className="h-6 object-contain" title="National Bank of Egypt" />
+            <img src="https://cdn.simpleicons.org/westernunion" alt="Western Union" className="h-6 object-contain" title="Western Union" />
           </div>
         </div>
       </div>

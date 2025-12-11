@@ -7,6 +7,7 @@ import Home from './Home';
 import Services from './Services';
 import CaseStudies from './CaseStudies';
 import CaseStudyDetail from './CaseStudyDetail';
+import CaseStudyEvidence from './CaseStudyEvidence';
 import Pricing from './Pricing';
 import AboutUs from './AboutUs';
 import FAQ from './FAQ';
@@ -37,7 +38,7 @@ const PageWrapper = ({ children }: { children?: React.ReactNode }) => (
 // Separated Routes component to use useLocation hook
 const AnimatedRoutes = () => {
   const location = useLocation();
-  
+
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -46,6 +47,7 @@ const AnimatedRoutes = () => {
         <Route path="/process" element={<PageWrapper><Process /></PageWrapper>} />
         <Route path="/case-studies" element={<PageWrapper><CaseStudies /></PageWrapper>} />
         <Route path="/case-studies/:id" element={<PageWrapper><CaseStudyDetail /></PageWrapper>} />
+        <Route path="/case-studies/:id/evidence/:evidenceId" element={<PageWrapper><CaseStudyEvidence /></PageWrapper>} />
         <Route path="/pricing" element={<PageWrapper><Pricing /></PageWrapper>} />
         <Route path="/faq" element={<PageWrapper><FAQ /></PageWrapper>} />
         <Route path="/about" element={<PageWrapper><AboutUs /></PageWrapper>} />
@@ -59,7 +61,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Navigation />
-      
+
       <main className="min-h-screen">
         <AnimatedRoutes />
       </main>

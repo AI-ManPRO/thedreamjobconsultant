@@ -1,31 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Centralized data for Case Studies (exported so Detail page can use it or similar structure)
-export const cases = [
-  {
-    id: 'islam-tech',
-    name: 'Islam',
-    role: 'Senior Laravel Developer',
-    route: 'Cairo → Europe (Remote)',
-    icon: 'fas fa-laptop-code',
-    salaryIncrease: 'Secured €100k Annual Salary Offer',
-    offers: 'Offers from Munich, UK, & Canada',
-    quote: '"Within days of optimizing the profile, Islam received opportunities in Germany and the UK."',
-    shortDesc: 'A strategic pivot from local freelance work to high-paying remote European contracts.'
-  },
-  {
-    id: 'essam-construction',
-    name: 'Essam',
-    role: 'Construction Director',
-    route: 'Qatar → Saudi Arabia (Relocation)',
-    icon: 'fas fa-hard-hat',
-    salaryIncrease: 'Targeted Top PMC Companies in GCC',
-    offers: 'Landed Interviews for Project Director Roles',
-    quote: '"We executed a 3-month strategy targeting the Hidden Job Market in Saudi and UAE."',
-    shortDesc: 'Relocating a senior executive to the booming Saudi construction market through hidden networks.'
-  }
-];
+import { caseStudiesList as cases } from './data';
 
 const CaseStudies = () => (
   <section className="py-32 bg-navy-800 relative overflow-hidden min-h-screen">

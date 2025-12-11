@@ -1,4 +1,5 @@
 import React from 'react';
+import aymanProfile from './ayman-profile.png';
 
 const AboutUs = () => {
   return (
@@ -66,15 +67,14 @@ const AboutUs = () => {
                 <div className="absolute inset-0 border-2 border-gold-400 rounded-full animate-spin-slow opacity-20"></div>
                 <div className="absolute inset-2 border border-slate-600 rounded-full"></div>
                 <div className="absolute inset-0 flex items-center justify-center bg-navy-700 rounded-full overflow-hidden shadow-2xl">
-                  {/* Placeholder for Ayman's Photo - Using Icon for now */}
-                  <i className="fas fa-user-tie text-9xl text-slate-600"></i>
+                  <img src={aymanProfile} alt="Ayman - Founder" className="w-full h-full object-cover" />
                 </div>
                 <div className="absolute bottom-4 right-4 bg-gold-400 text-navy-900 px-4 py-1 rounded-full font-bold text-sm shadow-lg">
                   Founder
                 </div>
               </div>
             </div>
-            
+
             <div className="md:w-2/3">
               <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-6">Meet <span className="text-gold-400">Ayman</span></h2>
               <h3 className="text-xl text-slate-300 mb-6 font-medium">Executive Career Strategist & Negotiation Expert</h3>
@@ -89,7 +89,7 @@ const AboutUs = () => {
                   Ayman specializes in the **Hidden Job Market**, placing professionals in roles that are never advertised publicly, and has successfully negotiated salary increases ranging from 20% to 50% for his clients.
                 </p>
               </div>
-              
+
               <div className="mt-8 flex gap-4">
                 <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="text-slate-300 hover:text-gold-400 text-2xl transition">
                   <i className="fab fa-linkedin"></i>

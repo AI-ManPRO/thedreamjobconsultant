@@ -1,131 +1,13 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { caseStudiesData, EvidenceItem } from './data';
 
-// TYPE DEFINITION
-interface EvidenceItem {
-  type: string;
-  label: string;
-  desc: string;
-  image?: string; // Optional image path
-}
 
-// Data strictly for the details view (mocking a database)
-const caseDetails = {
-  'islam-tech': {
-    name: 'Islam',
-    title: 'From Cairo Freelancer to Senior European Tech Lead',
-    role: 'Senior Laravel Developer',
-    location: 'Cairo → Remote (Germany/UK)',
-    salary: '€100k+ Total Compensation',
-    challenge: 'Islam was a highly skilled developer stuck in the local market salary cap. Despite having senior-level skills, his resume was cluttered with freelance projects that didn\'t communicate "Enterprise Leader" to European recruiters.',
-    strategy: [
-      'Reframed freelance history as "Consultancy Leadership" to show ownership and scale.',
-      'Optimized LinkedIn for "Remote" and "Laravel" keywords in the DACH (Germany/Austria/Switzerland) region.',
-      'Targeted CTOs directly using cold outreach scripts focusing on immediate value delivery.'
-    ],
-    results: [
-      '3 Interviews in the first week.',
-      'Offers from a Munich startup and a UK Fintech.',
-      'Accepted a fully remote role with a €100k package.'
-    ],
-    testimonial: "I never thought a remote role in Europe was possible without relocating. The strategy changed how I viewed my own career. I'm not just a coder anymore; I'm a consultant.",
-    // UPDATED: Flexible Evidence Array with Image Paths
-    // NOTE: Paths are simple relative filenames, expecting files in the root directory.
-    evidence: [
-      {
-        type: 'linkedin',
-        label: 'Opportunity #1: Cairo Lead',
-        desc: 'Recruitment Consultant "Hossam" reaching out for a PHP-Laravel full-stack role in Cairo.',
-        image: './screenshots/islam/evidence-islam-1.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #2: Germany (€100k)',
-        desc: 'Recruiter "Reece" offering Senior PHP role in Munich. Package: €75k-€100k + Relocation & Visa.',
-        image: './screenshots/islam/evidence-islam-2.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #3: Contract Role',
-        desc: 'Founder "Tamer" discussing a contract-to-hire Lead Developer role for a marketing platform.',
-        image: './screenshots/islam/evidence-islam-3.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #4: HR Inquiry',
-        desc: 'HR Executive "Prabu" requesting CV and WhatsApp details for immediate submission.',
-        image: './screenshots/islam/evidence-islam-4.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #5: Noida/Remote',
-        desc: 'HR Executive "Jagriti" offering React/Vue profile. Islam negotiated for full remote options.',
-        image: './screenshots/islam/evidence-islam-5.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #6: UK Lead Role',
-        desc: 'Recruitment Manager "Karen" discussing a London-based role. Salary negotiation around £4,000/month.',
-        image: './screenshots/islam/evidence-islam-6.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #7: Mumbai Senior',
-        desc: 'IT Recruiter "Basavaraj" seeking Senior Backend Developer. Islam positioned for remote work.',
-        image: './screenshots/islam/evidence-islam-7.png'
-      },
-      {
-        type: 'linkedin',
-        label: 'Opportunity #8: CEO Outreach',
-        desc: 'CEO "Matthias" reached out directly: "Your tech stack is a great fit." Encouraged application.',
-        image: './screenshots/islam/evidence-islam-8.png'
-      },
-      {
-        type: 'email',
-        label: 'Opportunity #9: Saudi Remote',
-        desc: 'Managing Director "Soha" offering a Senior Full Stack role for a Saudi company, working remotely from Egypt.',
-        image: './screenshots/islam/evidence-islam-9.png'
-      },
-
-      // Original Evidence Items (Placeholders)
-      { type: 'email', label: 'Salary Negotiation Email', desc: 'Counter-offer email thread securing an additional €15k.', image: './evidence-placeholder.png' },
-      { type: 'stats', label: 'LinkedIn Optimization', desc: 'Profile views increased by 400% in 2 weeks.', image: './evidence-placeholder.png' },
-      { type: 'document', label: 'Offer Letter', desc: 'The final signed offer with relocation optionality.', image: './evidence-placeholder.png' }
-    ]
-  },
-  'essam-construction': {
-    name: 'Essam',
-    title: 'Relocating a Construction Director to the Saudi Boom',
-    role: 'Construction Director',
-    location: 'Qatar → Saudi Arabia (KSA)',
-    salary: '35% Salary Increase + Relocation Package',
-    challenge: 'Essam wanted to capitalize on the massive construction boom in Saudi Arabia (NEOM, Red Sea). However, his network was isolated to Qatar, and applying online to KSA giants was resulting in zero callbacks due to high competition.',
-    strategy: [
-      'Mapped out the top 20 PMC (Project Management Consultancy) firms involved in Giga-Projects.',
-      'Revamped the CV to highlight "Mega-Project Delivery" and "Stakeholder Management" rather than just technical engineering.',
-      'Initiated a networking campaign with Project Directors already on the ground in KSA.'
-    ],
-    results: [
-      'Connected with 15 Hiring Managers on LinkedIn.',
-      'Secured 4 high-level interviews bypassing the HR portal entirely.',
-      'Landed a Director role with a top-tier firm in Riyadh.'
-    ],
-    testimonial: "The Hidden Job Market is real. I spent months applying with no luck. One week of networking changed everything.",
-    evidence: [
-      { type: 'linkedin', label: 'NEOM Director Connection', desc: 'Accepted connection request and follow-up chat with a Project Director.', image: './evidence-placeholder.png' },
-      { type: 'email', label: 'Interview Confirmation', desc: 'Calendar invite for a panel interview with the executive board.', image: './evidence-placeholder.png' },
-      { type: 'stats', label: 'Network Growth', desc: 'Connected with key decision makers at NEOM.', image: './evidence-placeholder.png' },
-      { type: 'linkedin', label: 'Interview Invite', desc: 'Direct message invitation for an interview.', image: './evidence-placeholder.png' }
-    ]
-  }
-};
 
 const CaseStudyDetail = () => {
   const { id } = useParams();
-  const [selectedEvidence, setSelectedEvidence] = useState<EvidenceItem | null>(null);
-  const [isZoomed, setIsZoomed] = useState(false);
 
-  const study = caseDetails[id as keyof typeof caseDetails];
+  const study = caseStudiesData[id as keyof typeof caseStudiesData];
 
   if (!study) {
     return <Navigate to="/case-studies" replace />;
@@ -140,18 +22,6 @@ const CaseStudyDetail = () => {
       case 'stats': default: return <i className="fas fa-chart-line text-4xl text-slate-600 mb-3 group-hover:text-gold-400 transition-colors"></i>;
     }
   };
-
-  // Lock body scroll when modal is open
-  React.useEffect(() => {
-    if (selectedEvidence) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [selectedEvidence]);
 
   return (
     <div className="bg-navy-900 min-h-screen pt-32 pb-20 px-4">
@@ -223,10 +93,10 @@ const CaseStudyDetail = () => {
 
               <div className="grid md:grid-cols-2 gap-6">
                 {study.evidence.map((item, idx) => (
-                  <div
+                  <Link
                     key={idx}
-                    onClick={() => setSelectedEvidence(item)}
-                    className="group cursor-pointer"
+                    to={`/case-studies/${id}/evidence/${item.id}`}
+                    className="group cursor-pointer block"
                   >
                     <div className="relative overflow-hidden bg-navy-800 border-2 border-dashed border-slate-700 rounded-xl h-48 flex flex-col items-center justify-center hover:border-gold-400 transition duration-300 px-4 text-center group-hover:border-solid">
 
@@ -254,7 +124,7 @@ const CaseStudyDetail = () => {
                         <span className="text-gold-400 font-bold border border-gold-400 px-4 py-2 rounded-full text-sm shadow-lg bg-navy-900/50">View Screenshot</span>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -284,73 +154,8 @@ const CaseStudyDetail = () => {
         </div>
       </div>
 
-      {/* LIGHTBOX MODAL */}
-      {selectedEvidence && (
-        <div
-          className="fixed inset-0 z-[200] bg-navy-900/95 backdrop-blur-md flex flex-col pt-20 pb-4 px-4 transition-all"
-          onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
-        >
-          {/* Close Button */}
-          <button
-            className="absolute top-6 right-6 text-slate-400 hover:text-white text-3xl focus:outline-none z-[210] cursor-pointer"
-            onClick={() => { setSelectedEvidence(null); setIsZoomed(false); }}
-          >
-            <i className="fas fa-times"></i>
-          </button>
+      {/* LIGHTBOX MODAL - VERTICAL STACK PATTERN */}
 
-          <div
-            className={`flex-1 w-full flex flex-col relative transition-all duration-300 overflow-hidden ${isZoomed ? '' : 'items-center'}`}
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Caption & Controls */}
-            <div className="text-center mb-6 shrink-0 z-[120] relative w-full max-w-4xl mx-auto px-4">
-               <div className="bg-navy-900/80 p-6 rounded-xl backdrop-blur-sm border border-slate-800/50 shadow-xl inline-block w-full">
-                  <h3 className="text-xl md:text-2xl font-serif font-bold text-white mb-2">{selectedEvidence.label}</h3>
-                  <p className="text-slate-400 text-sm md:text-base">{selectedEvidence.desc}</p>
-                  <div className="mt-4 text-gold-400 text-xs uppercase tracking-widest flex items-center justify-center gap-2 border-t border-slate-700/50 pt-4">
-                    <i className="fas fa-search-plus text-lg"></i> {isZoomed ? 'Scroll to Pan' : 'Click image to Zoom'}
-                  </div>
-               </div>
-            </div>
-
-            {/* Image Scroll Container */}
-            <div
-              className={`transition-all duration-300 flex w-full
-                   ${isZoomed
-                  ? 'flex-1 min-h-0 overflow-auto cursor-zoom-out'
-                  : 'flex-1 min-h-0 items-center justify-center cursor-zoom-in overflow-hidden'
-                }`}
-              onClick={() => setIsZoomed(!isZoomed)}
-            >
-              <img
-                src={selectedEvidence.image || 'https://via.placeholder.com/800x600?text=Screenshot+Not+Available'}
-                alt={selectedEvidence.label}
-                className={`object-contain transition-all duration-300 
-                     ${isZoomed
-                    ? 'm-auto min-w-full min-h-full max-w-none'
-                    : 'w-full h-full max-h-[70vh] rounded-lg shadow-2xl border border-slate-700 bg-navy-800'
-                  }`}
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.onerror = null;
-                  const fileName = selectedEvidence.image?.split('/').pop() || 'unknown';
-                  target.src = `https://placehold.co/800x400/1e293b/ef4444?text=Missing+File%0A${fileName}`;
-                }}
-              />
-            </div>
-
-            {/* Floating Zoom Hints if Zoomed */}
-            {isZoomed && (
-              <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 bg-navy-900/90 text-white px-6 py-3 rounded-full text-sm font-medium backdrop-blur-md shadow-lg border border-slate-700 pointer-events-none z-[220] flex items-center gap-3">
-                <i className="fas fa-arrows-alt text-gold-400"></i>
-                <span>Scroll to pan</span>
-                <span className="w-1 h-1 bg-slate-500 rounded-full"></span>
-                <span>Click to exit</span>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
     </div>
   );
 };
