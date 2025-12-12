@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: 'Build Website'
-        run: pnpm ci && pnpm run build
+        run: npm ci && npm run build
       - name: 'Upload artifact'
         uses: actions/upload-pages-artifact@v4
         with:
