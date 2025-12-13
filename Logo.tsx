@@ -1,10 +1,10 @@
-import React from 'react';
+import logo from './logo.png';
 
 const Logo = ({ className = "" }) => {
   return (
-    <img 
-      src="./logo.png" 
-      alt="The Dream Job Consultant" 
+    <img
+      src={logo}
+      alt="The Dream Job Consultant"
       className={`h-12 md:h-14 w-auto object-contain ${className}`}
     />
   );

@@ -36,18 +36,18 @@ export const omarConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #1: Cairo Contracts Manager',
             desc: 'Connect with a clear opportunity for a Construction Contracts Manager role in Cairo.',
-            image: './screenshots/omar/evidence-omar-1.png'
+            image: '/screenshots/omar/evidence-omar-1.png'
         },
         {
             id: 'dubai-planner-journey',
             type: 'linkedin', // Changed to represent the role
             label: 'Opportunity #2: Dubai Multinational Journey',
             desc: 'Full recruitment journey: Interview Invitation -> Role Details -> Shortlisted status.',
-            image: './screenshots/omar/evidence-omar-2-1.png', // Main thumbnail
+            image: '/screenshots/omar/evidence-omar-2-1.png', // Main thumbnail
             images: [
-                './screenshots/omar/evidence-omar-2-1.png',
-                './screenshots/omar/evidence-omar-2-2.png',
-                './screenshots/omar/evidence-omar-2-3.png'
+                '/screenshots/omar/evidence-omar-2-1.png',
+                '/screenshots/omar/evidence-omar-2-2.png',
+                '/screenshots/omar/evidence-omar-2-3.png'
             ]
         },
         {
@@ -55,7 +55,7 @@ export const omarConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #3: Major Egyptian Firm',
             desc: 'Outreach for a Construction Planning Engineer position.',
-            image: './screenshots/omar/evidence-omar-3.png'
+            image: '/screenshots/omar/evidence-omar-3.png'
         },
 
         {
@@ -63,24 +63,24 @@ export const omarConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #4: COO Outreach',
             desc: 'A COO of a Dubai firm reached out directly to initiate the hiring process.',
-            image: './screenshots/omar/evidence-omar-4.png'
+            image: '/screenshots/omar/evidence-omar-4.png'
         },
         {
             id: 'dubai-canada-ceo',
             type: 'linkedin',
             label: 'Opportunity #5: CEO Outreach',
             desc: 'CEO of a firm with branches in Canada and UAE contacted Omar for a Planning Engineer role.',
-            image: './screenshots/omar/evidence-omar-5.png'
+            image: '/screenshots/omar/evidence-omar-5.png'
         },
         {
             id: 'cairo-project-controls',
             type: 'linkedin',
             label: 'Opportunity #6: Project Controls',
             desc: 'Opportunity with a company operating in both Egypt and Germany.',
-            image: './screenshots/omar/evidence-omar-6.png',
+            image: '/screenshots/omar/evidence-omar-6.png',
             images: [
-                './screenshots/omar/evidence-omar-6.png',
-                './screenshots/omar/evidence-omar-6-2.jpg'
+                '/screenshots/omar/evidence-omar-6.png',
+                '/screenshots/omar/evidence-omar-6-2.jpg'
             ]
         },
         {
@@ -88,14 +88,14 @@ export const omarConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #7: Head of Cost Control',
             desc: 'Recruited for a senior "Head of Cost Control" position despite only having 2 years experience.',
-            image: './screenshots/omar/evidence-omar-7.png'
+            image: '/screenshots/omar/evidence-omar-7.png'
         },
         {
             id: 'abudhabi-oil-gas',
             type: 'linkedin',
             label: 'Opportunity #8: Abu Dhabi Oil & Gas',
             desc: 'WhatsApp discussion regarding an Oil & Gas opportunity in Abu Dhabi.',
-            image: './screenshots/omar/evidence-omar-8.jpeg'
+            image: '/screenshots/omar/evidence-omar-8.jpeg'
         }
     ]
 };

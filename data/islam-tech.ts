@@ -35,63 +35,63 @@ export const islamTech: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #1: Cairo Lead',
             desc: 'Recruitment Consultant "Hossam" reaching out for a PHP-Laravel full-stack role in Cairo.',
-            image: './screenshots/islam/evidence-islam-1.png'
+            image: '/screenshots/islam/evidence-islam-1.png'
         },
         {
             id: 'germany-offer',
             type: 'linkedin',
             label: 'Opportunity #2: Germany (€100k)',
             desc: 'Recruiter "Reece" offering Senior PHP role in Munich. Package: €75k-€100k + Relocation & Visa.',
-            image: './screenshots/islam/evidence-islam-2.png'
+            image: '/screenshots/islam/evidence-islam-2.png'
         },
         {
             id: 'contract-role',
             type: 'linkedin',
             label: 'Opportunity #3: Contract Role',
             desc: 'Founder "Tamer" discussing a contract-to-hire Lead Developer role for a marketing platform.',
-            image: './screenshots/islam/evidence-islam-3.png'
+            image: '/screenshots/islam/evidence-islam-3.png'
         },
         {
             id: 'hr-inquiry',
             type: 'linkedin',
             label: 'Opportunity #4: HR Inquiry',
             desc: 'HR Executive "Prabu" requesting CV and WhatsApp details for immediate submission.',
-            image: './screenshots/islam/evidence-islam-4.png'
+            image: '/screenshots/islam/evidence-islam-4.png'
         },
         {
             id: 'noida-remote',
             type: 'linkedin',
             label: 'Opportunity #5: Noida/Remote',
             desc: 'HR Executive "Jagriti" offering React/Vue profile. Islam negotiated for full remote options.',
-            image: './screenshots/islam/evidence-islam-5.png'
+            image: '/screenshots/islam/evidence-islam-5.png'
         },
         {
             id: 'uk-lead',
             type: 'linkedin',
             label: 'Opportunity #6: UK Lead Role',
             desc: 'Recruitment Manager "Karen" discussing a London-based role. Salary negotiation around £4,000/month.',
-            image: './screenshots/islam/evidence-islam-6.png'
+            image: '/screenshots/islam/evidence-islam-6.png'
         },
         {
             id: 'mumbai-senior',
             type: 'linkedin',
             label: 'Opportunity #7: Mumbai Senior',
             desc: 'IT Recruiter "Basavaraj" seeking Senior Backend Developer. Islam positioned for remote work.',
-            image: './screenshots/islam/evidence-islam-7.png'
+            image: '/screenshots/islam/evidence-islam-7.png'
         },
         {
             id: 'ceo-outreach',
             type: 'linkedin',
             label: 'Opportunity #8: CEO Outreach',
             desc: 'CEO "Matthias" reached out directly: "Your tech stack is a great fit." Encouraged application.',
-            image: './screenshots/islam/evidence-islam-8.png'
+            image: '/screenshots/islam/evidence-islam-8.png'
         },
         {
             id: 'saudi-remote',
             type: 'email',
             label: 'Opportunity #9: Saudi Remote',
             desc: 'Managing Director "Soha" offering a Senior Full Stack role for a Saudi company, working remotely from Egypt.',
-            image: './screenshots/islam/evidence-islam-9.png'
+            image: '/screenshots/islam/evidence-islam-9.png'
         }
     ]
 };

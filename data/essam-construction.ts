@@ -35,13 +35,13 @@ export const essamConstruction: CaseStudy = {
             type: 'email',
             label: 'Opportunity #1: Assystem (KSA)',
             desc: 'A comprehensive recruitment journey with Assystem for an EPC Project Manager/Director role, involving discussions with Daniel Aznar.',
-            image: './screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
+            image: '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
             images: [
-                './screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
-                './screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Job Opportunity - EPC Project Manager - essam.elshaer.jh@gmail.com - _ - mail.google.com.png',
-                './screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Daniel Aznar - LinkedIn - www.linkedin.com.png',
-                './screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel - 2024-01-14 17 33 46.png',
-                './screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Aznar - 2024-01-08 14 12 35.png'
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Job Opportunity - EPC Project Manager - essam.elshaer.jh@gmail.com - _ - mail.google.com.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Daniel Aznar - LinkedIn - www.linkedin.com.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel - 2024-01-14 17 33 46.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Aznar - 2024-01-08 14 12 35.png'
             ]
         },
         {
@@ -49,12 +49,12 @@ export const essamConstruction: CaseStudy = {
             type: 'email',
             label: 'Opportunity #2: Hill International (KSA)',
             desc: 'Application and follow-up process for a Project Manager/Director position in Saudi Arabia with Hill International.',
-            image: './screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
+            image: '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
             images: [
-                './screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
-                './screenshots/essam/Hill International/Project Manager position- Saudi Arabia- Hill International - essam.el_ - mail.google.com.png',
-                './screenshots/essam/Hill International/Hill International_ Application Received - essam.elshaer.jh@gmail.com_ - mail.google.com.png',
-                './screenshots/essam/Hill International/Sarah Motaghi - LinkedIn - www.linkedin.com.png'
+                '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
+                '/screenshots/essam/Hill International/Project Manager position- Saudi Arabia- Hill International - essam.el_ - mail.google.com.png',
+                '/screenshots/essam/Hill International/Hill International_ Application Received - essam.elshaer.jh@gmail.com_ - mail.google.com.png',
+                '/screenshots/essam/Hill International/Sarah Motaghi - LinkedIn - www.linkedin.com.png'
             ]
         },
         {
@@ -62,24 +62,24 @@ export const essamConstruction: CaseStudy = {
             type: 'email',
             label: 'Opportunity #3: BOSS Built Environment',
             desc: 'Direct email engagement regarding a Project Director role.',
-            image: './screenshots/essam/BOSS Built Environment/boss-email-final.png'
+            image: '/screenshots/essam/BOSS Built Environment/boss-email-final.png'
         },
         {
             id: 'al-nasr-uae',
             type: 'linkedin',
             label: 'Opportunity #4: Al Nasr Contracting (UAE)',
             desc: 'Discussions with Arzé Sakhat regarding a Project Director role in the UAE.',
-            image: './screenshots/essam/Al Nasr Contracting UAE - Project Director - Arzé Sakhat - LinkedIn - www.linkedin.com.png'
+            image: '/screenshots/essam/Al Nasr Contracting UAE - Project Director - Arzé Sakhat - LinkedIn - www.linkedin.com.png'
         },
         {
             id: 'ghd-abudhabi',
             type: 'linkedin',
             label: 'Opportunity #5: GHD (Abu Dhabi)',
             desc: 'Engagement with Alfredo regarding a Project Director position (Salary 50k-65k) for a leading Environmental Consultancy.',
-            image: './screenshots/essam/new-opportunities/alfredo-salary-offer.png',
+            image: '/screenshots/essam/new-opportunities/alfredo-salary-offer.png',
             images: [
-                './screenshots/essam/new-opportunities/alfredo-salary-offer.png',
-                './screenshots/essam/Project Director - GHD - Abu Dhabi, UAE - Alfredo Rivera - 2023-10-10 14 39 04   .png'
+                '/screenshots/essam/new-opportunities/alfredo-salary-offer.png',
+                '/screenshots/essam/Project Director - GHD - Abu Dhabi, UAE - Alfredo Rivera - 2023-10-10 14 39 04   .png'
             ]
         },
         {
@@ -87,31 +87,31 @@ export const essamConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #6: UCC (KSA)',
             desc: 'Outreach regarding a Construction Operations Manager role in Taif, KSA.',
-            image: './screenshots/essam/Construction Operations Manager - UCC - Taif, KSA - Muhammed Shakeel - 2024-01-27 22 09 12.png'
+            image: '/screenshots/essam/Construction Operations Manager - UCC - Taif, KSA - Muhammed Shakeel - 2024-01-27 22 09 12.png'
         },
         {
             id: 'director-eng-dept',
             type: 'email',
             label: 'Opportunity #7: Engineering Director',
             desc: 'Job opportunity for an Engineering Department Director role in Saudi Arabia.',
-            image: './screenshots/essam/Job opportunity as Engineering Department Director - Saudi location (_ - mail.google.com.png'
+            image: '/screenshots/essam/Job opportunity as Engineering Department Director - Saudi location (_ - mail.google.com.png'
         },
         {
             id: 'head-pm-riyadh',
             type: 'linkedin',
             label: 'Opportunity #8: Head PM (Riyadh)',
             desc: 'Connection with George Semaan regarding Head of Project Management roles in Riyadh.',
-            image: './screenshots/essam/Head PM - Construction - Riyadh, KSA - George Semaan - 2024-01-28 11 35 51.png'
+            image: '/screenshots/essam/Head PM - Construction - Riyadh, KSA - George Semaan - 2024-01-28 11 35 51.png'
         },
         {
             id: 'program-manager-ahsa',
             type: 'linkedin',
             label: 'Opportunity #9: Program Manager (Ahsa)',
             desc: 'Conversation with Toufic regarding a Program Manager opportunity, confirmation of CV receipt.',
-            image: './screenshots/essam/new-opportunities/toufic-cv-sent.png',
+            image: '/screenshots/essam/new-opportunities/toufic-cv-sent.png',
             images: [
-                './screenshots/essam/new-opportunities/toufic-cv-sent.png',
-                './screenshots/essam/Program Manager - Ahsa - Toufic Elkawam - 2023-12-07 19 46 08.png'
+                '/screenshots/essam/new-opportunities/toufic-cv-sent.png',
+                '/screenshots/essam/Program Manager - Ahsa - Toufic Elkawam - 2023-12-07 19 46 08.png'
             ]
         },
         {
@@ -119,98 +119,98 @@ export const essamConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #10: PMC Project Director',
             desc: 'Snapshot of a Project Director opportunity discussion.',
-            image: './screenshots/essam/PMC - Project Director.jpg'
+            image: '/screenshots/essam/PMC - Project Director.jpg'
         },
         {
             id: 'bus-dev-head',
             type: 'linkedin',
             label: 'Opportunity #11: Head of Business Development',
             desc: 'Connection with Ahmed (Head of BD, Construction) leading to an immediate request for CV/Introduction.',
-            image: './screenshots/essam/new-opportunities/ahmed-business-dev.png'
+            image: '/screenshots/essam/new-opportunities/ahmed-business-dev.png'
         },
         {
             id: 'talent-acq-sultan',
             type: 'linkedin',
             label: 'Opportunity #12: Senior Talent Acquisition',
             desc: 'Direct engagement with Sultan (Senior Talent Acquisition), requesting CV for further discussion.',
-            image: './screenshots/essam/new-opportunities/sultan-talent-acquisition.png'
+            image: '/screenshots/essam/new-opportunities/sultan-talent-acquisition.png'
         },
         {
             id: 'qatar-headhunter',
             type: 'linkedin',
             label: 'Opportunity #13: Qatar Headhunter',
             desc: 'Inbound approach from Benjamin (Recruitment Consultant) regarding "Qatar Opportunities" and a scheduled call.',
-            image: './screenshots/essam/new-opportunities/benjamin-qatar-headhunter.png'
+            image: '/screenshots/essam/new-opportunities/benjamin-qatar-headhunter.png'
         },
         {
             id: 'hr-manager-contracting',
             type: 'linkedin',
             label: 'Opportunity #14: HR Manager (Real Estate)',
             desc: 'Connection with Mohamed (HR Manager) stating "We have an opportunity for your profile."',
-            image: './screenshots/essam/new-opportunities/mohamed-hr-manager.png'
+            image: '/screenshots/essam/new-opportunities/mohamed-hr-manager.png'
         },
         {
             id: 'talent-acq-ahmed',
             type: 'email', // Based on "forward your credentials to rec.hr@"
             label: 'Opportunity #15: Senior Talent Acquisition',
             desc: 'Ahmed (Senior Talent Acquisition) requested credentials to be sent directly to the official HR email.',
-            image: './screenshots/essam/new-opportunities/ahmed-senior-talent.png'
+            image: '/screenshots/essam/new-opportunities/ahmed-senior-talent.png'
         },
         {
             id: 'bassam-md',
             type: 'linkedin',
             label: 'Opportunity #16: Managing Director Construction',
             desc: 'Direct connection with Bassam (Managing Director), who immediately engaged and provided his personal number.',
-            image: './screenshots/essam/new-opportunities/bassam-managing-director.png'
+            image: '/screenshots/essam/new-opportunities/bassam-managing-director.png'
         },
         {
             id: 'bismark-cv',
             type: 'linkedin',
             label: 'Opportunity #17: Recruitment Consultant',
             desc: 'Bismark requested Essam to send his current CV to "know you better" for potential applications.',
-            image: './screenshots/essam/new-opportunities/bismark-cv-request.png'
+            image: '/screenshots/essam/new-opportunities/bismark-cv-request.png'
         },
         {
             id: 'andre-senior-rec',
             type: 'linkedin',
             label: 'Opportunity #18: Senior Recruiter (PD Role)',
             desc: 'André (Senior Consultant) confirmed an active Project Director position and interest in Essam\'s background.',
-            image: './screenshots/essam/new-opportunities/andre-senior-recruiter.png'
+            image: '/screenshots/essam/new-opportunities/andre-senior-recruiter.png'
         },
         {
             id: 'jidheesh-sr-eng',
             type: 'linkedin',
             label: 'Opportunity #19: Senior Project Engineer',
             desc: 'Jidheesh (Sr. Project Engineer) requested Essam to attach his CV directly in the chat.',
-            image: './screenshots/essam/new-opportunities/jidheesh-project-engineer.png'
+            image: '/screenshots/essam/new-opportunities/jidheesh-project-engineer.png'
         },
         {
             id: 'marnie-screening',
             type: 'linkedin',
             label: 'Opportunity #20: Initial Screening',
             desc: 'Marnie initiated a screening process asking about KSA experience, programs handled, notice period, and salary.',
-            image: './screenshots/essam/new-opportunities/marnie-screening.png'
+            image: '/screenshots/essam/new-opportunities/marnie-screening.png'
         },
         {
             id: 'guido-screening',
             type: 'linkedin',
             label: 'Opportunity #21: Global Mobility Advisor',
             desc: 'Guido (Business Consultant) requested CV for screening for a Project Director position.',
-            image: './screenshots/essam/new-opportunities/guido-screening.png'
+            image: '/screenshots/essam/new-opportunities/guido-screening.png'
         },
         {
             id: 'omar-sr-pm',
             type: 'linkedin',
             label: 'Opportunity #22: Sr. Project Manager (Dubai)',
             desc: 'Omar (Sr. BIM Coord) forwarded Essam\'s CV to HR and Sr. Management for a Sr. PM role in Dubai.',
-            image: './screenshots/essam/new-opportunities/omar-dubai-sr-pm.png'
+            image: '/screenshots/essam/new-opportunities/omar-dubai-sr-pm.png'
         },
         {
             id: 'menna-gm',
             type: 'linkedin',
             label: 'Opportunity #23: General Manager (KSA)',
             desc: 'Menna (Headhunter) reached out with a "compelling opportunity" for a General Manager role in Dammam.',
-            image: './screenshots/essam/new-opportunities/menna-gm-role.png'
+            image: '/screenshots/essam/new-opportunities/menna-gm-role.png'
         }
     ]
 };
