@@ -38,8 +38,8 @@ export const essamConstruction: CaseStudy = {
             image: '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
             images: [
                 '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Opportunity.png',
-                '/screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Job Opportunity - EPC Project Manager - essam.elshaer.jh@gmail.com - _ - mail.google.com.png',
-                '/screenshots/essam/Assystem Radicon (ASR) - KSA/FireShot Capture 001 - Daniel Aznar - LinkedIn - www.linkedin.com.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/assystem-email.png',
+                '/screenshots/essam/Assystem Radicon (ASR) - KSA/assystem-linkedin.png',
                 '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel - 2024-01-14 17 33 46.png',
                 '/screenshots/essam/Assystem Radicon (ASR) - KSA/Daniel Aznar - 2024-01-08 14 12 35.png'
             ]
@@ -52,8 +52,8 @@ export const essamConstruction: CaseStudy = {
             image: '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
             images: [
                 '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
-                '/screenshots/essam/Hill International/Project Manager position- Saudi Arabia- Hill International - essam.el_ - mail.google.com.png',
-                '/screenshots/essam/Hill International/Hill International_ Application Received - essam.elshaer.jh@gmail.com_ - mail.google.com.png',
+                '/screenshots/essam/Hill International/hill-pm-email-1.png',
+                '/screenshots/essam/Hill International/hill-application-received.png',
                 '/screenshots/essam/Hill International/Sarah Motaghi - LinkedIn - www.linkedin.com.png'
             ]
         },
@@ -69,7 +69,7 @@ export const essamConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #4: Al Nasr Contracting (UAE)',
             desc: 'Discussions with Arzé Sakhat regarding a Project Director role in the UAE.',
-            image: '/screenshots/essam/Al Nasr Contracting UAE - Project Director - Arzé Sakhat - LinkedIn - www.linkedin.com.png'
+            image: '/screenshots/essam/al-nasr-contracting-linkedin.png'
         },
         {
             id: 'ghd-abudhabi',
@@ -79,7 +79,7 @@ export const essamConstruction: CaseStudy = {
             image: '/screenshots/essam/new-opportunities/alfredo-salary-offer.png',
             images: [
                 '/screenshots/essam/new-opportunities/alfredo-salary-offer.png',
-                '/screenshots/essam/Project Director - GHD - Abu Dhabi, UAE - Alfredo Rivera - 2023-10-10 14 39 04   .png'
+                '/screenshots/essam/ghd-alfredo.png'
             ]
         },
         {
@@ -87,21 +87,21 @@ export const essamConstruction: CaseStudy = {
             type: 'linkedin',
             label: 'Opportunity #6: UCC (KSA)',
             desc: 'Outreach regarding a Construction Operations Manager role in Taif, KSA.',
-            image: '/screenshots/essam/Construction Operations Manager - UCC - Taif, KSA - Muhammed Shakeel - 2024-01-27 22 09 12.png'
+            image: '/screenshots/essam/ucc-shakeel.png'
         },
         {
             id: 'director-eng-dept',
             type: 'email',
             label: 'Opportunity #7: Engineering Director',
             desc: 'Job opportunity for an Engineering Department Director role in Saudi Arabia.',
-            image: '/screenshots/essam/Job opportunity as Engineering Department Director - Saudi location (_ - mail.google.com.png'
+            image: '/screenshots/essam/engineering-director-email.png'
         },
         {
             id: 'head-pm-riyadh',
             type: 'linkedin',
             label: 'Opportunity #8: Head PM (Riyadh)',
             desc: 'Connection with George Semaan regarding Head of Project Management roles in Riyadh.',
-            image: '/screenshots/essam/Head PM - Construction - Riyadh, KSA - George Semaan - 2024-01-28 11 35 51.png'
+            image: '/screenshots/essam/head-pm-semaan.png'
         },
         {
             id: 'program-manager-ahsa',
@@ -111,7 +111,7 @@ export const essamConstruction: CaseStudy = {
             image: '/screenshots/essam/new-opportunities/toufic-cv-sent.png',
             images: [
                 '/screenshots/essam/new-opportunities/toufic-cv-sent.png',
-                '/screenshots/essam/Program Manager - Ahsa - Toufic Elkawam - 2023-12-07 19 46 08.png'
+                '/screenshots/essam/program-manager-toufic.png',
             ]
         },
         {
