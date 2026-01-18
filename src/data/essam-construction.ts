@@ -49,9 +49,9 @@ export const essamConstruction: CaseStudy = {
             type: 'email',
             label: 'Opportunity #2: Hill International (KSA)',
             desc: 'Application and follow-up process for a Project Manager/Director position in Saudi Arabia with Hill International.',
-            image: '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
+            image: '/screenshots/essam/Hill International/Project Manager - Hi-939c446f.png',
             images: [
-                '/screenshots/essam/Hill International/Project Manager - Hill International - Saudi Arabia.png',
+                '/screenshots/essam/Hill International/Project Manager - Hi-939c446f.png',
                 '/screenshots/essam/Hill International/hill-pm-email-1.png',
                 '/screenshots/essam/Hill International/hill-application-received.png',
                 '/screenshots/essam/Hill International/Sarah Motaghi - LinkedIn - www.linkedin.com.png'
