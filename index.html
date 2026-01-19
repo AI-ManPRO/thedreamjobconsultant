@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MXNQH4G4');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J3060MN6T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-3J3060MN6T');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Dream Job Consultant | Executive Reverse Recruiting</title>
-    <meta name="description" content="Stop Applying. Start Interviewing. The premier reverse recruiting service for executives and senior tech professionals.">
-    
+    <meta name="description"
+        content="Stop Applying. Start Interviewing. The premier reverse recruiting service for executives and senior tech professionals.">
+
     <!-- TAILWIND CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- FONT AWESOME -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    
+
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- CUSTOM CONFIGURATION -->
     <script>
@@ -61,10 +87,11 @@
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
-        
+
         .gold-gradient-text {
             background: linear-gradient(135deg, #FDE68A 0%, #D4AF37 50%, #B45309 100%);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -72,25 +99,52 @@
             background: linear-gradient(135deg, #D4AF37 0%, #C5A028 100%);
             transition: all 0.3s ease;
         }
+
         .gold-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px -10px rgba(212, 175, 55, 0.5);
         }
 
+        /* Marquee Animation for Moving Logos */
+        .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        .marquee-content {
+            display: inline-block;
+            animation: marquee 40s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
         /* Range Slider Styling */
         input[type=range] {
-            -webkit-appearance: none; 
-            background: transparent; 
+            -webkit-appearance: none;
+            appearance: none;
+            background: transparent;
         }
+
         input[type=range]::-webkit-slider-thumb {
             -webkit-appearance: none;
+            appearance: none;
             height: 20px;
             width: 20px;
             border-radius: 50%;
             background: #D4AF37;
             cursor: pointer;
-            margin-top: -8px; 
+            margin-top: -8px;
         }
+
         input[type=range]::-webkit-slider-runnable-track {
             width: 100%;
             height: 4px;
@@ -99,23 +153,17 @@
         }
     </style>
 
-<link rel="stylesheet" href="/index.css">
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18.2.0",
-    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
-    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.2.0,react-dom@18.2.0",
-    "framer-motion": "https://esm.sh/framer-motion@10.16.4?deps=react@18.2.0,react-dom@18.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "react/": "https://aistudiocdn.com/react@^19.2.1/"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/assets/index-E7xXIzF9.js"></script>
+
+  <script type="module" crossorigin src="/assets/index-lYOd9oNC.js"></script>
 </head>
-<body class="bg-navy-900 text-slate-200 font-sans antialiased overflow-x-hidden selection:bg-gold-400 selection:text-navy-900">
-    <div id="root"></div>
+
+<body
+    class="bg-navy-900 text-slate-200 font-sans antialiased overflow-x-hidden selection:bg-gold-400 selection:text-navy-900">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXNQH4G4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
 </body>
+
 </html>
