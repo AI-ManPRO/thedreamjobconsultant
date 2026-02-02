@@ -55,6 +55,7 @@ const BlogTeaser = () => {
                                     src={post.image}
                                     alt={post.title}
                                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                                    style={{ objectPosition: post.imagePosition || 'center' }}
                                 />
                                 <span className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm text-navy-900 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm">
                                     {post.category}

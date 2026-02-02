@@ -245,4 +245,98 @@ export const post7: BlogPost = {
   image: '/images/blog/social-media-search.jpg',
   category: 'Social Media',
   tags: ['Job Search', 'LinkedIn', 'Personal Branding', 'Networking', 'Digital Footprint']
+,
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "Book Title 1 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    },
+    {
+      title: "Book Title 2 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

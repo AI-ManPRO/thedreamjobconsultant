@@ -38,6 +38,8 @@ export const post4: BlogPost = {
       In this comprehensive guide, we will dissect the five most common interview mistakes we see as career coaches, and more importantly, give you the exact scripts and strategies to avoid them. We will also cover the specific nuances of <strong>Remote Interviews</strong>, which have their own set of pitfalls.
     </p>
 
+    {{AD_1}}
+
     <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Mistake #1: Surface-Level Preparation</h2>
@@ -265,6 +267,8 @@ export const post4: BlogPost = {
         <li><strong>Smile:</strong> It sounds cliché, but smiling releases tension in your voice. You can <em>hear</em> a smile over the phone.</li>
     </ul>
 
+    {{AD_2}}
+    
     <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
@@ -307,4 +311,98 @@ export const post4: BlogPost = {
   image: '/images/blog/interview-mistakes.jpg',
   category: 'Interview Logic',
   tags: ['Interview Tips', 'Career Coaching', 'Job Search', 'Hiring Process', 'Soft Skills']
+  ,
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "No Mistakes Interviews: How To Get The Job You Want (No Mistakes Careers Book 2)",
+      author: "Giacomo Giammatteo",
+      description: "Warning: Reading this book could get you a new job. The best candidate doesn’t always get the job—the candidate who interviews best does. No Mistakes Interviews will teach you how to: Prepare for the interview, Identify the company’s primary need, Assess your skills as they relate to that need, and Sell yourself as the solution.",
+      image: "https://m.media-amazon.com/images/I/81OK1B+MxeL._SY425_.jpg",
+      link: "https://amzn.to/3LN8xYb",
+      rating: 4.2,
+      reviews: 8
+    },
+    {
+      title: "Interview Speak: What your interviewer really wants to know",
+      author: "Barbara Limmer, Laura Browne",
+      description: "Discover how to decipher the most important job interview questions so you can tell your interviewer what they really want to know. Interview Speak shows you how to ace job interviews by answering the questions behind the questions. Written for job seekers in any field, Interview Speak shows you how to draw on your own unique skillset and deliver answers that will make you stand out.",
+      image: "https://m.media-amazon.com/images/I/514bY2+rBmL._SY342_.jpg",
+      link: "https://amzn.to/49In2Wn",
+      rating: 4.9,
+      reviews: 15
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

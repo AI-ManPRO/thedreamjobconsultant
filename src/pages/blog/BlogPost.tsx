@@ -3,6 +3,10 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { blogPosts } from '../../data/blog-posts';
 import SEO from '../../components/SEO';
+import AmazonBookAd from '../../components/AmazonBookAd';
+import AmazonSmallAd from '../../components/AmazonSmallAd';
+import SidebarAd from '../../components/SidebarAd';
+import NewsletterWidget from '../../components/NewsletterWidget';
 
 const BlogPost = () => {
     const { slug } = useParams<{ slug: string }>();
@@ -42,7 +46,7 @@ const BlogPost = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                                     </svg>
                                 </span>
-                                Back to Insights
+                                Back to The Blog
                             </Link>
 
                             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100">
@@ -104,8 +108,80 @@ const BlogPost = () => {
                                         prose-ul:my-8 prose-li:my-4 prose-li:marker:text-gold-400
                                         prose-img:rounded-2xl prose-img:shadow-xl prose-img:my-12 prose-img:w-full
                                         prose-strong:text-navy-900 prose-strong:font-bold"
-                                        dangerouslySetInnerHTML={{ __html: post.content }}
-                                    />
+                                    >
+                                        {(() => {
+                                            // Default affiliate books if none specified in post
+                                            // Using reliable image URLs or placeholders where possible
+                                            const defaultBooks = [
+                                                {
+                                                    title: "The 2-Hour Job Search",
+                                                    author: "Steve Dalton",
+                                                    description: "Technology has perfected the job search, but for the wrong reasons. Learn the systematic approach to get hired faster.",
+                                                    image: "https://m.media-amazon.com/images/I/71s7hL-zRGL._SY466_.jpg",
+                                                    link: "https://www.amazon.com/2-Hour-Job-Search-Technology-Optimizing/dp/1607741709",
+                                                    rating: 4.6,
+                                                    reviews: 1420
+                                                },
+                                                {
+                                                    title: "What Color Is Your Parachute?",
+                                                    author: "Richard N. Bolles",
+                                                    description: "The world's most popular job-hunting guide. A practical manual for job-hunters and career-changers.",
+                                                    image: "https://m.media-amazon.com/images/I/71eXjG-UaJL._SY466_.jpg",
+                                                    link: "https://www.amazon.com/What-Color-Your-Parachute-2022/dp/1984861204",
+                                                    rating: 4.7,
+                                                    reviews: 850
+                                                }
+                                            ];
+
+                                            // Usage priority:
+                                            // 1. Books defined in the post itself (post.affiliateBooks)
+                                            // 2. Default books defined above
+                                            const affiliateBooks = post.affiliateBooks && post.affiliateBooks.length > 0
+                                                ? post.affiliateBooks
+                                                : defaultBooks;
+
+                                            // SHORTCODE LOGIC: Check if content has {{AD_\d+}} or {{AmazonSmallAd_\d+}}
+                                            // This gives maximum freedom to placement.
+                                            const hasShortcodes = /(\{\{AD_\d+\}\}|\{\{AmazonSmallAd_\d+\}\})/.test(post.content);
+
+                                            if (hasShortcodes) {
+                                                // Split by the pattern keeping the delimiter (capturing group)
+                                                // We regex for both types of ads
+                                                const chunks = post.content.split(/(\{\{AD_\d+\}\}|\{\{AmazonSmallAd_\d+\}\})/g);
+
+                                                return chunks.map((chunk, index) => {
+                                                    // Check if this chunk is a standard large ad shortcode
+                                                    const matchLarge = chunk.match(/\{\{AD_(\d+)\}\}/);
+                                                    if (matchLarge) {
+                                                        const bookIndex = parseInt(matchLarge[1]) - 1; // 1-based to 0-based
+                                                        const book = affiliateBooks[bookIndex] || defaultBooks[bookIndex % defaultBooks.length];
+                                                        return book ? <AmazonBookAd key={`ad-${index}`} book={book} /> : null;
+                                                    }
+
+                                                    // Check if this chunk is a SMALL ad shortcode
+                                                    const matchSmall = chunk.match(/\{\{AmazonSmallAd_(\d+)\}\}/);
+                                                    if (matchSmall) {
+                                                        const adIndex = parseInt(matchSmall[1]) - 1; // 1-based to 0-based
+                                                        // Get specific ad data if it exists, otherwise create a placeholder
+                                                        const smallAdData = post.smallAds && post.smallAds[adIndex]
+                                                            ? post.smallAds[adIndex]
+                                                            : { type: 'placeholder', title: 'Start Hiring' } as const;
+
+                                                        return <AmazonSmallAd key={`small-ad-${index}`} ad={smallAdData} />;
+                                                    }
+
+                                                    // Regular content chunk
+                                                    if (!chunk) return null;
+                                                    return <div key={index} dangerouslySetInnerHTML={{ __html: chunk }} />;
+                                                });
+                                            }
+
+                                            // FALLBACK LOGIC: REMOVED by user request.
+                                            // "if it is not there, then show nothing."
+                                            // We just render the content as is if no shortcodes are found.
+                                            return <div dangerouslySetInnerHTML={{ __html: post.content }} />;
+                                        })()}
+                                    </div>
 
                                     {/* Tags */}
                                     <div className="mt-16 pt-8 border-t border-slate-100">
@@ -156,13 +232,16 @@ const BlogPost = () => {
                             </div>
                         </div>
 
-                        {/* Affiliate Ad Placeholder */}
-                        <div className="bg-slate-50 rounded-xl shadow-sm border-2 border-dashed border-slate-300 p-8 flex flex-col items-center justify-center text-center h-[300px]">
-                            <span className="bg-slate-200 text-slate-500 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Advertisement</span>
-                            <div className="text-slate-400 font-medium">
-                                <p>Affiliate Ad Space</p>
-                                <p className="text-sm mt-2">Reserved for future partnerships</p>
-                            </div>
+                        {/* Affiliate Ad 1 */}
+                        <div className="mb-8">
+                            <SidebarAd
+                                ad={post.sidebarAds?.ad1 || {
+                                    type: 'placeholder',
+                                    title: 'Affiliate Ad Space',
+                                    description: 'Reserved for future partnerships'
+                                }}
+                                label="Advertisement 1"
+                            />
                         </div>
 
                         {/* Recent Posts if any */}
@@ -182,6 +261,57 @@ const BlogPost = () => {
                                 </div>
                             </div>
                         )}
+
+                        {/* Categories Widget */}
+                        <div className="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
+                            <h3 className="text-lg font-bold text-navy-900 mb-4">Categories</h3>
+                            <ul className="space-y-2">
+                                <li>
+                                    <Link
+                                        to="/blog"
+                                        className="w-full flex items-center justify-between p-2 rounded-lg transition-colors text-sm font-medium text-slate-600 hover:bg-slate-50"
+                                    >
+                                        <span>All Posts</span>
+                                        <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-xs border border-slate-200">
+                                            {blogPosts.length}
+                                        </span>
+                                    </Link>
+                                </li>
+                                {Object.entries(blogPosts.reduce((acc, post) => {
+                                    acc[post.category] = (acc[post.category] || 0) + 1;
+                                    return acc;
+                                }, {} as Record<string, number>)).map(([category, count]) => (
+                                    <li key={category}>
+                                        <Link
+                                            to="/blog"
+                                            className="w-full flex items-center justify-between p-2 rounded-lg transition-colors text-sm font-medium text-slate-600 hover:bg-slate-50"
+                                        >
+                                            <span>{category}</span>
+                                            <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-xs border border-slate-200">
+                                                {count}
+                                            </span>
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        {/* Newsletter Widget */}
+                        <div className="mt-8 mb-8">
+                            <NewsletterWidget />
+                        </div>
+
+                        {/* Affiliate Ad 2 */}
+                        <div className="mt-8">
+                            <SidebarAd
+                                ad={post.sidebarAds?.ad2 || {
+                                    type: 'placeholder',
+                                    title: 'Affiliate Ad Space',
+                                    description: 'Reserved for future partnerships'
+                                }}
+                                label="Advertisement 2"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

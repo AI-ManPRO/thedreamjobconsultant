@@ -1,0 +1,7 @@
+{
+  "name": "Anna - The Dream Job Consultant Voice Agent",
+  "description": "A conversational voice agent for The Dream Job Consultant, providing real-time career and reverse recruiting guidance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

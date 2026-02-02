@@ -1,139 +1,250 @@
 import { BlogPost } from '../blog-posts';
 
-export const post48: BlogPost = {
-  id: '48',
+export const post2: BlogPost = {
+  id: '2',
   slug: 'optimizing-your-linkedin-profile',
-  title: 'LinkedIn Profile Optimization: Go From "Ghost" to "Inbound Leads"',
-  excerpt: 'Is your LinkedIn profile just a copy-paste of your resume? You are doing it wrong. LinkedIn is a Landing Page. Its goal is to convert visitors into leads (recruiters). Learn the SEO tricks to rank higher and the psychology of a killer Headline.',
+  title: 'The Ultimate LinkedIn Profile Optimization Guide (2026)',
+  excerpt: 'Your LinkedIn profile is more important than your resume. Learn how to write a headline that ranks in search, an "About" section that converts, and how to use the "Featured" section to show proof of work.',
   seo: {
-    title: 'LinkedIn Profile Optimization Guide 2026',
-    description: 'How to optimize your LinkedIn profile for recruiters. Writing a headline, summary, and experience section that ranks in search. LinkedIn SEO tips.',
-    keywords: ['LinkedIn optimization', 'LinkedIn profile tips', 'LinkedIn headline', 'personal branding', 'social selling', 'job search']
+    title: 'The Ultimate LinkedIn Profile Optimization Guide (2026) | Tips for Job Seekers',
+    description: 'A step-by-step guide to ranking #1 in recruiter searches. Headline formulas, banner design tips, and keyword strategies for 2026.',
+    keywords: ['linkedin profile tips', 'linkedin summary examples', 'linkedin headline', 'social selling', 'personal branding', 'job search 2026']
   },
   content: `
-    <div class="bg-indigo-50 border-l-4 border-indigo-500 p-6 rounded-r-lg mb-8">
-      <h3 class="text-indigo-900 font-bold mb-2 mt-0">The "Recruiter License" Secret</h3>
-      <p class="text-indigo-800 mb-0">
-        Recruiters pay $10k/year for "LinkedIn Recruiter." This tool lets them search for candidates like you search for shoes on Amazon. If you don't have the right keywords in the right places, you simply do not exist in their search results.
-      </p>
+    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
+      <h3 class="text-blue-900 font-bold mb-2 mt-0">The Profile Checklist</h3>
+      <ul class="list-disc pl-5 text-blue-800 space-y-2 mb-0">
+          <li><strong>The Headline Formula:</strong> Stop using just your job title.</li>
+          <li><strong>The "Hook" Summary:</strong> Writing an "About" section that people actually read.</li>
+          <li><strong>Visual Real Estate:</strong> Why your Banner Image matters more than your Headshot.</li>
+          <li><strong>The "Featured" Section:</strong> Your Portfolio, Case Studies, and Media.</li>
+          <li><strong>Skills & Endorsements:</strong> The SEO algorithm secret.</li>
+          <li><strong>The "Open to Work" Badge:</strong> Green banner vs. Hidden settings.</li>
+      </ul>
     </div>
 
     <p class="lead text-xl text-slate-600 mb-6">
-      Your LinkedIn profile is not an online resume. It is a 24/7 Networking Event where you are always presenting.
+      If a Recruiter searches for "Project Manager in New York," 50,000 results appear. Do you appear on Page 1 or Page 500?
     </p>
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Headline: Your Billboard (SEO Gold)</h2>
+    <p class="mb-6">
+      Most people treat LinkedIn as a "Digital Resume." This is a mistake. LinkedIn is a <strong>Landing Page</strong>. Its job is to convert a visitor (Recruiter) into a lead (Interview Invite).
+    </p>
+
+    <p class="mb-8">
+      In 2026, the LinkedIn Algorithm favors relevance, engagement, and "Proof of Work." Here is how to rebuild your profile to dominate the search results.
+    </p>
+
+    <img src="/images/blog/linkedin-content-body.jpg" alt="LinkedIn Profile Optimization Example" class="w-full rounded-lg shadow-lg my-8" />
+
+    <hr class="my-10 border-slate-200" />
+
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Headline: Your 220-Character Sales Pitch</h2>
     
     <p class="mb-4">
-      Most people just put their job title: "Marketing Manager at Company X."
-    </p>
-    <p class="mb-4">
-      <strong>Why this fails:</strong> It tells me <em>what</em> you are (a commodity), but not <em>how good</em> you are (a luxury). More importantly, it wastes the most valuable SEO real estate on the internet.
+      "Marketing Manager at Company X" is boring. It tells me <em>what</em> you are, but not <em>how good</em> you are.
     </p>
     
+    <div class="bg-emerald-50 p-6 rounded-lg mb-8">
+        <strong class="text-emerald-900 block mb-2">The Winning Formula:</strong>
+        <p class="text-lg font-bold text-slate-800 mb-2">[Title] | [Specialty/Keyword] | [Unique Value Proposition]</p>
+        <p class="italic text-slate-600 mb-4">Example 1 (Sales): "Senior Account Executive | SaaS & Enterprise | Helping FinTech Startups Scale from $1M to $10M ARR"</p>
+        <p class="italic text-slate-600">Example 2 (Engineer): "Full Stack Developer (React/Node) | Building Scalable Cloud Architectures | Ex-Google"</p>
+    </div>
+    <p class="text-sm text-slate-500">Why this works: It hits the keywords (SaaS, React) for the search algorithm, AND it gives a "hook" (Scaling revenue) for the human reader.</p>
+
+    {{AD_1}}
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. The "About" Section: Tell a Story</h2>
+    
+    <p class="mb-4">
+      Do not write "I am a motivated professional with 10 years of experience." Everyone writes that. Bore-ing.
+    </p>
+    <p class="mb-6">
+      Write in the first person ("I"). Start with a hook.
+    </p>
+
     <div class="bg-white border border-slate-200 p-6 rounded-lg shadow-sm mb-8">
-        <h4 class="font-bold text-navy-900 mb-4">The Formula: [Title] | [Hard Skills/Keywords] | [Value Prop]</h4>
-        
-        <div class="grid md:grid-cols-2 gap-4">
-            <div class="bg-red-50 p-4 rounded">
-                <p class="text-sm font-bold text-red-800">The "Ghost" Headline</p>
-                <p class="text-xs text-red-600 mt-1">"Marketing Manager"</p>
-                <p class="text-xs text-slate-500 mt-2">Result: You appear on Page 10 of search results.</p>
-            </div>
-             <div class="bg-green-50 p-4 rounded">
-                <p class="text-sm font-bold text-green-800">The "Magnet" Headline</p>
-                <p class="text-xs text-green-700 mt-1">"Marketing Manager | SEO & PPC Expert | Scaling SaaS from $1M to $10M ARR | Growth Hacking"</p>
-                <p class="text-xs text-slate-500 mt-2">Result: You rank for "Marketing Manager", "SEO", "PPC", "Growth".</p>
-            </div>
+        <h4 class="font-bold text-navy-900 mb-4">Structure of a Killer Summary</h4>
+        <ul class="space-y-4">
+            <li><strong>The Hook (Lines 1-2):</strong> "I started my career in customer support, listening to 50 angry calls a day. That is where I learned that 'User Experience' isn't about pixels; it's about empathy." (Grab attention).</li>
+            <li><strong>The Narrative (Paragraph 2):</strong> "Over the last 8 years, I've taken that empathy into Product Management. I've led teams at [Company A] and [Company B] to build tools that users actually love."</li>
+            <li><strong>The Wins (Bullet Points):</strong>
+                <ul class="list-disc pl-5 mt-2 text-slate-600">
+                    <li>Launched App X to 1M users.</li>
+                    <li>Reduced churn by 15% via new onboarding flow.</li>
+                    <li>Managed a team of 10 Designers and Devs.</li>
+                </ul>
+            </li>
+            <li><strong>The CTA (Call to Action):</strong> "I love talking about PLG (Product Led Growth). Send me a DM or email me at me@example.com."</li>
+        </ul>
+    </div>
+
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. The "Featured" Section: Proof of Work</h2>
+    
+    <p class="mb-4">
+      Show, don't just tell. This section is the most under-utilized part of LinkedIn.
+    </p>
+    
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-indigo-50 p-6 rounded-xl">
+            <h4 class="font-bold text-indigo-900 mb-2">What to Put Here</h4>
+            <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2">
+                <li><strong>Case Studies:</strong> A PDF of a project you led.</li>
+                <li><strong>Media:</strong> A link to a podcast you were on, or an article you wrote.</li>
+                <li><strong>Resume:</strong> A PDF version of your resume (Redact your phone number).</li>
+                <li><strong>Video Introduction:</strong> A 60-second Loom video saying hello.</li>
+            </ul>
+        </div>
+        <div class="bg-indigo-50 p-6 rounded-xl">
+            <h4 class="font-bold text-indigo-900 mb-2">Why It Matters</h4>
+            <p class="text-sm text-slate-700">It turns your profile into a Portfolio. When a recruiter clicks a PDF and sees a graph of revenue growth you influenced, your credibility skyrockets.</p>
         </div>
     </div>
-    
-    <h3 class="text-xl font-bold text-navy-800 mt-8 mb-4">The Top 5 Keywords for Your Industry</h3>
-    <p class="mb-4">
-        Go to LinkedIn Jobs. Search for your target role. Read 10 Job Descriptions. What words appear in EVERY job ad?
-        <br>- If you are in sales: "Prospecting," "Closing," "Salesforce."
-        <br>- If you are in Project Mgmt: "Agile," "Scrum," "Stakeholder Management."
-        <br><strong>Put these exact words in your headline.</strong>
-    </p>
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. The Banner (Background Photo)</h2>
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">4. Experience Section: Resume 2.0</h2>
     
     <p class="mb-4">
-      If you have the default grey geometric background, you look like a bot or an amateur.
+      Do not copy-paste your resume. But do be detailed.
     </p>
     <p class="mb-6">
-      Upload a banner that represents your industry.
-      <br>- Developer: Code on a screen.
-      <br>- Architect: Blueprints or a skyline.
-      <br>- Speaker: A photo of you on stage.
-      <br>This is free "Visual Credibility."
+       Use keywords. If you are a Project Manager, ensure the words "Agile," "Scrum," "Budgeting," and "Stakeholder Management" appear in your description. The algorithm scans this text to rank you.
     </p>
 
-    <!-- Placeholder for LinkedIn Profile Image -->
-    <div class="bg-indigo-900 p-8 rounded-lg text-center mb-8">
-       <p class="text-white font-bold italic text-lg">"The All-Star Profile"</p>
-       <p class="text-indigo-200 text-sm mt-2">(Image: Futuristic holographic LinkedIn interface)</p>
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">5. The "Open to Work" Badge Debate</h2>
+    
+    <div class="bg-yellow-50 p-6 rounded-lg mb-6 border border-yellow-200">
+        <strong class="text-yellow-900">Should you use the Green Banner?</strong>
+        <p class="text-yellow-800 mt-2">
+            <strong>If you are unemployed:</strong> YES. Data shows it gets you 40% more InMails. Swallow your pride. It signals availability. <br><br>
+            <strong>If you are employed (Stealth Search):</strong> NO. Do not put the public banner. Instead, use the "Open to Work" setting visible ONLY to Recruiters. This prevents your boss from seeing it, but signals to paid LinkedIn Recruiter users that you are poachable.
+        </p>
     </div>
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. The "About" Section: Hook 'Em</h2>
+    {{AD_2}}
     
-    <p class="mb-4">
-      Do not write in the third person ("John is an experienced leader..."). It sounds pretentious. Write in the first person ("I am...").
-    </p>
-    <p class="mb-4">
-      Only the first 3 lines are visible before the "See More" click. Make them count.
-    </p>
-    <p class="bg-slate-50 p-4 rounded text-slate-700 italic border-l-4 border-slate-300 mb-6">
-        "I build marketing engines that scale. In the last 5 years, I've taken two SaaS startups from $0 to $10M ARR using organic SEO strategies. Here is how I do it..."
-    </p>
+    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">4. Experience: Optimize for Skimming</h2>
-    
-    <p class="mb-4">
-      This should mirror your resume, but you can add media!
-    </p>
-    <p class="mb-4">
-      <strong>The "Featured" Hack:</strong> LinkedIn allows you to attach links/PDFs to job entries. Attach your portfolio, a press release about a project launch, or a video of a talk you gave. Visual proof converts higher than text.
-    </p>
+    <div class="space-y-6">
+        <div>
+            <h4 class="font-bold text-navy-900 text-lg mb-2">1. Should I accept connection requests from strangers?</h4>
+            <p class="text-slate-600">Yes, if they are in your industry. LinkedIn is not Facebook. It's for networking. The more connections you have, the more "2nd degree" connections you have, which expands your visibility.</p>
+        </div>
+        <div>
+            <h4 class="font-bold text-navy-900 text-lg mb-2">2. How often should I post?</h4>
+            <p class="text-slate-600">Start with once a week. Share an article, a thought on industry news, or a learning from your job. Comments are also powerful. Commenting on 5 posts a day is faster than writing 1 post.</p>
+        </div>
+        <div>
+            <h4 class="font-bold text-navy-900 text-lg mb-2">3. Do recommendations matter?</h4>
+            <p class="text-slate-600">Yes. Social proof is huge. Ask 3 former colleagues to write you a recommendation. Offer to write one for them first ("Reciprocity").</p>
+        </div>
+    </div>
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">5. Social Proof: Recommendations</h2>
-    
-    <p class="mb-4">
-      A profile with 0 recommendations looks suspicious.
-    </p>
-    <p class="mb-4">
-      <strong>The Trading Strategy:</strong> Message 3 favorite ex-colleagues today.
-      <br>"Hey [Name], hope you're well. I'm updating my profile—would you be open to writing a brief recommendation about our time working on Project X? I'd be happy to write one for you in return!"
-    </p>
-    <p class="mb-6">
-      Get at least 3 recent ones. It functions like Amazon Reviews for your career.
-    </p>
+    <hr class="my-12 border-slate-200" />
 
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">6. Activity: Are You Alive?</h2>
-    
-    <p class="mb-4">
-      If a recruiter visits your profile and sees your last activity was "Liked a post 8 months ago," they assume you are dormant.
-    </p>
-    <p class="mb-4">
-      Engage. Comment on 3 industry posts a week. Insightful comments ("Great point about X, but have you considered Y?") often get more views than the post itself.
-    </p>
-
-    <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
-    <p class="mb-6">
-      A great resume might get you applied. A great LinkedIn profile allows you to get <em>found</em>. The best job offers come when you aren't even looking, because a recruiter found you via search.
-    </p>
-    
     <div class="bg-navy-900 text-white p-8 rounded-xl text-center mt-12 shadow-xl">
-      <h3 class="text-gold-500 font-bold text-2xl mb-4">Is Your Profile Invisible?</h3>
-      <p class="mb-8 text-lg text-slate-300">We offer a complete "LinkedIn Makeover." We rewrite your headline, summary, and experience section with high-ranking SEO keywords for your target role.</p>
+      <h3 class="text-gold-500 font-bold text-2xl mb-4">Done For You Profile Makeover</h3>
+      <p class="mb-8 text-lg text-slate-300">Don't guess at the keywords. We rewrite your entire LinkedIn profile to beat the algorithm and impress hiring managers.</p>
       <a href="https://calendly.com/thedreamjobconsultant/60min/" class="inline-block bg-gold-500 text-navy-900 font-bold py-4 px-10 rounded-full hover:bg-white hover:text-navy-900 transition-all duration-300 shadow-lg transform hover:-translate-y-1">
-        Optimize My Profile
+        Get Your Profile Optimized
       </a>
     </div>
   `,
   author: 'Ayman',
-  date: '2026-10-28',
-  image: '/images/blog/linkedin-optimization.png',
-  category: 'LinkedIn',
-  tags: ['LinkedIn', 'Personal Branding', 'Social Media', 'Networking', 'Job Search Hacks', 'Recruiting']
+  date: '2023-01-23',
+  image: '/images/blog/linkedin-profile.jpg',
+  category: 'LinkedIn Strategy',
+  tags: ['LinkedIn', 'Personal Branding', 'Job Search', 'Social Selling', 'Networking'],
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "How to Write a KILLER LinkedIn Profile... And 18 Mistakes to Avoid",
+      author: "Brenda Bernstein",
+      description: "A comprehensive guide to optimizing your LinkedIn profile, avoiding common mistakes, and attracting the right attention.",
+      image: "https://m.media-amazon.com/images/I/71Y7ynUDCEL._SY342_.jpg",
+      link: "https://amzn.to/4qBTEa8",
+      rating: 4.5,
+      reviews: 500
+    },
+    {
+      title: "The AI-Savvy Job Seeker: Transform Your LinkedIn Profile and Outshine the Competition",
+      author: "Michelle Dumas",
+      description: "Learn how to leverage AI to enhance your job search strategy and create a standout LinkedIn profile.",
+      image: "https://m.media-amazon.com/images/I/61Q9+SkIf2L._SY425_.jpg",
+      link: "https://amzn.to/3ZyKzD7",
+      rating: 5.0,
+      reviews: 50
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

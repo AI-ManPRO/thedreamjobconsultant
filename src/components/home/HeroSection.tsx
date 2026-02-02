@@ -7,12 +7,12 @@ const HeroSection = () => {
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-navy-900 pt-20 pb-24">
             {/* Background with Overlay */}
             <div
-                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-20"
+                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-40"
                 style={{
                     backgroundImage: "url('/images/home/hero-background.jpg')" // High-rise building/corporate feel
                 }}
             />
-            <div className="absolute inset-0 z-0 bg-gradient-to-b from-navy-900 via-navy-900/90 to-navy-900"></div>
+            <div className="absolute inset-0 z-0 bg-gradient-to-b from-navy-900/80 via-navy-900/50 to-navy-900"></div>
 
             {/* Animated Blobs */}
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-blue-600/10 blur-3xl filter animate-float"></div>

@@ -1,5 +1,8 @@
+// IMPORTANT: When adding new blog posts, ensure the date is at least 1 month in the past relative to the current date.
+// DO NOT use future dates.
+// Ensure there is at least 1 week between published dates of any two posts.
 import { post1 } from './posts/5-signs-you-need-a-career-coach';
-
+import { post2 } from './posts/optimizing-your-linkedin-profile';
 import { post3 } from './posts/mastering-the-technical-interview';
 import { post4 } from './posts/5-common-interview-mistakes';
 import { post5 } from './posts/resume-stand-out-2026';
@@ -45,7 +48,7 @@ import { post44 } from './posts/cv-vs-resume-difference';
 import { post45 } from './posts/types-of-resumes-explained';
 import { post46 } from './posts/resumes-and-cover-letters-guide';
 import { post47 } from './posts/soft-skills-vs-hard-skills';
-import { post48 } from './posts/optimizing-your-linkedin-profile';
+import { post48 } from './posts/linkedin-profile-optimization';
 import { post49 } from './posts/hiring-process-black-box-revealed';
 import { post50 } from './posts/recruiter-vs-reverse-recruiter';
 import { post51 } from './posts/job-boards-vs-niche-sites';
@@ -61,6 +64,41 @@ import { post60 } from './posts/stigma-of-unemployment';
 import { post61 } from './posts/mental-health-job-search-depression';
 import { post62 } from './posts/why-you-struggle-to-ask-for-help';
 import { post63 } from './posts/who-are-you-without-job-title';
+
+export interface AffiliateBook {
+  title: string;
+  author: string;
+  description: string;
+  image: string;
+  link: string;
+  rating?: number;
+  reviews?: number;
+  paragraphIndex?: number;
+}
+
+export interface SidebarAdData {
+  type: 'amazon' | 'custom' | 'image' | 'placeholder';
+  title?: string;
+  author?: string; // for book style
+  description?: string;
+  image?: string;
+  link?: string;
+  ctaText?: string;
+  rating?: number;
+  reviews?: number; // number of reviews
+  bgColor?: string; // optional background override
+}
+
+export interface SmallAd {
+  type: 'amazon' | 'placeholder';
+  title?: string;
+  image?: string;
+  url?: string;
+  price?: string;
+  rating?: number;
+  reviews?: number;
+  id?: string; // For tracking
+}
 
 export interface BlogPost {
   id: string;
@@ -79,11 +117,17 @@ export interface BlogPost {
     keywords?: string[];
   };
   imagePosition?: string;
+  affiliateBooks?: AffiliateBook[];
+  sidebarAds?: {
+    ad1?: SidebarAdData;
+    ad2?: SidebarAdData;
+  };
+  smallAds?: SmallAd[];
 }
 
 export const blogPosts: BlogPost[] = [
   post1,
-
+  post2,
   post3,
   post4,
   post5,

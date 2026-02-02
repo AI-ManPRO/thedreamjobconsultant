@@ -6,7 +6,7 @@ const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
   const [formData, setFormData] = useState({
     user_name: '',
-    user_email: '',
+    email: '',
     phone: '',
     subject: '',
     message: ''
@@ -29,11 +29,11 @@ const Contact = () => {
         .then((result) => {
           console.log(result.text);
           setStatus('success');
-          setFormData({ user_name: '', user_email: '', phone: '', subject: '', message: '' });
+          setFormData({ user_name: '', email: '', phone: '', subject: '', message: '' });
         }, (error) => {
           console.log(error.text);
           setStatus('error');
-          setErrorMessage('Failed to send message. Please try again or contact us via email.');
+          setErrorMessage(`Failed to send message: ${error.text || error.message || 'Unknown error'}`);
         });
     }
   };
@@ -193,10 +193,10 @@ const Contact = () => {
                   <label htmlFor="user_email" className="block text-sm font-medium text-slate-300 mb-2">Email Address</label>
                   <input
                     type="email"
-                    name="user_email"
+                    name="email"
                     id="user_email"
                     required
-                    value={formData.user_email}
+                    value={formData.email}
                     onChange={handleChange}
                     disabled={status === 'submitting'}
                     className="block w-full px-4 py-4 bg-navy-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-500 focus:ring-2 focus:ring-gold-400 focus:border-transparent transition-all disabled:opacity-50 disabled:cursor-not-allowed"

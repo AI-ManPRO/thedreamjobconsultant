@@ -63,6 +63,8 @@ export const post3: BlogPost = {
     <p class="mb-4">
       <strong>Why this matters:</strong> In a real job, if you disappear for 3 days and come back with the wrong code, you have wasted 3 days of company time. If you discuss your plan first, the Senior Engineer can correct you in 5 minutes. The interview tests this "Course Correction" ability.
     </p>
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. The REACT Framework for Coding</h2>
     
@@ -222,6 +224,7 @@ export const post3: BlogPost = {
         <div class="bg-slate-50 p-4 rounded"><strong>WebSockets:</strong> A protocol for full-duplex communication over a single TCP connection (Real-time chat).</div>
     </div>
 
+    {{AD_2}}
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
     <div class="space-y-6">
         <div>
@@ -262,4 +265,98 @@ export const post3: BlogPost = {
   imagePosition: '0% 25%',
   category: 'Interview Prep',
   tags: ['Coding', 'System Design', 'Software Engineering', 'FAANG', 'Interview Prep']
+,
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "Cracking the Coding Interview",
+      author: "Gayle Laakmann McDowell",
+      description: "The bible of coding interviews. 189 programming questions and solutions with detailed strategies.",
+      image: "https://m.media-amazon.com/images/I/61mIq2iJUXL._SY385_.jpg",
+      link: "https://amzn.to/4acIl2h",
+      rating: 4.7,
+      reviews: 9584
+    },
+    {
+      title: "System Design Interview – An insider's guide",
+      author: "Alex Xu",
+      description: "A reliable strategy and 4-step framework for tackling difficult system design interviews.",
+      image: "https://m.media-amazon.com/images/I/51vZ6t5W4gL._SY425_.jpg",
+      link: "https://amzn.to/4rcYA5a",
+      rating: 4.6,
+      reviews: 3248
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

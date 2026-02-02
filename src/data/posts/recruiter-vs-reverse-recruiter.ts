@@ -89,11 +89,7 @@ export const post50: BlogPost = {
         <strong>Script:</strong> "I know your commission is tied to my comp, so we are on the same team. I need $150k to sign. Help me get there, and we both win." (Remind them of the incentive).
     </p>
 
-    <!-- Placeholder for Recruiter Comparison Image -->
-    <div class="bg-indigo-900 p-8 rounded-lg text-center mb-8">
-       <p class="text-white font-bold italic text-lg">"Follow the Money"</p>
-       <p class="text-indigo-200 text-sm mt-2">(Image: Recruiter vs Reverse Recruiter handshake visual)</p>
-    </div>
+        <img src="/images/blog/recruiter-vs-reverse-recruiter-inner-1.png" alt="Recruiter vs Reverse Recruiter handshake visual" class="w-full rounded-lg shadow-lg my-8" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. Who Needs Which?</h2>
     
@@ -134,8 +130,102 @@ export const post50: BlogPost = {
     </div>
   `,
   author: 'Ayman',
-  date: '2026-11-10',
+  date: '2025-03-23',
   image: '/images/blog/recruiter-vs-reverse-recruiter.png',
   category: 'Job Search',
   tags: ['Reverse Recruiting', 'Headhunters', 'Career Coaching', 'Job Search Strategy', 'Executive Search']
+,
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "Book Title 1 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    },
+    {
+      title: "Book Title 2 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

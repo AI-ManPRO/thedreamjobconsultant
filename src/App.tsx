@@ -127,6 +127,10 @@ const AnimatedRoutes = () => {
   );
 };
 
+import VoiceAssistant from './components/VoiceAssistant';
+
+// ... (existing imports)
+
 const App = () => {
   return (
     <HelmetProvider>
@@ -145,10 +149,7 @@ const App = () => {
           <i className="fab fa-whatsapp text-3xl"></i>
         </a>
 
-        <button className="fixed bottom-6 right-24 z-40 bg-navy-700 text-white px-4 py-3 rounded-full shadow-lg border border-slate-600 flex items-center gap-2 hover:bg-navy-600 transition">
-          <i className="fas fa-robot text-gold-400"></i>
-          <span className="text-sm font-medium">Ask AI Assistant</span>
-        </button>
+        {import.meta.env.VITE_ENABLE_VOICE_ASSISTANT === 'true' && <VoiceAssistant />}
       </Router>
     </HelmetProvider>
   );

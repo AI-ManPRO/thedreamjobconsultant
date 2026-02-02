@@ -37,6 +37,8 @@ export const post1: BlogPost = {
       But how do you know when it's truly time to invest in one? Here are the <strong>5 undeniable signs</strong>.
     </p>
 
+    {{AmazonSmallAd_1}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Sunday Scaries" Have Become Chronic</h2>
     
     <p class="mb-4">
@@ -52,12 +54,12 @@ export const post1: BlogPost = {
     <p class="mb-6">
       Your body is telling you what your mind might be ignoring: <strong>You are in the wrong place.</strong>
     </p>
-    
+
     <p class="mb-6">
       Chronic work-related stress doesn't just affect your mood; it impacts your health, relationships, and eventually, your performance.
     </p>
     
-    <h3 class="text-xl font-bold text-navy-800 mt-8 mb-4">The Role of a Coach</h3>
+    <h3 className="text-xl font-bold text-navy-800 mt-8 mb-4">The Role of a Coach</h3>
     <p class="mb-6">
       A career coach helps you identify the <strong>root cause</strong> of this dread. Is it the role? The company culture? Or a misalignment with your core values? They work with you to create an exit strategy that protects your mental health.
     </p>
@@ -66,6 +68,8 @@ export const post1: BlogPost = {
       "The definition of insanity is doing the same thing over and over again and expecting different results. If you dread your job every week, something must change."
     </blockquote>
 
+{{AD_1}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. You’ve Been Passed Over for Promotions (Again)</h2>
     
     <p class="mb-4">
@@ -139,6 +143,8 @@ export const post1: BlogPost = {
       Clarity is power. A career coach uses structured assessments and deep inquiry to help you uncover your <strong>"Zone of Genius"</strong>—the intersection of what you're good at, what you enjoy, and what the market pays for.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">5. You Lack Professional Confidence (Imposter Syndrome)</h2>
     
     <p class="mb-4">
@@ -154,12 +160,14 @@ export const post1: BlogPost = {
       <li>Networking with influential leaders.</li>
     </ul>
 
+    {{AmazonSmallAd_2}}
+
     <p class="mb-6">
       A coach provides an objective inventory of your wins. They help you reframe your narrative from "lucky to be here" to "earned my place." This shift in mindset is often the primary driver of salary increases.
     </p>
 
     <hr class="my-12 border-slate-200" />
-
+  
     <h2 class="text-2xl font-bold text-navy-900 mb-6">The ROI of Coaching</h2>
     
     <p class="mb-6">
@@ -177,9 +185,9 @@ export const post1: BlogPost = {
 
     <div class="bg-navy-900 text-white p-8 rounded-xl text-center mt-12 shadow-xl">
       <h3 class="text-gold-500 font-bold text-2xl mb-4">Ready to Accelerate Your Career?</h3>
-      <p class="mb-8 text-lg text-slate-300">Book a free strategy call with The Dream Job Consultant to discuss your goals and how we can get you there.</p>
-      <a href="https://calendly.com/thedreamjobconsultant/60min/" class="inline-block bg-gold-500 text-navy-900 font-bold py-4 px-10 rounded-full hover:bg-white hover:text-navy-900 transition-all duration-300 shadow-lg transform hover:-translate-y-1">
-        Book Your Free Call Now
+      <p class="mb-0 text-lg text-slate-300">Book a free strategy call with The Dream Job Consultant to discuss your goals and how we can get you there.</p>
+      <a href="https://calendly.com/thedreamjobconsultant/60min/" class="block w-fit mx-auto bg-gold-500 text-navy-900 font-bold py-4 px-10 rounded-full hover:bg-white hover:text-navy-900 transition-all duration-300 shadow-lg transform hover:-translate-y-1 mt-8">
+          Book Your Free Call Now
       </a>
     </div>
   `,
@@ -187,5 +195,76 @@ export const post1: BlogPost = {
   date: '2022-12-12',
   image: '/images/blog/career-coach-cover.jpg',
   category: 'Career Advice',
-  tags: ['Coaching', 'Career Growth', 'Professional Development', 'Mindset']
+  tags: ['Coaching', 'Career Growth', 'Professional Development', 'Mindset'],
+  sidebarAds: {
+    ad1: {
+      type: 'custom',
+      title: 'Free Resume Review',
+      description: 'Not getting interviews? Let us audit your resume for free.',
+      image: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=620&h=300',
+      link: '/booking',
+      ctaText: 'Book Audit',
+      bgColor: '#0f172a'
+    },
+    ad2: {
+      type: 'amazon',
+      title: 'Atomic Habits',
+      author: 'James Clear',
+      description: 'An Easy & Proven Way to Build Good Habits & Break Bad Ones.',
+      image: 'https://m.media-amazon.com/images/I/81kg51XRc1L._SY425_.jpg',
+      link: 'https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299',
+      rating: 4.8,
+      reviews: 85000
+    }
+  },
+  affiliateBooks: [
+    {
+      title: "Never Search Alone",
+      author: "Phyl Terry",
+      description: "The Job Seeker’s Playbook. A time-tested, multi-step process with tools and templates to find the right job now.",
+      image: "https://m.media-amazon.com/images/I/51hSjqEKgOL._SY425_.jpg",
+      link: "https://amzn.to/3M6p61h",
+      rating: 4.7,
+      reviews: 556
+    },
+    {
+      title: "Career with Purpose",
+      author: "Michael Grubich & Mike Milsted",
+      description: "A Guide to Finding the Work You Love. Define what’s important, find your True North, and follow your path with intention.",
+      image: "https://m.media-amazon.com/images/I/617y7vkSSuL._SY425_.jpg",
+      link: "https://amzn.to/3LBGBq9",
+      rating: 5.0, // Browsed rating
+      reviews: 10
+    }
+  ]
+  ,
+  smallAds: [
+    {
+      type: 'amazon',
+      title: 'Career Coach: How to plan your career and land your perfect job',
+      image: 'https://m.media-amazon.com/images/I/51vkqpgOLdL._SY425_.jpg',
+      url: 'https://www.amazon.com/Career-Coach-plan-career-perfect-ebook/dp/B072LVCRC4/',
+      price: '$22',
+      rating: 4.1,
+      reviews: 84
+    },
+    {
+      type: 'placeholder', // Change to 'amazon' to use
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder', // Change to 'amazon' to use
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

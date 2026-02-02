@@ -1,6 +1,7 @@
 import { islamTech } from './islam-tech';
 import { essamConstruction } from './essam-construction';
 import { omarConstruction } from './omar-construction';
+import { rezaConstruction } from './reza-construction';
 import { CaseStudy } from './types';
 
 // Export Types for easy access
@@ -11,6 +12,7 @@ export const caseStudiesData: Record<string, CaseStudy> = {
     [islamTech.id]: islamTech,
     [essamConstruction.id]: essamConstruction,
     [omarConstruction.id]: omarConstruction,
+    [rezaConstruction.id]: rezaConstruction,
 };
 
 // List for Case Studies Page (Preserves order)
@@ -18,4 +20,5 @@ export const caseStudiesList: CaseStudy[] = [
     islamTech,
     essamConstruction,
     omarConstruction,
+    rezaConstruction,
 ];

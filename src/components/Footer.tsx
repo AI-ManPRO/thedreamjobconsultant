@@ -52,7 +52,7 @@ const Footer = () => {
               <li><Link to="/sitemap" className="text-slate-400 hover:text-gold-400">Sitemap</Link></li>
               {/*<li><Link to="/affiliate-program" className="text-slate-400 hover:text-gold-400">Affiliate Program</Link></li>*/}
               {/*<li><Link to="/get-started" className="text-slate-400 hover:text-gold-400">Get Started</Link></li>*/}
-              {/*<li><Link to="/login" className="text-slate-400 hover:text-gold-400">Login</Link></li>*/}
+              <li><Link to="/login" className="text-slate-400 hover:text-gold-400">Login</Link></li>
             </ul>
           </div>
 
@@ -60,7 +60,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Company</h4>
             <ul className="space-y-3">
-              <li><Link to="/about" className="text-slate-400 hover:text-gold-400">About Ayman</Link></li>
+              <li><Link to="/about" className="text-slate-400 hover:text-gold-400">About Us</Link></li>
               <li><Link to="/case-studies" className="text-slate-400 hover:text-gold-400">Case Studies</Link></li>
               <li><Link to="/faq" className="text-slate-400 hover:text-gold-400">FAQ</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-gold-400">Contact Us</Link></li>

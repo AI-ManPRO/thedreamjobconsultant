@@ -6,7 +6,7 @@ const TrustedBy = () => {
         { name: "Tech Giants", icon: "fab fa-google", color: "text-red-500" },
         { name: "Finance", icon: "fas fa-landmark", color: "text-green-500" },
         { name: "Global", icon: "fas fa-globe-americas", color: "text-blue-500" },
-        { name: "Aerospace", icon: "fas fa-plane-departure", color: "text-sky-400" },
+        {/*{ name: "Aerospace", icon: "fas fa-plane-departure", color: "text-sky-400" },*/},
         { name: "Consulting", icon: "fas fa-briefcase", color: "text-indigo-400" },
         { name: "Pharma", icon: "fas fa-prescription-bottle-alt", color: "text-pink-500" },
         { name: "Energy", icon: "fas fa-bolt", color: "text-yellow-400" },

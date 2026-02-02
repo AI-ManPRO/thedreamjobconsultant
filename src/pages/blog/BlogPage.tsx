@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { blogPosts } from '../../data/blog-posts';
 import SEO from '../../components/SEO';
+import NewsletterWidget from '../../components/NewsletterWidget';
 
 const POSTS_PER_PAGE = 10;
 
@@ -207,27 +208,8 @@ const Blog = () => {
 
 
                         {/* Newsletter Widget */}
-                        <div className="bg-navy-900 rounded-xl shadow-lg p-8 text-white relative overflow-hidden">
-                            <div className="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-gold-500 rounded-full opacity-10 blur-2xl"></div>
-                            <div className="absolute bottom-0 left-0 -ml-8 -mb-8 w-32 h-32 bg-blue-500 rounded-full opacity-10 blur-2xl"></div>
-
-                            <h3 className="text-xl font-bold mb-2 relative z-10">Join 5,000+ Professionals</h3>
-                            <p className="text-slate-300 text-sm mb-6 relative z-10">
-                                Get exclusive career strategies and market insights delivered to your inbox weekly.
-                            </p>
-                            <form className="relative z-10 space-y-3" onSubmit={(e) => e.preventDefault()}>
-                                <input
-                                    type="email"
-                                    placeholder="Your email address"
-                                    className="w-full px-4 py-3 rounded-lg bg-navy-800 border border-navy-700 text-white placeholder-slate-400 focus:border-gold-500 outline-none transition-colors"
-                                />
-                                <button className="w-full bg-gold-500 text-navy-900 font-bold py-3 rounded-lg hover:bg-gold-400 transition-colors shadow-lg shadow-gold-900/20">
-                                    Subscribe Free
-                                </button>
-                            </form>
-                            <p className="text-xs text-slate-400 mt-4 text-center relative z-10">
-                                No spam. Unsubscribe anytime.
-                            </p>
+                        <div className="mb-8">
+                            <NewsletterWidget />
                         </div>
 
                         {/* Affiliate Ad Placeholder */}

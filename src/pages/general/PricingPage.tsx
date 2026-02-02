@@ -34,7 +34,14 @@ const Pricing = () => (
             {/* <li className="flex items-center gap-3 text-sm text-slate-300"><i className="fas fa-check text-gold-400"></i> Full Job Search</li>*/}
             {/* <li className="flex items-center gap-3 text-sm text-slate-300"><i className="fas fa-check text-gold-400"></i> Interview Prep</li>*/}
           </ul>
-          <a href="https://calendly.com/thedreamjobconsultant/60min/" className="w-full py-3 border border-slate-600 rounded-lg text-center text-white font-bold hover:bg-slate-800">Select</a>
+          <a
+            href="https://www.paypal.com/ncp/payment/96EML8KPWVN4E"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full py-3 border border-slate-600 rounded-lg text-center text-white font-bold hover:bg-slate-800"
+          >
+            Purchase Now
+          </a>
         </div>
 
         {/* Plan 2: Retainer Model (NEW) */}
@@ -60,7 +67,14 @@ const Pricing = () => (
             <li className="flex items-center gap-3 text-sm text-white"><i className="fas fa-check text-gold-400"></i> Gmail Control</li>
             <li className="flex items-center gap-3 text-sm text-white"><i className="fas fa-check text-gold-400"></i> LinkedIn Control</li>
           </ul>
-          <a href="https://calendly.com/thedreamjobconsultant/60min/" className="w-full py-3 border border-slate-600 rounded-lg text-center text-white font-bold hover:bg-slate-800">Select</a>
+          <a 
+            href="https://www.paypal.com/ncp/payment/L65TRGPCS3LS6" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-full py-3 border border-slate-600 rounded-lg text-center text-white font-bold hover:bg-slate-800"
+          >
+            Subscribe Now
+          </a>
         </div>
 
         {/* Plan 3: The PARTNERSHIP */}

@@ -64,6 +64,8 @@ export const post5: BlogPost = {
         </p>
     </div>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. Quantify or Die: The "Show, Don't Tell" Method</h2>
 
     <p class="mb-4">
@@ -176,6 +178,8 @@ export const post5: BlogPost = {
         </div>
     </div>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">6. International Variations (US vs UK vs EU)</h2>
     <p class="mb-4">
         The rules above apply primarily to the North American market. If you are applying globally, be aware of these critical differences:
@@ -266,4 +270,98 @@ export const post5: BlogPost = {
   image: '/images/blog/resume-2026.jpg',
   category: 'Resume Writing',
   tags: ['Resume Tips', 'ATS', 'Job Search', 'Career Advice', 'Personal Branding']
+,
+  
+  sidebarAds: {
+    ad1: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    ad2: {
+      type: 'placeholder',
+      title: 'Affiliate Ad Space',
+      description: 'Reserved for future partnerships'
+    },
+    // --------------------------------------------------------
+    // COPY & PASTE these templates to replace the placeholders above
+    // --------------------------------------------------------
+    
+    // TEMPLATE: Custom Ad
+    /*
+    ad1: {
+      type: 'custom',
+      title: 'Service Name',
+      description: 'Short description of the service.',
+      image: '/images/your-image.jpg',
+      link: 'https://your-link.com',
+      ctaText: 'Learn More',
+      bgColor: '#0f172a'
+    },
+    */
+
+    // TEMPLATE: Amazon Book Ad
+    /*
+    ad2: {
+      type: 'amazon',
+      title: 'Book Title',
+      author: 'Author Name',
+      description: 'Book description...',
+      image: 'https://m.media-amazon.com/images/...',
+      link: 'https://amzn.to/...',
+      rating: 5.0,
+      reviews: 100
+    },
+    */
+  },
+  affiliateBooks: [
+    {
+      title: "Book Title 1 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    },
+    {
+      title: "Book Title 2 Placeholder",
+      author: "Author Name",
+      description: "Description...",
+      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
+      link: "https://amazon.com",
+      rating: 5.0,
+      reviews: 0
+    }
+  ]
+,
+  smallAds: [
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 1',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 2',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    },
+    {
+      type: 'placeholder',
+      title: 'Amazon Small Ad 3',
+      image: '',
+      url: '',
+      price: '',
+      rating: 0,
+      reviews: 0
+    }
+  ]
 };

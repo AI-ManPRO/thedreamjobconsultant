@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { blogPosts } from '../../data/blog-posts';
+import { caseStudiesList } from '../../data/index';
 
 const Sitemap = () => {
     const sections = [
@@ -13,7 +15,7 @@ const Sitemap = () => {
                 { name: "Process", path: "/process" },
                 { name: "Case Studies", path: "/case-studies" },
                 { name: "Pricing", path: "/pricing" },
-                { name: "Pricing (Retainer)", path: "/pricing-retainer" },
+                { name: "Pricing (Retainer)", path: "/three-models" },
                 { name: "FAQ", path: "/faq" },
                 { name: "Contact", path: "/contact" },
                 { name: "Booking", path: "/booking" },
@@ -35,6 +37,30 @@ const Sitemap = () => {
                 { name: "Digital Presence", path: "/services/digital-presence" },
                 { name: "Outplacement Services", path: "/outplacement" },
             ]
+        },
+        {
+            title: "Competitor Comparisons",
+            links: [
+                { name: "Overview", path: "/competitors-comparison" },
+                { name: "Reverse Recruiting", path: "/competitors-comparison/reverse-recruiting" },
+                { name: "Resume Writing", path: "/competitors-comparison/resume-writing" },
+                { name: "LinkedIn Optimization", path: "/competitors-comparison/linkedin-optimization" },
+                { name: "Job Search", path: "/competitors-comparison/job-search" },
+            ]
+        },
+        {
+            title: "Case Studies",
+            links: caseStudiesList.map(study => ({
+                name: study.name,
+                path: `/case-studies/${study.id}`
+            }))
+        },
+        {
+            title: "Blog Posts",
+            links: blogPosts.map(post => ({
+                name: post.title,
+                path: `/blog/${post.slug}`
+            }))
         },
         {
             title: "Legal",

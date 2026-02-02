@@ -9,7 +9,7 @@ const BlogSidebar = () => {
 
     // Using same credentials as Contact form
     const SERVICE_ID = 'service_hw6byzq';
-    const TEMPLATE_ID = 'template_8miroh6';
+    const TEMPLATE_ID = 'template_m2gdcr9';
     const PUBLIC_KEY = 'Gonb_I1cdUYOUEXM6';
 
     const handleSubscribe = (e: React.FormEvent) => {
@@ -102,7 +102,7 @@ const BlogSidebar = () => {
 
                         <input
                             type="email"
-                            name="user_email"
+                            name="email"
                             placeholder="Your email address"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
