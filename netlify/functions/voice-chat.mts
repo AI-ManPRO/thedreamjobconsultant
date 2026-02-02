@@ -1,8 +1,8 @@
 
 import { Handler } from '@netlify/functions';
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { COMPANY_KNOWLEDGE } from '../src/data/company-knowledge';
-import { PERSONA_PROMPT } from '../src/data/persona-prompt';
+import { COMPANY_KNOWLEDGE } from './data/company-knowledge';
+import { PERSONA_PROMPT } from './data/persona-prompt';
 
 // CORS headers to allow requests from your domain
 const headers = {
