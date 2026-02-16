@@ -46,6 +46,8 @@ export const post10: BlogPost = {
       Think about it: They have spent months finding you. They have rejected other candidates. They have debated internally. They want you. Negotiating respectfully shows that you know your value and possess the business acumen they hired you for. If they pull an offer just because you asked for 5% more, you dodged a bullet. That is a toxic culture.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Pre-Negotiation: Deflecting the Question</h2>
     
     <p class="mb-4">
@@ -189,6 +191,8 @@ export const post10: BlogPost = {
         </ul>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -275,22 +279,22 @@ export const post10: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Only Salary Negotiation Book You'll Ever Need: Effective Tactics to Research Market Value, Present Your Case, and Secure Higher Pay",
+      author: "N. Lovrine ",
+      description: "Earn what you are worth and stop leaving money on the table. Most people feel nervous when it comes to asking for a raise or negotiating their starting salary.",
+      image: "https://m.media-amazon.com/images/I/71pciMWLLoL._SY425_.jpg",
+      link: "https://amzn.to/3MgKYab",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Fearless Salary Negotiation: A step-by-step guide to getting paid what you're worth",
+      author: "Josh Doody",
+      description: "Fearless Salary Negotiation is a collection of Josh Doody's most valuable salary negotiation strategies and tactics from the Fearless Salary Negotiation website, where you can learn more bout salary negotiation and career coaching, video courses, and other products.",
+      image: "https://m.media-amazon.com/images/I/41Nz6FobK3L._SY425_.jpg",
+      link: "https://amzn.to/3O1ERXV",
+      rating: 4.2,
+      reviews: 125
     }
   ]
 ,

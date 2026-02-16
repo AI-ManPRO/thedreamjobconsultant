@@ -22,6 +22,8 @@ export const post52: BlogPost = {
       Job search anxiety is fueled by fake data. You see "Over 200 applicants in 1 hour" and you think, "I have no chance." You are wrong.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Spam" Factor</h2>
     
     <p class="mb-4">
@@ -103,6 +105,8 @@ export const post52: BlogPost = {
       <br>3. You cannot win a lottery ticket you don't buy.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       The "Number of Applicants" is a vanity metric designed to create FOMO (Fear Of Missing Out) and keep you glued to the platform. It is psychological warfare. Ignore the noise. Trust your quality.
@@ -167,22 +171,22 @@ export const post52: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Only Job Search Book You Will Ever Need: Using the Marketing Mix to Rise Above Competition",
+      author: "Curtis Jenkins",
+      description: "Get this book if you want to find a job! This book teaches you how to market and promote yourself. You will learn how to take specific actions to build your confidence.",
+      image: "https://m.media-amazon.com/images/I/61b0Wh7sJDL._SL1360_.jpg",
+      link: "https://amzn.to/4kEFaUP",
+      rating: 4.5,
+      reviews: 44
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "This Book Will Get You Hired for the Job You Want: Advice for the Modern LinkedIn Age to Help Advance Your Career, Be a More Effective Candidate, and ... Your Strategy If You Find Yourself Unemployed",
+      author: "Mike Adamo",
+      description: "A Must-Read for Corporate Professionals and Recent College Graduates…Stand out from other candidates and gain access to the hidden job market. With his no nonsense style, recruitment expert Mike Adamo will teach you the skills to sell yourself and get the job you want.",
+      image: "https://m.media-amazon.com/images/I/51+DJqd1dbL._SY425_.jpg",
+      link: "https://amzn.to/4rPu6Xv",
+      rating: 4.8,
+      reviews: 13
     }
   ]
 ,

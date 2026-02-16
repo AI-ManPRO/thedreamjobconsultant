@@ -22,6 +22,8 @@ export const post49: BlogPost = {
       The silence is the worst part. But silence isn't random; it's a specific stage in the funnel. Let's walk through the "Black Box" of a Fortune 500 hiring machine.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Stage 1: The Gatekeeper (ATS)</h2>
     
     <p class="mb-4">
@@ -139,6 +141,8 @@ export const post49: BlogPost = {
         <li>They are "Backchanneling" your references.</li>
     </ul>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       The hiring process is broken, slow, and opaque. But it is predictable. If you haven't heard back in 7 days after an interview, you are likely the "Backup Plan." Don't wait. Keep applying.
@@ -203,22 +207,22 @@ export const post49: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "From All Sides: The Truth about the Hiring Process in America",
+      author: "Al Polson",
+      description: "For the first time, From All Sides reveals the insider information for all job seekers and hiring managers. He explores the hiring process from the perspective of the job seeker, the hiring manager, hiring company and also the recruiter's viewpoint.",
+      image: "https://m.media-amazon.com/images/I/71hve4L4PPL._SL1500_.jpg",
+      link: "https://amzn.to/46p06Jy",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Candidate Journey to Getting Hired: A Complete Job Interview and Hiring Process Guide from a Recruiter",
+      author: "Michele Andreoletti",
+      description: "Seeking a new job? Congratulations, you just entered one of the most chaotic side quests in your adult life. Job hunting often feels like a weird social experiment no one prepared you for.",
+      image: "https://m.media-amazon.com/images/I/61IBoe8WGeL._SL1491_.jpg",
+      link: "https://amzn.to/4a7NRDC",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

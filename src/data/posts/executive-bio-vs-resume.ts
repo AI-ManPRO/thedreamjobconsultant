@@ -33,13 +33,7 @@ export const post14: BlogPost = {
     <p class="mb-8">
       If you are applying for C-Suite roles with only a resume, you are bringing a knife to a gunfight. You need a Bio.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/executive-bio-body.jpg" alt="Guide illustration for executive-bio-vs-resume" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for executive bio vs resume</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Resume vs. Bio: The Breakdown</h2>
     
@@ -91,6 +85,15 @@ export const post14: BlogPost = {
         </div>
     </div>
 
+    <figure class="my-10">
+      <img src="/images/blog/executive-bio-body.jpg" alt="Guide illustration for executive-bio-vs-resume" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for executive bio vs resume</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
+
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. When to Use Which?</h2>
     
     <div class="grid md:grid-cols-2 gap-6 mb-8">
@@ -121,6 +124,8 @@ export const post14: BlogPost = {
         <li><strong>The "Board Bio":</strong> Focuses on governance, fiscal responsibility, and industry connections. Less about "doing work" and more about "oversight."</li>
         <li><strong>The "Speaker Bio":</strong> Short (100 words), punchy, focuses on authority and credibility ("Jane is the world's leading expert on..."). Designed to be read by a host introducing you on stage.</li>
     </ul>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -200,22 +205,22 @@ export const post14: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Perfect Pitching for Executives in the Hidden Job Market: The Insider's Strategy for Winning in C-Suite Job Interviews for $250K to $1 Million Jobs",
+      author: "Rainer Maria Morita",
+      description: "Are you struggling to tell your story in executive interviews—even when you know you're the best fit?",
+      image: "https://m.media-amazon.com/images/I/61FvlalmPkL._SL1500_.jpg",
+      link: "https://amzn.to/4kpUEMv",
+      rating: 3.6,
+      reviews: 13
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Top Notch Executive Resumes: Creating Flawless Resumes for Managers, Executives, and CEOs",
+      author: "Katharine Hansen",
+      description: "Branded resumes that illuminate the candidate's unique value proposition and ROI are a must in today's quest for the executive suite.",
+      image: "https://m.media-amazon.com/images/I/71CmOi6tzOL._SL1500_.jpg",
+      link: "https://amzn.to/4qsGrQ9",
+      rating: 4.2,
+      reviews: 40
     }
   ]
 ,

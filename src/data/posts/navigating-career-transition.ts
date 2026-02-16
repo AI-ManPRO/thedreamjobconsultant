@@ -37,6 +37,8 @@ export const post11: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Golden Rule: Don't Double Jump</h2>
     
     <p class="mb-4">
@@ -201,6 +203,8 @@ export const post11: BlogPost = {
         </ul>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -287,22 +291,22 @@ export const post11: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Navigating Career Transitions: Embracing Change in the Modern Workforce",
+      author: "Brad Young",
+      description: "The ability to navigate career transitions has become an essential skill. Navigating Career Transitions: Embracing Change in the Modern Workforce offers a comprehensive guide to successfully maneuvering through professional changes.",
+      image: "https://m.media-amazon.com/images/I/719n8wMePoL._SL1500_.jpg",
+      link: "https://amzn.to/4bzYeBb",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Upgrade Your Path: Navigating a Career Transition: Elevating Your Professional Trajectory and Financial Success",
+      author: "Melissa Ceballos , PHR, SHRM-CP",
+      description: "A New Chapter in Your Life",
+      image: "https://m.media-amazon.com/images/I/610wrc7SPpL._SL1499_.jpg",
+      link: "https://amzn.to/4ahreLw",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

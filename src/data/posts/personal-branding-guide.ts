@@ -33,13 +33,8 @@ export const post21: BlogPost = {
     <p class="mb-8">
       A strong personal brand means opportunities come to <em>you</em>. Recruiters DM you. Clients email you. You stop chasing work and start attracting it.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/personal-brand-body.jpg" alt="Guide illustration for personal-branding-guide" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for personal branding guide</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The 3-Pillar Strategy</h2>
     
@@ -79,6 +74,14 @@ export const post21: BlogPost = {
              <p class="text-sm text-slate-700"><strong>The Observation:</strong> "I noticed X happening in the market..."<br><strong>The Insight:</strong> "This matters because..."<br><strong>The Takeaway:</strong> "Next time, try Y."</p>
         </div>
     </div>
+
+    <figure class="my-10">
+      <img src="/images/blog/personal-brand-body.jpg" alt="Guide illustration for personal-branding-guide" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for personal branding guide</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. Own Your Name (The Website)</h2>
     
@@ -127,6 +130,8 @@ export const post21: BlogPost = {
     <p class="mb-6">
       <strong>The "Top Comment" Strategy:</strong> If a big influencer posts, be the first to leave a high-value comment. Their 100,000 followers will see YOUR comment. If it's smart, they will click your profile. This is "Drafting" off their traffic.
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -206,22 +211,22 @@ export const post21: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Personal Branding for Introverts",
+      author: "Goldie Chan",
+      description: "To build a career, you need a personal brand to showcase your distinct skills, experience, and expertise. Building that brand can feel daunting—particularly for introverts.",
+      image: "https://m.media-amazon.com/images/I/81u6ZlADvVL._SY425_.jpg",
+      link: "https://amzn.to/4a23bBA",
+      rating: 4.8,
+      reviews: 100
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Personal Branding for Introverts: How to Stand Out Without Being Fake",
+      author: "Gerardus Blokdyk - The Art of Service",
+      description: "Unlock the Secret to Building a Powerful Personal Brand as an Introvert - Stand Out Without Losing Yourself.",
+      image: "https://m.media-amazon.com/images/I/61R9kdJgC1L._SY425_.jpg",
+      link: "https://amzn.to/4aecOMk",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

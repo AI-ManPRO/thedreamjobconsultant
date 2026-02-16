@@ -31,6 +31,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {/*<li><Link to="/blog" className="text-slate-400 hover:text-gold-400">Blog</Link></li>*/}
               <li><Link to="/services/career-coaching" className="text-slate-400 hover:text-gold-400">Career Coaching</Link></li>
+              <li><Link to="/services/market-research" className="text-slate-400 hover:text-gold-400">Job Market Research</Link></li>
               <li><Link to="/services/resume-writing" className="text-slate-400 hover:text-gold-400">Resume Writing</Link></li>
               <li><Link to="/services/linkedin-profile" className="text-slate-400 hover:text-gold-400">LinkedIn Optimization</Link></li>
               <li><Link to="/services/networking" className="text-slate-400 hover:text-gold-400">Professional Network</Link></li>
@@ -44,14 +45,11 @@ const Footer = () => {
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li><Link to="/blog" className="text-slate-400 hover:text-gold-400">Blog</Link></li>
-              <li><Link to="/tools-resources" className="text-slate-400 hover:text-gold-400">Tools & Resources</Link></li>
-              <li><Link to="/outplacement" className="text-slate-400 hover:text-gold-400">Outplacement Services</Link></li>
+              <li><Link to="/tools-resources" className="text-slate-400 hover:text-gold-400"> Free Tools & Resources</Link></li>
               <li><Link to="/competitors-comparison" className="text-slate-400 hover:text-gold-400">Competitors Comparison</Link></li>
-              {/*<li><Link to="/reviews" className="text-slate-400 hover:text-gold-400">Reviews</Link></li>*/}
-              {/*<li><Link to="/testimonials" className="text-slate-400 hover:text-gold-400">Testimonials</Link></li>*/}
-              <li><Link to="/sitemap" className="text-slate-400 hover:text-gold-400">Sitemap</Link></li>
-              {/*<li><Link to="/affiliate-program" className="text-slate-400 hover:text-gold-400">Affiliate Program</Link></li>*/}
-              {/*<li><Link to="/get-started" className="text-slate-400 hover:text-gold-400">Get Started</Link></li>*/}
+              <li><Link to="/reviews" className="text-slate-400 hover:text-gold-400">Tools & Apps Reviews</Link></li>
+              <li><Link to="/testimonials" className="text-slate-400 hover:text-gold-400">Testimonials</Link></li>
+              <li><Link to="/get-started" className="text-slate-400 hover:text-gold-400">Get Started</Link></li>
               <li><Link to="/login" className="text-slate-400 hover:text-gold-400">Login</Link></li>
             </ul>
           </div>
@@ -61,9 +59,12 @@ const Footer = () => {
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Company</h4>
             <ul className="space-y-3">
               <li><Link to="/about" className="text-slate-400 hover:text-gold-400">About Us</Link></li>
-              <li><Link to="/case-studies" className="text-slate-400 hover:text-gold-400">Case Studies</Link></li>
-              <li><Link to="/faq" className="text-slate-400 hover:text-gold-400">FAQ</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-gold-400">Contact Us</Link></li>
+              <li><Link to="/case-studies" className="text-slate-400 hover:text-gold-400">Case Studies</Link></li>
+              <li><Link to="/affiliate-program" className="text-slate-400 hover:text-gold-400">Affiliate Program</Link></li>              
+              <li><Link to="/outplacement" className="text-slate-400 hover:text-gold-400">Outplacement Services</Link></li>
+              <li><Link to="/offers" className="text-slate-400 hover:text-gold-400">Offers & Promotions</Link></li>
+              <li><Link to="/employer-login" className="text-slate-400 hover:text-gold-400">Employer Login</Link></li>
             </ul>
           </div>
 
@@ -75,6 +76,9 @@ const Footer = () => {
               <li><Link to="/privacy-policy" className="text-slate-400 hover:text-gold-400">Privacy Policy</Link></li>
               <li><Link to="/refund-policy" className="text-slate-400 hover:text-gold-400">Refund Policy</Link></li>
               <li><Link to="/cookies-policy" className="text-slate-400 hover:text-gold-400">Cookies Policy</Link></li>
+              <li><Link to="/sitemap" className="text-slate-400 hover:text-gold-400">Sitemap</Link></li>
+              <li><Link to="/faq" className="text-slate-400 hover:text-gold-400">FAQ</Link></li>
+              
             </ul>
           </div>
 

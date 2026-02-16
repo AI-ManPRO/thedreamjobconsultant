@@ -28,6 +28,8 @@ export const post50: BlogPost = {
       If you are waiting for a Recruiter to "find you a job," you might wait forever. That isn't their job.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Traditional Recruiter (Headhunter)</h2>
     
     <p class="mb-4">
@@ -116,6 +118,8 @@ export const post50: BlogPost = {
       They prevent you from applying to "Ghost Jobs." They stop you from sending cringe-worthy emails. They are your emotional support system when rejection happens.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Don't get mad at standard recruiters for ghosting you. They are salespeople with a quota. If you want loyalty, you have to pay for it (Reverse Recruiting). If you want opportunity, you have to build relationships with both.
@@ -180,22 +184,22 @@ export const post50: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Never Search Alone",
+      author: "Phyl Terry",
+      description: "The Job Seeker’s Playbook. A time-tested, multi-step process with tools and templates to find the right job now.",
+      image: "https://m.media-amazon.com/images/I/51hSjqEKgOL._SY425_.jpg",
+      link: "https://amzn.to/3M6p61h",
+      rating: 4.7,
+      reviews: 556
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "RECRUITER SECRETS: What recruiters want you to know, but don’t tell you",
+      author: "DANIELLE GRUPPO",
+      description: "Recruiter Secrets has been designed to answer your job search questions and concerns in a concise and easy to read manner.",
+      image: "https://m.media-amazon.com/images/I/61mUuvxlvRL._SY425_.jpg",
+      link: "https://amzn.to/3ZZq7LP",
+      rating: 3.6,
+      reviews: 14
     }
   ]
 ,

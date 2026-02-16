@@ -35,13 +35,8 @@ export const post17: BlogPost = {
     <p class="mb-8">
       Why? Because effective networking in 2026 isn't about volume; it's about <em>depth</em>. It's about listening, research, and thoughtful follow-up—skills where introverts excel. Extroverts talk; Introverts connect.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/introvert-networking-body.jpg" alt="Guide illustration for networking-for-introverts" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for networking for introverts</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Signal-to-Noise" Ratio</h2>
     
@@ -82,6 +77,13 @@ export const post17: BlogPost = {
             <p class="text-sm text-slate-600">When you send the connection request, reference the comment. "Hi [Name], loved our exchange in the comments about [Topic]. Would love to connect."</p>
         </div>
     </div>
+    
+    <figure class="my-10">
+      <img src="/images/blog/introvert-networking-body.jpg" alt="Guide illustration for networking-for-introverts" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for networking for introverts</figcaption>
+    </figure>
+
+    <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. The 3 Golden Scripts (No Small Talk Required)</h2>
     
@@ -202,6 +204,8 @@ export const post17: BlogPost = {
         <div class="bg-slate-50 p-4 rounded"><strong>Weak Ties:</strong> Acquaintances who bridge you to new social circles (Crucial for job hunting).</div>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -280,22 +284,22 @@ export const post17: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Introvert’s Edge to Networking: Work the Room. Leverage Social Media. Develop Powerful Connections",
+      author: "Matthew Pollard, Derek Lewis Jeb Blount ",
+      description: "Introverts across the world have been sold a lie: One of the biggest myths that plagues the business world today is that our ability to network depends on having the “gift-of-gab.” This is nonsense. You don’t have to be outgoing to be successful at networking.",
+      image: "https://m.media-amazon.com/images/I/81DvqY6GL2L._SL1500_.jpg",
+      link: "https://amzn.to/46yVbpm",
+      rating: 4.6,
+      reviews: 454
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Networking for People Who Hate Networking, Second Edition: A Field Guide for Introverts, the Overwhelmed, and the Underconnected",
+      author: "Devora Zack",
+      description: "Networking enables you to accomplish the goals that are most important to you. But you can’t adopt a style that isn’t true to who you are.",
+      image: "https://m.media-amazon.com/images/I/715ue-RD1xL._SY425_.jpg",
+      link: "https://amzn.to/3MgchS0",
+      rating: 4.3,
+      reviews: 162
     }
   ]
 ,

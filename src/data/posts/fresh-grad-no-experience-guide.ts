@@ -22,6 +22,8 @@ export const post57: BlogPost = {
       Employers don't pay for "Time Served." They pay for "Problems Solved." If you solved a problem in a dorm room, it counts.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Capstone" Is Your First Job</h2>
     
     <p class="mb-4">
@@ -93,6 +95,8 @@ export const post57: BlogPost = {
         Most startups are cash poor but labor hungry. They will take this deal.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       You have more to offer than you think. Stop apologizing for your lack of experience and start showcasing your potential, your projects, and your drive.
@@ -157,22 +161,22 @@ export const post57: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "What College Doesn't Teach You About Getting A Job: Proven Strategies for Job-Hunters and Career-Changers",
+      author: "Charlie Drozdyk",
+      description: "Competition for great jobs at great companies is fierce, and using job boards like Indeed.com won’t cut it. What you need is advice from young people who have landed these jobs by doing things DIFFERENTLY. By going around the system. By ignoring job boards completely.",
+      image: "https://m.media-amazon.com/images/I/61bjDoDL4pL._SL1500_.jpg",
+      link: "https://amzn.to/4rGMiCl",
+      rating: 4.8,
+      reviews: 63
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "What College Didn't Teach You About Getting Hired: The Ultimate Guide to Finding the Right Job Fresh Out of College (Financial Independence)",
+      author: "Jon Nelsen",
+      description: "What if there was a PROVEN method you could follow to SECURE the job of your dreams after graduating college? A job that pays you what your worth and that FITS YOUR PERSONALITY...",
+      image: "https://m.media-amazon.com/images/I/51KAQ94NucL._SL1491_.jpg",
+      link: "https://amzn.to/4rI2wv5",
+      rating: 4.5,
+      reviews: 81
     }
   ]
 ,

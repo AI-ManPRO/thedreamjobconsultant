@@ -26,6 +26,8 @@ export const post26: BlogPost = {
       You don't need more time. You need a system. The "2-Hour Job Search" (popularized by Steve Dalton at Duke University) changes the game by focusing on <strong>High-Value Activities (HVAs)</strong>.
     </p>
 
+    {{AD_1}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Setup: Building Your LAMP List</h2>
     
     <p class="mb-4">
@@ -172,6 +174,8 @@ export const post26: BlogPost = {
         <strong>The Outcome:</strong> By week 3, he had 4 "Informational Interviews." Two of those turned into referrals. One turned into a job offer at a firm that hadn't even posted the job yet (Hidden Job Market). He did less work, but got more results.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Productivity is not about volume; it's about vector. Are you moving in the right direction? Use the 2-Hour rule to protect your sanity and sharpen your focus. The job market is a marathon, not a sprint. If you sprint for 8 hours a day, you will collapse at mile 2.
@@ -190,8 +194,8 @@ export const post26: BlogPost = {
   image: '/images/blog/2-hour-job-search.png',
   category: 'Productivity',
   tags: ['Job Search Strategy', 'Time Management', 'Networking', 'Productivity', 'Burnout Prevention']
-,
-  
+  ,
+
   sidebarAds: {
     ad1: {
       type: 'placeholder',
@@ -206,7 +210,7 @@ export const post26: BlogPost = {
     // --------------------------------------------------------
     // COPY & PASTE these templates to replace the placeholders above
     // --------------------------------------------------------
-    
+
     // TEMPLATE: Custom Ad
     /*
     ad1: {
@@ -236,25 +240,25 @@ export const post26: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Slam Dunk Job Search: 6 Steps to Landing Your Ideal Job in Any Market",
+      author: "David Allen Parker Jr.",
+      description: "Become the Candidate Employers Can't Wait to Hire. What if you could navigate your job search with clarity, confidence, and even joy?",
+      image: "https://m.media-amazon.com/images/I/61vMhAJtyQL._SL1429_.jpg",
+      link: "https://amzn.to/3ZjRfVL",
+      rating: 4.8,
+      reviews: 70
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The 2-Hour Job Search, Second Edition: Using Technology to Get the Right Job Faster",
+      author: "Steve Dalton",
+      description: "Use the latest technology to target potential employers and secure the first interview--no matter your experience, education, or network--with these revised and updated tools and recommendations.",
+      image: "https://m.media-amazon.com/images/I/71Tjo1zEpdL._SY425_.jpg",
+      link: "https://amzn.to/3MvTeDo",
+      rating: 4.5,
+      reviews: 707
     }
   ]
-,
+  ,
   smallAds: [
     {
       type: 'placeholder',

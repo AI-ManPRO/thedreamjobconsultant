@@ -16,6 +16,7 @@ import BookingFull from './pages/general/BookingFullPage';
 import Contact from './pages/general/ContactPage';
 import Pricing from './pages/general/PricingPage';
 import Blog from './pages/blog/BlogPage';
+import GetStarted from './pages/general/GetStarted';
 
 import CaseStudies from './pages/case-studies/CaseStudies';
 import CaseStudyDetail from './pages/case-studies/CaseStudyDetail';
@@ -28,6 +29,13 @@ import RefundPolicy from './pages/legal/RefundPolicy';
 import CookiesPolicy from './pages/legal/CookiesPolicy';
 import Sitemap from './pages/general/Sitemap';
 import BlogPost from './pages/blog/BlogPost';
+import SuccessPage from './pages/general/SuccessPage';
+import FailurePage from './pages/general/FailurePage';
+import CancellationPage from './pages/general/CancellationPage';
+import SubscriptionCancelledPage from './pages/general/SubscriptionCancelledPage';
+import ThankYouPage from './pages/general/ThankYouPage';
+import AffiliateProgramPage from './pages/general/AffiliateProgramPage';
+
 
 // New Service Pages
 import CareerCoaching from './pages/services/CareerCoaching';
@@ -41,6 +49,8 @@ import HiddenJobMarket from './pages/services/HiddenJobMarket';
 import MarketResearch from './pages/services/MarketResearch';
 import ApplicationManagement from './pages/services/ApplicationManagement';
 import DigitalPresence from './pages/services/DigitalPresence';
+import SingleServicePurchasePage from './pages/services/SingleServicePurchasePage';
+import OffersPage from './pages/general/OffersPage';
 
 // Competitor Comparison Pages
 import CompetitorsComparisonPage from './pages/comparison/CompetitorsComparisonPage';
@@ -95,6 +105,7 @@ const AnimatedRoutes = () => {
         <Route path="/services/market-research" element={<PageWrapper><MarketResearch /></PageWrapper>} />
         <Route path="/services/application-management" element={<PageWrapper><ApplicationManagement /></PageWrapper>} />
         <Route path="/services/digital-presence" element={<PageWrapper><DigitalPresence /></PageWrapper>} />
+        <Route path="/purchase-services" element={<PageWrapper><SingleServicePurchasePage /></PageWrapper>} />
 
         <Route path="/process" element={<PageWrapper><Process /></PageWrapper>} />
         <Route path="/case-studies" element={<PageWrapper><CaseStudies /></PageWrapper>} />
@@ -108,6 +119,7 @@ const AnimatedRoutes = () => {
         <Route path="/booking-full" element={<PageWrapper><BookingFull /></PageWrapper>} />
         <Route path="/about" element={<PageWrapper><AboutUs /></PageWrapper>} />
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
+        <Route path="/get-started" element={<PageWrapper><GetStarted /></PageWrapper>} />
         <Route path="/terms-and-conditions" element={<PageWrapper><TermsAndConditions /></PageWrapper>} />
         <Route path="/privacy-policy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
         <Route path="/refund-policy" element={<PageWrapper><RefundPolicy /></PageWrapper>} />
@@ -115,6 +127,13 @@ const AnimatedRoutes = () => {
         <Route path="/sitemap" element={<PageWrapper><Sitemap /></PageWrapper>} />
         <Route path="/blog" element={<PageWrapper><Blog /></PageWrapper>} />
         <Route path="/blog/:slug" element={<PageWrapper><BlogPost /></PageWrapper>} />
+        <Route path="/affiliate-program" element={<PageWrapper><AffiliateProgramPage /></PageWrapper>} /> {/* New Affiliate Page */}
+
+        <Route path="/success" element={<PageWrapper><SuccessPage /></PageWrapper>} />
+        <Route path="/failure" element={<PageWrapper><FailurePage /></PageWrapper>} />
+        <Route path="/cancel" element={<PageWrapper><CancellationPage /></PageWrapper>} />
+        <Route path="/subscription-cancelled" element={<PageWrapper><SubscriptionCancelledPage /></PageWrapper>} />
+        <Route path="/thank-you" element={<PageWrapper><ThankYouPage /></PageWrapper>} />
 
         {/* Competitor Comparison Routes */}
         <Route path="/competitors-comparison" element={<PageWrapper><CompetitorsComparisonPage /></PageWrapper>} />
@@ -122,6 +141,9 @@ const AnimatedRoutes = () => {
         <Route path="/competitors-comparison/resume-writing" element={<PageWrapper><ResumeWritingComparison /></PageWrapper>} />
         <Route path="/competitors-comparison/linkedin-optimization" element={<PageWrapper><LinkedInOptimizationComparison /></PageWrapper>} />
         <Route path="/competitors-comparison/job-search" element={<PageWrapper><JobSearchComparison /></PageWrapper>} />
+
+        {/* Offers & Promotions */}
+        <Route path="/offers" element={<PageWrapper><OffersPage /></PageWrapper>} />
       </Routes>
     </AnimatePresence>
   );

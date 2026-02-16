@@ -22,6 +22,8 @@ export const post36: BlogPost = {
       I see VP-level executives quit their jobs to "consult," and 6 months later they are begging for their old job back. Not because they lack skill, but because they lack the "Business Owner" mindset.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Permission" Trap</h2>
     
     <p class="mb-4">
@@ -99,6 +101,8 @@ export const post36: BlogPost = {
         <strong>The Result:</strong> 3 of the 5 vendors hired him on a retainer advisor basis. He replaced his full-time salary in 6 weeks, working 20 hours a week.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
      Consulting is the ultimate freedom, but freedom isn't free. The price of freedom is uncertainty. If you can stomach the uncertainty, you will never have to ask for a vacation day again. You just take it.
@@ -163,22 +167,22 @@ export const post36: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "From Employee to Consultant: A No-Nonsense Guide For Starting Your Consulting Business and Landing Your First Client",
+      author: "James Ragin",
+      description: "Are you ready to turn your professional expertise into a successful consulting business? From Employee to Consultant is the essential guide for professionals who want to break free from traditional employment and build an independent, thriving consulting career.",
+      image: "https://m.media-amazon.com/images/I/61+1vN8sKdL._SL1499_.jpg",
+      link: "https://amzn.to/4bJ74Nc",
+      rating: 4.6,
+      reviews: 8
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Starting a Business QuickStart Guide: The Simplified Beginner’s Guide to Launching a Successful Small Business, Turning Your Vision into Reality, and Achieving Your Entrepreneurial Dream",
+      author: "Ken Colwell PhD MBA",
+      description: "THE ULTIMATE BEGINNER'S GUIDE TO STARTING A BUSINESS IN 2026! Includes FREE Digital Bonuses! Essential Business Plan Checklist, Financial Statement Templates, and More!",
+      image: "https://m.media-amazon.com/images/I/614THiLL-6L._SY342_.jpg",
+      link: "https://amzn.to/4rwXoK6",
+      rating: 4.5,
+      reviews: 3824
     }
   ]
 ,

@@ -26,6 +26,8 @@ export const post40: BlogPost = {
       You must say "I work from home because my output is higher." That is a "Business" solution.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Leverage Audit</h2>
     
     <p class="mb-4">
@@ -87,6 +89,8 @@ export const post40: BlogPost = {
       This puts the ball in their court. If they fire you, you likely qualify for unemployment (depending on state). If you resign, you get nothing.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       The "Office" is a tool, not a religion. Smart companies use it for social bonding, not email checking. If your company treats RTO as a compliance checkbox, it might be time to find a "Remote-First" employer.
@@ -151,22 +155,22 @@ export const post40: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Getting to Yes: Negotiating Agreement Without Giving In",
+      author: "Roger Fisher, William L. Ury, Bruce Patton",
+      description: "INTERNATIONAL BESTSELLER • Learn the secret to successful negotiation with this proven, step-by-step strategy—now updated and revised.",
+      image: "https://m.media-amazon.com/images/I/51CwtgpX5eL._SY425_.jpg",
+      link: "https://amzn.to/3ZYwfE6",
+      rating: 4.6,
+      reviews: 11345
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "We Have a Deal: How to Negotiate with Intelligence, Flexibility and Power",
+      author: "Natalie Reynolds",
+      description: "How do you ask for a promotion, deliver tough news to clients, or secure investment for your new business?",
+      image: "https://m.media-amazon.com/images/I/61Ur2ib+xML._SY425_.jpg",
+      link: "https://amzn.to/3OefEtj",
+      rating: 4.1,
+      reviews: 98
     }
   ]
 ,

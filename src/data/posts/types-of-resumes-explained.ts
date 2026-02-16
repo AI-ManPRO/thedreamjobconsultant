@@ -22,6 +22,8 @@ export const post45: BlogPost = {
       Format is not just design; it is storytelling. The way you organize your data tells the recruiter what to focus on.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Reverse-Chronological (The Gold Standard)</h2>
     
     <p class="mb-4">
@@ -107,6 +109,8 @@ export const post45: BlogPost = {
         <li><strong>File Type:</strong> PDF is best for layout preservation. Word (.docx) is safer for older ATS systems.</li>
     </ul>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Don't overthink the format. Content is King. A Chronological resume with great achievements beats a fancy Hybrid resume with weak content every time. When in doubt, stick to the standard Reverse-Chronological format. It is what they expect.
@@ -171,22 +175,22 @@ export const post45: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Resume Handbook: How to Write Outstanding Resumes and Cover Letters for Every Situation",
+      author: "Arthur D Rosenberg",
+      description: "Only one interview is granted for every 250 resumes received",
+      image: "https://m.media-amazon.com/images/I/711N4L0b6ZL._SL1500_.jpg",
+      link: "https://amzn.to/4a90zlC",
+      rating: 4.1,
+      reviews: 75
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Resume Magic, 4th Ed: Trade Secrets of a Professional Resume Writer (Resume Magic: Trade Secrets of a Professional Resume Writer)",
+      author: "Susan Britton Whitcomb",
+      description: "Resume Magic is a giant compendium of advice and before-and-after resume transformations explains resume creation and illustrates professional techniques with actual examples that show why the techniques work.",
+      image: "https://m.media-amazon.com/images/I/51WALb6XVeL._SY342_.jpg",
+      link: "https://amzn.to/4qkd3eX",
+      rating: 4.4,
+      reviews: 128
     }
   ]
 ,

@@ -26,6 +26,8 @@ export const post42: BlogPost = {
       Most recruiters are legally afraid to give feedback (risk of discrimination lawsuits). You must make them feel <strong>safe</strong> to tell you the truth.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Safety" Script</h2>
     
     <p class="mb-4">
@@ -115,6 +117,8 @@ export const post42: BlogPost = {
       <strong>Look for patterns.</strong> If one person says you are arrogant, it might be them. If FIVE people say you interrupt too much, it's YOU.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       JK Rowling was rejected 12 times. Airbnb was rejected by every VC in Silicon Valley. Rejection is the tax you pay for ambition. Pay the tax, learn the lesson, and keep moving.
@@ -179,22 +183,22 @@ export const post42: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Essential Interview Guide: Unlock Success to Ace the Interviews and Turn Rejections into Job Offers (The Essential Job Search Series)",
+      author: "Patrice Lincoln",
+      description: "The Essential Interview Guide is here to help you take control of the process with strategies that work, humor that keeps it fun, and confidence that will wow any interviewer.",
+      image: "https://m.media-amazon.com/images/I/61syOsmRMLL._SL1500_.jpg",
+      link: "https://amzn.to/45TEyEG",
+      rating: 4.8,
+      reviews: 16
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "How to Handle Job Rejection:: Turning Setbacks into Career Comebacks (Resilience Strategies to Stay Motivated and Land Your Dream Job)",
+      author: "Jonathan K. Hari",
+      description: "How to Handle Job Rejection: Turning Setbacks into Career Comebacks.",
+      image: "https://m.media-amazon.com/images/I/711OwkYEYAL._SY425_.jpg",
+      link: "https://amzn.to/4cgMAva",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

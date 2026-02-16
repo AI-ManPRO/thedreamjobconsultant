@@ -26,6 +26,8 @@ export const post34: BlogPost = {
       A Fractional CTO doesn't just write a "Digital Transformation Strategy" PDF. They sit in the Slack channel, they hire the lead engineer, they fire the underperforming dev shop, and they attend board meetings—but only for 10 hours a week. And they get paid a premium for it.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Economics: Why Companies Buy It</h2>
     
     <p class="mb-4">
@@ -189,6 +191,8 @@ export const post34: BlogPost = {
         </p>
     </div>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       The "Portfolio Career" is the ultimate hedge against volatility. Losing one client is a nuisance. Losing a full-time job is a catastrophe. Build your own safety net by diversifying your income.
@@ -253,22 +257,22 @@ export const post34: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "FFractional Leadership: Landing Executive Talent You Thought Was Out of Reach",
+      author: "Ben Wolf",
+      description: "Do you own a small or midsize business? Wish you could find (and afford) game-changing executive talent to take your business to the next level? Now, you can.",
+      image: "https://m.media-amazon.com/images/I/5153y1b0DEL._SY425_.jpg",
+      link: "https://amzn.to/4ryhUdf",
+      rating: 4.8,
+      reviews: 93
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Fractional Leadership: The Future of the Modern C-Suite",
+      author: "Katherine Baken",
+      description: "In today’s fast-moving economy, the tides of business rise and fall faster than ever, and the leaders who thrive are those who know when to hold the wheel and when to share it.",
+      image: "https://m.media-amazon.com/images/I/61u9EBI67zL._SY425_.jpg",
+      link: "https://amzn.to/4am4yKe",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

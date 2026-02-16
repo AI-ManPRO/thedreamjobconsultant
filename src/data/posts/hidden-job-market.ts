@@ -36,6 +36,8 @@ export const post12: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Why Are Jobs Hidden?</h2>
     
     <p class="mb-4">
@@ -158,6 +160,8 @@ export const post12: BlogPost = {
         Jobs are posted in the #hiring channels of these groups weeks before they hit LinkedIn.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -244,22 +248,22 @@ export const post12: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Executive Job Search in the Hidden Job Market - The Morita Method",
+      author: "Rainer Morita",
+      description: "Are you an executive earning $200K+—but stuck in a dead-end search for your next big role?",
+      image: "https://m.media-amazon.com/images/I/61N+m0DaDIL._SY425_.jpg",
+      link: "https://amzn.to/3ZUCUiF",
+      rating: 4.1,
+      reviews: 78
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Job Search Playbook: A Leader's Guide to Accessing the Hidden Job Market",
+      author: "Andrew Macaskill",
+      description: "If you are an executive or leader who is on the job market, then this is for you.",
+      image: "https://m.media-amazon.com/images/I/81Oum2rQMjS._SL1500_.jpg",
+      link: "https://amzn.to/4kj4dfY",
+      rating: 4.7,
+      reviews: 106
     }
   ]
 ,

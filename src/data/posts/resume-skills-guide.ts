@@ -40,6 +40,8 @@ export const post6: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Part 1: Hard Skills (The "What")</h2>
 
     <p class="mb-4">
@@ -211,6 +213,8 @@ export const post6: BlogPost = {
         <li><strong>Elementary:</strong> Don't list this unless the job doesn't require it.</li>
     </ul>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Part 5: Transferable Skills (The Career Pivot Secret)</h2>
 
     <p class="mb-4">
@@ -344,22 +348,22 @@ export const post6: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "How to Write a Resume That Doesn't Suck: Land Interviews at the Most Competitive Jobs",
+      author: "Taylor Warfield",
+      description: "A bad resume is costing you thousands of dollars – maybe even your dream job.",
+      image: "https://m.media-amazon.com/images/I/61R9-NiXEsL._SL1499_.jpg",
+      link: "https://amzn.to/4t3LyJ0",
+      rating: 4.9,
+      reviews: 26
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Resume Writing Guide: A Step-by-Step Workbook for Writing a Winning Resume",
+      author: "Lisa McGrimmon",
+      description: "The Resume Writing Guide is a workbook that leads you through the actual process of creating a resume — one step at a time.",
+      image: "https://m.media-amazon.com/images/I/61K9dsDI8+L._SL1360_.jpg",
+      link: "https://amzn.to/49QEM1O",
+      rating: 4.4,
+      reviews: 129
     }
   ]
 ,

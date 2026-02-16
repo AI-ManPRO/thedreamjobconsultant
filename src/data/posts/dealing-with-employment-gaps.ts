@@ -33,13 +33,8 @@ export const post16: BlogPost = {
     <p class="mb-8">
       Stop. In 2026, gaps are normal. Layoffs are common. Burnout is recognized. The suspicion around gaps has faded, <em>if</em> you frame it correctly. Confidence is the difference between a "Gap" and a "Sabbatical."
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/career-gap-body.jpg" alt="Guide illustration for dealing-with-employment-gaps" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for dealing with employment gaps</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Consulting" Patch (The Magic Fix)</h2>
     
@@ -84,6 +79,15 @@ export const post16: BlogPost = {
         </div>
     </div>
 
+    
+    <figure class="my-10">
+      <img src="/images/blog/career-gap-body.jpg" alt="Guide illustration for dealing-with-employment-gaps" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for dealing with employment gaps</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. LinkedIn's "Career Break" Feature</h2>
     
     <p class="mb-4">
@@ -110,6 +114,8 @@ export const post16: BlogPost = {
              <p class="text-sm text-slate-700">Recruiters hate "Functional Resumes" (Skills-based, no dates). It screams "I am hiding something." Stick to Reverse Chronological. Address the gap, don't hide the timeline.</p>
         </div>
     </div>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -189,22 +195,22 @@ export const post16: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Bridging the Gap to Employment: The Complete Guide for Finding a Job",
+      author: "Allison C. Wilson",
+      description: "Bridging the Gap to Employment is filled with answers to these questions and more.",
+      image: "https://m.media-amazon.com/images/I/718Dhx7kSTL._SL1500_.jpg",
+      link: "https://amzn.to/4qlxwQw",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "THE INTERVIEWING BLUEPRINT: The No-Nonsense Guide to Securing the Job",
+      author: "Joseph Lazar",
+      description: "Explain the (Gap): Turn your time off into your biggest selling point.",
+      image: "https://m.media-amazon.com/images/I/716YhPwCoBL._SY342_.jpg",
+      link: "https://amzn.to/4a4dC7Q",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

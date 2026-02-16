@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { blogPosts } from '../../data/blog-posts';
 import SEO from '../../components/SEO';
@@ -9,8 +9,18 @@ const POSTS_PER_PAGE = 10;
 
 const Blog = () => {
     const [currentPage, setCurrentPage] = useState(1);
-    const [searchTerm, setSearchTerm] = useState('');
+    const [searchParams] = useSearchParams();
+    const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+
+    // Update search term when URL param changes
+    React.useEffect(() => {
+        const query = searchParams.get('search');
+        if (query) {
+            setSearchTerm(query);
+            setCurrentPage(1);
+        }
+    }, [searchParams]);
 
     // Scroll to top when page changes
     React.useEffect(() => {
@@ -196,7 +206,7 @@ const Blog = () => {
                                     placeholder="Search topic..."
                                     value={searchTerm}
                                     onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
-                                    className="w-full pl-10 pr-4 py-3 rounded-lg border border-slate-200 text-navy-900 bg-white focus:border-gold-400 focus:ring-2 focus:ring-gold-100 outline-none transition-all"
+                                    className="w-full pl-10 pr-4 py-3 rounded-lg border border-slate-300 bg-slate-50 text-navy-900 focus:border-gold-400 focus:ring-2 focus:ring-gold-100 outline-none transition-all placeholder:text-slate-400"
                                 />
                                 <svg className="w-5 h-5 text-slate-400 absolute left-3 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

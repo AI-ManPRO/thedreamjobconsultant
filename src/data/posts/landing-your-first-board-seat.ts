@@ -26,6 +26,8 @@ export const post30: BlogPost = {
       If you want a career that lasts into your 70s, you need to transition from "Doing" (Management) to "Overseeing" (Governance). But the skill set is completely different. If you walk into a Board interview and talk about how good you are at operations, you will fail.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Governance vs. Management: The Mindset Shift</h2>
     
     <p class="mb-4">
@@ -158,6 +160,8 @@ export const post30: BlogPost = {
         <strong>The Result:</strong> She targeted regional banks (who are terrified of hacks). She didn't apply; she networked with the Audit Committee Chairs. She landed 2 board seats in 18 months, adding $150k to her annual income.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       A Board seat is not a retirement gift. It is a job. It requires study, networking, and a completely different resume. But it is the only job where you can work 100 hours a year and make six figures, all while protecting your long-term career relevancy.
@@ -222,22 +226,22 @@ export const post30: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Path to the Boardroom: Five Key Steps to Landing a Board Seat",
+      author: "Paul Michael Gurrola",
+      description: "Are you ready to take your career to the next level and secure a coveted seat in the boardroom? The Path to the Boardroom is a comprehensive, step-by-step guide designed to help ambitious professionals navigate the often complex journey to securing a board seat.",
+      image: "https://m.media-amazon.com/images/I/71+ok0OlbML._SY342_.jpg",
+      link: "https://amzn.to/4a5T6ni",
       rating: 5.0,
-      reviews: 0
+      reviews: 2
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "From the Frontline to the Boardroom: Navigating Your Path to Corporate Success",
+      author: "James Moore",
+      description: "Success in the corporate world doesn't happen by accident - it's built through strategy, informed decisions, and strong leadership.",
+      image: "https://m.media-amazon.com/images/I/61RZi0T9ZXL._SL1360_.jpg",
+      link: "https://amzn.to/45R2ngy",
+      rating: 4.6,
+      reviews: 20
     }
   ]
 ,

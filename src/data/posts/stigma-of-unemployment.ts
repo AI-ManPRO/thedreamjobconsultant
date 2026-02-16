@@ -23,6 +23,8 @@ export const post60: BlogPost = {
       Shame smells. If you walk into an interview apologizing for your existence, they will smell it. Confidence is the only deodorant.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Own the Narrative (The Spin)</h2>
     
     <p class="mb-4">
@@ -86,6 +88,8 @@ export const post60: BlogPost = {
         If you have >6 months, breathe. You have time.
         <br>If you have <2 months, get a "Survival Job" (Uber, Barista). It extends your runway and kills the panic. There is zero shame in honest work.
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
@@ -151,22 +155,22 @@ export const post60: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "How to Rebuild Your Career After Collapse: A Step-by-Step Guide to Explaining Gaps, Repositioning Your Story, and Re-Entering the Workforce (Rebuilding After Career Collapse Book 3)",
+      author: "Evan Mercer",
+      description: "Career collapse doesn’t end when the job does. For many professionals, the most difficult phase begins when they try to return — and realize they don’t know how to explain what happened.",
+      image: "https://m.media-amazon.com/images/I/814zGpCXCwL._SL1500_.jpg",
+      link: "https://amzn.to/46y01TU",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "A Powerful Resume: Discovering The 1st Step Of Succeeding In The Recruitment Process: Explaining Unemployment Gaps Skilfully",
+      author: "Carlyn Rekas",
+      description: "This book will give you a one-stop reference guide detailing a comprehensive approach and a step-by-step system on what needs to be done in order for you to effectively write a winning Resume. It is an excellent resource for all job seekers who wish to learn how to write a Resume.",
+      image: "https://m.media-amazon.com/images/I/61AYim4LxxL._SL1500_.jpg",
+      link: "https://amzn.to/4qt2FSd",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

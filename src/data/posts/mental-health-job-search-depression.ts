@@ -22,6 +22,8 @@ export const post61: BlogPost = {
       You are not weak for feeling sad. You are human. But you cannot let the sadness paralyze you.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Valley of Despair"</h2>
     
     <p class="mb-4">
@@ -94,6 +96,8 @@ export const post61: BlogPost = {
         <strong>The Rule:</strong> No social media before 12:00 PM. Earn your dopamine through small wins (sending an email, going for a run).
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       This is a marathon through mud. If you break your leg (mental breakdown), you can't finish the race. Prioritize your sanity over your salary. The job will come. Ensure you are still whole when it does.
@@ -158,22 +162,22 @@ export const post61: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Job search strategies 101: How to land your dream job. Ways to prevent “Job search depression” while looking for a job. Top secrets you need to learn. Self-coach guide.",
+      author: "Melissa Paul",
+      description: "To reevaluate the type of employment, duties, or job applications where you are aiming to get may help minimize your troubles.",
+      image: "https://m.media-amazon.com/images/I/51-baHNnHTL._SY425_.jpg",
+      link: "https://amzn.to/460yhal",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Mid-Life Career Rescue Job Search Strategies That Work: How to Confidently Leave a Job You Hate and Start Living a Life You Love, Before It’s Too Late",
+      author: "Cassandra Gaisford",
+      description: "Midlife Crisis? Practical, inspiring and empowering tips and strategies every job hunter and career changer needs to know",
+      image: "https://m.media-amazon.com/images/I/612xX9ROKkL._SL1360_.jpg",
+      link: "https://amzn.to/4cvk88W",
+      rating: 4.1,
+      reviews: 6
     }
   ]
 ,

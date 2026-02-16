@@ -26,6 +26,8 @@ export const post35: BlogPost = {
       Your goal is not to "vent." Your goal is to protect your reputation and your network. The "Peak-End Rule" of psychology states that people judge an experience largely based on how it felt at its peak and at its end. If you have a messy exit, 5 years of great work will be erased from their memory.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "2-Minute Warning" Rule</h2>
     
     <p class="mb-4">
@@ -124,6 +126,8 @@ export const post35: BlogPost = {
       By leaving gracefully, you keep that door open. You become an "Alumni," not a "Traitor." Add your boss and colleagues on LinkedIn immediately. Send a final "Goodbye" email to the whole team (BCC them) with your personal email/LinkedIn included.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       The peak-end rule states that people remember an experience based on how it ended. You can be a star performer for 5 years, but if you act childishly in your last 2 weeks, that is what they will remember. Finish strong.
@@ -188,22 +192,22 @@ export const post35: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Art of Resignation: Quit Without Burning Bridges",
+      author: "Steven Feiner",
+      description: "Like many of you I wanted to quit. What I didn't want to do was to burn the bridges that I had spent years building. I realized after going through the process that I wasn't alone. Many of us want to quit, but we don't know how. When I saw my friends taking my advice the Art of Resignation was born.",
+      image: "https://m.media-amazon.com/images/I/81cCZ5IjNzL._SY425_.jpg",
+      link: "https://amzn.to/4qZlr4w",
+      rating: 4.0,
+      reviews: 54
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "MASTER THE ART OF CARPORATE LETTERS: COVER LETTERS AND RESIGNATION LETTERS",
+      author: "JITENDRA BHAVSAR",
+      description: "As a working professional, you would be required to write certain letters to your organization. You must do so with extreme professionalism to create a lasting impression on the employer.",
+      image: "https://m.media-amazon.com/images/I/71ubhSR2f7L._SY425_.jpg",
+      link: "https://amzn.to/4tjlidL",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

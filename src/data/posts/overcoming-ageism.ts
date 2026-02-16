@@ -35,13 +35,8 @@ export const post20: BlogPost = {
     <p class="mb-8">
       You don't need to hide your age. You need to reframe it. You aren't "Old School"; you are "Battle Tested." You have seen the market crash, the pivots, and the crises. You have the emotional stability that the 25-year-old lacks.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/experience-matters-body.jpg" alt="Guide illustration for overcoming-ageism" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for overcoming ageism</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Resume Facelift (De-Aging Documents)</h2>
     
@@ -99,6 +94,14 @@ export const post20: BlogPost = {
         <li><strong>Get Certified:</strong> A "Google Data Analytics" or "Salesforce" certification on a resume of a 55-year-old is powerful. It proves adaptability. It proves you are still "learning."</li>
     </ul>
 
+    <figure class="my-10">
+      <img src="/images/blog/experience-matters-body.jpg" alt="Guide illustration for overcoming-ageism" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for overcoming ageism</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">4. The "Consultant" Mindset</h2>
     
     <p class="mb-4">
@@ -144,6 +147,8 @@ export const post20: BlogPost = {
         <div class="bg-slate-50 p-4 rounded"><strong>Scrum:</strong> A framework within Agile for managing work in "Sprints".</div>
         <div class="bg-slate-50 p-4 rounded"><strong>Sprint:</strong> A set period of time (usually 2 weeks) to complete a block of work.</div>
     </div>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -223,22 +228,22 @@ export const post20: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Winning the Job Hunt After 50: Still In the Game",
+      author: "Alexander Pyatkovsky",
+      description: "Winning the Job Hunt After 50 is more than a career guide — it’s a love letter to resilience, a roadmap to reinvention, and a testament to the quiet power of starting again.",
+      image: "https://m.media-amazon.com/images/I/61UoZaLjBPL._SL1303_.jpg",
+      link: "https://amzn.to/4a4ltCm",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Get a Job Quickly After 50: 18 Ways to Find a Job You Love That Work",
+      author: "Robert Moment",
+      description: "Are you spending hours on resumes that get rejected? Struggling to stand out in a competitive job market? Still searching for your DREAM job?",
+      image: "https://m.media-amazon.com/images/I/6145gvjTIzL._SL1500_.jpg",
+      link: "https://amzn.to/4r2YIoa",
+      rating: 4.6,
+      reviews: 13
     }
   ]
 ,

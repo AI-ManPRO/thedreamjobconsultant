@@ -34,13 +34,8 @@ export const post18: BlogPost = {
     <p class="mb-8">
       You need to take ownership of your own onboarding. The First 90 Days are critical. This is when your reputation is formed. Are you a "High Performer" or a "Bad Hire"?
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/first-90-days-body.jpg" alt="Guide illustration for first-90-days-success" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for first 90 days success</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Days 1-30: The Sponge Phase</h2>
     
@@ -80,6 +75,14 @@ export const post18: BlogPost = {
         </div>
     </div>
     <p class="text-sm text-slate-500">This builds political capital. It shows you are helpful.</p>
+
+    <figure class="my-10">
+      <img src="/images/blog/first-90-days-body.jpg" alt="Guide illustration for first-90-days-success" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for first 90 days success</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. Days 61-90: The Strategy Phase</h2>
     
@@ -127,6 +130,8 @@ export const post18: BlogPost = {
         <strong class="text-yellow-900">The Antidote:</strong>
         <p class="text-yellow-800 mt-2">Document your wins. Start a "Hype Doc." Every time you solve a problem or get a compliment, write it down. Read it when you panic. Remember, they hired you for a reason.</p>
     </div>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -206,22 +211,22 @@ export const post18: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Your First 100 Days In a New Executive Job: Powerful First Steps On The Path to Greatness",
+      author: "Robert Hargrove",
+      description: "Accelerate the time between job entry and job impact!",
+      image: "https://m.media-amazon.com/images/I/610hgC4jWEL._SY425_.jpg",
+      link: "https://amzn.to/4ahTuOp",
+      rating: 4.3,
+      reviews: 273
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "THE FIRST 90 DAYS： A Guided Journal for Career Success)",
+      author: "ZHI HONG GUO",
+      description: "The First 90 Days Career Compass A Guided Journal for Professional Success: Navigate Your New Role with 90 Daily Prompts, Strategic Phases, and Monthly Calendars.",
+      image: "https://m.media-amazon.com/images/I/41+P4OqBDdL._SL1499_.jpg",
+      link: "https://amzn.to/3O1KiX2",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

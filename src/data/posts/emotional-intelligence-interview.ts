@@ -26,6 +26,8 @@ export const post38: BlogPost = {
       No. We hire the <strong>least risky</strong> candidate who we <strong>enjoy being around</strong>. Emotional Intelligence (EQ) is the signal that says "I am safe, I am self-aware, and I am easy to work with."
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Mirroring And Matching (The Science of Rapport)</h2>
     
     <p class="mb-4">
@@ -110,6 +112,8 @@ export const post38: BlogPost = {
         <strong>The Better Approach:</strong> "That's a great catch. I hadn't considered that edge case. How do you usually handle that here?" (Collaborative > Combative).
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Job hunting is dating. Logic gets you the first date (interview), but emotion gets you the marriage (offer). Don't just prepare your stats; prepare your vibes.
@@ -174,22 +178,22 @@ export const post38: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The 11 Laws of Likability By Lederman Michelle Tillis",
+      author: "Lederman Michelle Tillis",
+      description: "When establishing a relationship with someone, coming across as manipulative and self-serving is a bad move. That’s why Michelle Tillis focuses on the power of deep and authentic connections to achieve business success.",
+      image: "https://m.media-amazon.com/images/I/61IRJ4krzsL._SL1500_.jpg",
+      link: "https://amzn.to/4twp7fZ",
+      rating: 4.4,
+      reviews: 189
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "How to Talk to Anybody: Learn the Secrets to Small Talk, Business, Management, Sales & Social Conversations & How to Make Real Friends (Communication Skills)",
+      author: "Derek Borthwick",
+      description: "Would you like to skyrocket your communication skills in your career, personal and intimate life?.",
+      image: "https://m.media-amazon.com/images/I/61FKZXnubnL._SL1491_.jpg",
+      link: "https://amzn.to/4bJNXm8",
+      rating: 4.4,
+      reviews: 936
     }
   ]
 ,

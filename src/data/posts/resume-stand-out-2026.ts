@@ -270,8 +270,8 @@ export const post5: BlogPost = {
   image: '/images/blog/resume-2026.jpg',
   category: 'Resume Writing',
   tags: ['Resume Tips', 'ATS', 'Job Search', 'Career Advice', 'Personal Branding']
-,
-  
+  ,
+
   sidebarAds: {
     ad1: {
       type: 'placeholder',
@@ -286,7 +286,7 @@ export const post5: BlogPost = {
     // --------------------------------------------------------
     // COPY & PASTE these templates to replace the placeholders above
     // --------------------------------------------------------
-    
+
     // TEMPLATE: Custom Ad
     /*
     ad1: {
@@ -316,25 +316,25 @@ export const post5: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Ultimate Guide to Writing a Professional and Effective Resume",
+      author: "Wyatt Poppe",
+      description: "A comprehensive guide to crafting a resume that stands out in the modern job market.",
+      image: "https://m.media-amazon.com/images/I/61oJVj7FOmL._SY425_.jpg",
+      link: "https://amzn.to/49UAczG",
       rating: 5.0,
-      reviews: 0
+      reviews: 3
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Resumes That Guarantee Success: HOW TO WIN THE INTERVIEW… AND WIN THE JOB",
+      author: "Susan Wright",
+      description: "Learn how to win the interview and secure the job with these proven strategies.",
+      image: "https://m.media-amazon.com/images/I/61C3DoZ2n8L._SY425_.jpg",
+      link: "https://amzn.to/4qdwvK6",
       rating: 5.0,
-      reviews: 0
+      reviews: 22
     }
   ]
-,
+  ,
   smallAds: [
     {
       type: 'placeholder',

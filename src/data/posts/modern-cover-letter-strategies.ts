@@ -79,6 +79,8 @@ export const post23: BlogPost = {
     </div>
     <p class="italic text-sm text-slate-500">Why this wins: It does the thinking for them. It proves you are a fit in 3 seconds. It shows you paid attention to the job description.</p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. The "Pain Letter" (For Higher Level Roles)</h2>
     
     <p class="mb-4">
@@ -168,6 +170,8 @@ export const post23: BlogPost = {
         <div class="bg-slate-50 p-4 rounded"><strong>Transformed:</strong> Changed something completely.</div>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -202,7 +206,7 @@ export const post23: BlogPost = {
   author: 'Ayman',
   date: '2025-11-29',
   image: '/images/blog/cover-letter.jpg',
-  category: 'Resume Writing',
+  category: 'Cover Letters',
   tags: ['Cover Letter', 'Job Application', 'Templates', 'Hiring Tips', 'Job Search']
 ,
   
@@ -250,22 +254,22 @@ export const post23: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Resume & Cover Letter Kit: ATS-Ready Templates & Keywords - 2025-2026 Edition (The Job Search Success Series)",
+      author: "J.S.",
+      description: "Through a step-by-step system, you’ll learn practical methods for shaping résumés, cover letters, and profiles that align with automated screeners and human readers.",
+      image: "https://m.media-amazon.com/images/I/61LxsCnSqeL._SL1499_.jpg",
+      link: "https://amzn.to/4a9v4Gx",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Ultimate Guide to Crafting Cover Letters: Tips to Present Your Best Professional",
+      author: "PineStory Press",
+      description: "The Ultimate Guide to Crafting Cover Letters: Tips to Present Yourself Professionally. Land your dream job with the cover letter strategies that work",
+      image: "https://m.media-amazon.com/images/I/61RAIxD5VIL._SL1293_.jpg",
+      link: "https://amzn.to/3Oltb2c",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

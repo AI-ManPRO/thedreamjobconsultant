@@ -26,6 +26,8 @@ export const post25: BlogPost = {
       Companies like Google, Amazon, and even mid-sized startups receive millions of resumes a year. They cannot read them all. They use software (Workday, Taleo, Greenhouse, Lever) to filter, sort, and rank candidates. If you don't play by the software's rules, you simply do not exist.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Golden Rule: "Boring is Better"</h2>
     
     <p class="mb-4">
@@ -153,6 +155,8 @@ export const post25: BlogPost = {
       He applied to the same companies again (using a different email address). 3 interviews in week one. The content didn't change—only the readability did.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion: Human Readability Still Matters</h2>
     <p class="mb-6">
       Some people get so obsessed with the "Robot" that they write a resume that reads like a grocery list of keywords. This is also a mistake.
@@ -223,22 +227,22 @@ export const post25: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Resume Mastery 2026: The Job Hunter's Guide to Beating AI Screening and Landing Interviews (Jobseeker) ",
+      author: "John Michael Crager",
+      description: "resume. That carefully crafted document you spent weeks perfecting? Good chance it's dying in an algorithmic grave, filtered out by ATS systems that can't appreciate your unique background or potential.",
+      image: "https://m.media-amazon.com/images/I/61+CWbMU2lL._SL1499_.jpg",
+      link: "https://amzn.to/4kqM8N6",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The AI-Proof Résumé: Get Noticed in the Age of Algorithms: A Résumé Optimization Guide for Today’s Job Market",
+      author: "Lex Monroe",
+      description: "Are you qualified but constantly ignored by online job applications? You’re not alone and the problem isn’t your experience. It’s that your résumé isn’t optimized for the Applicant Tracking Systems (ATS) that now control the first step of most hiring processes.",
+      image: "https://m.media-amazon.com/images/I/619tyYmV93L._SL1499_.jpg",
+      link: "https://amzn.to/4chIcMt",
       rating: 5.0,
-      reviews: 0
+      reviews: 3
     }
   ]
 ,

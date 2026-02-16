@@ -26,6 +26,8 @@ export const post27: BlogPost = {
       But Equity is complicated. It is designed to be complicated. Companies use jargon like "Cliffs," "Vesting," and "Strike Price" to confuse you into accepting less than you deserve. This guide decodes the fine print.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The 3 Buckets of Executive Pay</h2>
     
     <p class="mb-4">
@@ -186,6 +188,8 @@ export const post27: BlogPost = {
         <strong>The Result:</strong> The negotiations took 2 weeks. The company exited 3 years later for $400M. Her 0.25% extra equity was worth an additional <strong>$1,000,000</strong>.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Do not leave the equity section blank. It is the most complex part of the offer, but also the most valuable. Hire a lawyer or a negotiation coach to review the fine print. Remember: You don't get what you deserve; you get what you negotiate.
@@ -204,8 +208,8 @@ export const post27: BlogPost = {
   image: '/images/blog/executive-compensation.png',
   category: 'Negotiation',
   tags: ['Executive Compensation', 'Salary Negotiation', 'Stock Options', 'Equity', 'Startup Advice']
-,
-  
+  ,
+
   sidebarAds: {
     ad1: {
       type: 'placeholder',
@@ -220,7 +224,7 @@ export const post27: BlogPost = {
     // --------------------------------------------------------
     // COPY & PASTE these templates to replace the placeholders above
     // --------------------------------------------------------
-    
+
     // TEMPLATE: Custom Ad
     /*
     ad1: {
@@ -250,25 +254,25 @@ export const post27: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Complete Guide to Executive Compensation, Fourth Edition",
+      author: "Bruce R. Ellig",
+      description: "Executive pay is one of the most fluid, flexible, and important aspects of today’s corporate landscape, and an integral part of every company’s strategic business plan.",
+      image: "https://m.media-amazon.com/images/I/71ByFCck9UL._SL1500_.jpg",
+      link: "https://amzn.to/4alnkRU",
+      rating: 4.9,
+      reviews: 10
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Understanding Executive Compensation and Governance: A Practical Guide",
+      author: "Irving S Becker, Kurt Groeninger",
+      description: "Getting executive compensation right is not an easy task. Finding the appropriate compensation plan to incentivize executives and drive corporate performance is an annual challenge for corporate boards.",
+      image: "https://m.media-amazon.com/images/I/51fFEdsAi+S._SL1360_.jpg",
+      link: "https://amzn.to/4rBSgEu",
+      rating: 4.8,
+      reviews: 7
     }
   ]
-,
+  ,
   smallAds: [
     {
       type: 'placeholder',

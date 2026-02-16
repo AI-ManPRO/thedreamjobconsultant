@@ -26,6 +26,8 @@ export const post44: BlogPost = {
       If you apply to a job in Dubai, they ask for a CV, but they <em>want</em> a Resume. If you apply to a university in California, they ask for a CV, and they <em>mean</em> a CV. Confused? Let's fix that.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Core Difference: Length vs. Depth vs. Purpose</h2>
     
     <p class="mb-4">
@@ -165,6 +167,8 @@ export const post44: BlogPost = {
         </ul>
     </div>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Know your audience. If you are applying to Google in New York, send a 1-page Resume. If you are applying to Oxford University for a Fellowship, send a 10-page CV. If you mix them up, you look sloppy.
@@ -183,8 +187,8 @@ export const post44: BlogPost = {
   image: '/images/blog/cv-vs-resume.png',
   category: 'Resumes',
   tags: ['Resume', 'CV', 'Curriculum Vitae', 'International Job Search', 'Job Application', 'Career Advice']
-,
-  
+  ,
+
   sidebarAds: {
     ad1: {
       type: 'placeholder',
@@ -199,7 +203,7 @@ export const post44: BlogPost = {
     // --------------------------------------------------------
     // COPY & PASTE these templates to replace the placeholders above
     // --------------------------------------------------------
-    
+
     // TEMPLATE: Custom Ad
     /*
     ad1: {
@@ -229,25 +233,25 @@ export const post44: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Global Resume and CV Guide",
+      author: "Mary Anne Thompson",
+      description: "Until The Global Resume and CV Guide, there has not been any information regarding country-specific job application guidelines for candidates who want to take the international job search into their own hands . . . The Global Guide is an outstanding resource.",
+      image: "https://m.media-amazon.com/images/I/41wOpTn3yRL._SY385_.jpg",
+      link: "https://amzn.to/3OeO2UW",
+      rating: 4.4,
+      reviews: 10
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Essential CV Writing Book: Write a CV Resume and Cover Letter That Wins Interviews",
+      author: "Andrew Cunning",
+      description: "The Essential CV Writing Book is an easy to follow, step-by-step guide, designed to help you get results quickly and write a killer CV that will increase your chances of landing more interviews and job opportunities.",
+      image: "https://m.media-amazon.com/images/I/81PR4QPImhL._SL1500_.jpg",
+      link: "https://amzn.to/4tptNE5",
+      rating: 4.2,
+      reviews: 8
     }
   ]
-,
+  ,
   smallAds: [
     {
       type: 'placeholder',

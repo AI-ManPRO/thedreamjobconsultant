@@ -22,6 +22,8 @@ export const post51: BlogPost = {
       Not all job boards are created equal. There is a hierarchy of quality versus noise.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Big Box" Retailers (High Noise)</h2>
     
     <p class="mb-4">
@@ -118,6 +120,8 @@ export const post51: BlogPost = {
         <li><strong>Alumni Boards:</strong> Your university job portal.</li>
     </ul>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       If you spend 100% of your time on Indeed, you are fishing in an empty pond with 1,000 other fishermen. Move upstream. Go to the Niche boards. Go to the private communities. The water is clearer and the fish are bigger.
@@ -182,22 +186,22 @@ export const post51: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Worldwide Remote Jobs Handbook: A Step-by-Step Playbook + Global Directory of Remote-First Companies, Recruiters & Job Boards",
+      author: "Billel Boudida",
+      description: "Break Geographic Barriers and Build Your Borderless Career",
+      image: "https://m.media-amazon.com/images/I/61Snl1h8BfL._SL1499_.jpg",
+      link: "https://amzn.to/4qxVEzo",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Oh, BLEEP! I Lost My Job: An Insider's Guide to Job Search",
+      author: "Richard J. Longabaugh",
+      description: "Job loss means more than missing a couple of paychecks. The emotional and psychological effects can be a real gut-punch.",
+      image: "https://m.media-amazon.com/images/I/61LwKPq3idL._SY425_.jpg",
+      link: "https://amzn.to/4agqzKk",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

@@ -22,6 +22,8 @@ export const post54: BlogPost = {
       You cannot practice "Interviewing." You must practice "Specific Formats." Analyzing a P&L statement requires a completely different part of your brain than telling a story about conflict resolution.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Behavioral Interview (The Storyteller)</h2>
     
     <p class="mb-4">
@@ -104,6 +106,8 @@ export const post54: BlogPost = {
         <strong>Warning:</strong> Identify if this is a "Stress Test" or just a "Toxic Culture." If they insult you personally, walk away.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Ask the recruiter: "What format will this interview take?" They will usually tell you. If they say "Case Study," and you show up prepared to tell stories, you are bringing a knife to a gunfight.
@@ -168,22 +172,22 @@ export const post54: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Conquering Interviews for Business Roles in Tech: Getting Job Offers in Strategy, Operations, Product, Marketing, and More",
+      author: "Daniel Li",
+      description: "Break into top tech companies – even without a tech background. Want to land a business role at Google, Amazon, Meta, Microsoft, or Apple – but don’t know where to start?",
+      image: "https://m.media-amazon.com/images/I/61UgHma9MPL._SL1500_.jpg",
+      link: "https://amzn.to/4aKLoPC",
+      rating: 4.7,
+      reviews: 49
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "THE different types of job interviews",
+      author: "ENG SAID",
+      description: "A comprehensive guide for job seekers navigating the complexities of job interviews,",
+      image: "https://m.media-amazon.com/images/I/61GMqLTMDJL._SY425_.jpg",
+      link: "https://amzn.to/4rKWYQC",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

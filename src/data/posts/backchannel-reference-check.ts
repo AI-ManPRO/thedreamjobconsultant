@@ -30,6 +30,8 @@ export const post29: BlogPost = {
       This 30-second text message has more weight than your 5 rounds of interviews. Here is how to control it.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Skeleton in the Closet" Audit</h2>
     
     <p class="mb-4">
@@ -140,6 +142,8 @@ export const post29: BlogPost = {
         <strong>The Result:</strong> Offer signed 24 hours later. Your network is your safety net.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Reference checks are not a formality—they are a final exam. You cannot study for it the night before. You study for it by treating people well, leaving roles with grace, and maintaining your network over years.
@@ -204,22 +208,22 @@ export const post29: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Recruiter Secrets: Insider Tips for Your Job Searc",
+      author: "Eric R. Derby",
+      description: "Recruiter Secrets give you the keys to finding your next job quickly, and  lights up the job search process from assessing your skills and career goals to the first day of your new job.",
+      image: "https://m.media-amazon.com/images/I/61bg-uLoDIL._SY425_.jpg",
+      link: "https://amzn.to/4qmRES8",
+      rating: 4.1,
+      reviews: 10
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The PI Guidebook: How the Promotability Index(R) Can Help You Get Ahead in Your Career",
+      author: "Amii Barnard-Bahn",
+      description: "Fast-Track the Promotion You Deserve, Create Your Own Custom Career Roadmap and Stand Out Where It Counts.",
+      image: "https://m.media-amazon.com/images/I/61agFk-Rn8L._SY385_.jpg",
+      link: "https://amzn.to/4rBmWG3",
+      rating: 4.6,
+      reviews: 109
     }
   ]
 ,

@@ -1,16 +1,16 @@
 import { BlogPost } from '../blog-posts';
 
 export const post41: BlogPost = {
-    id: '41',
-    slug: 'decoding-company-culture',
-    title: 'Decoding Culture: 5 Questions to Ask Before You Join (To Avoid Toxicity)',
-    excerpt: 'Every company says they have a "Great Culture." Most are lying. You need to be a detective. Learn the "Reverse Interview" techniques to uncover burnout, micromanagement, and political infighting before you sign the offer.',
-    seo: {
-        title: 'Questions to Ask in an Interview to Check Culture',
-        description: 'How to spot a toxic workplace during the interview. The best questions to ask hiring managers and peers to reveal the truth about work-life balance and leadership.',
-        keywords: ['company culture', 'interview questions', 'toxic workplace', 'due diligence', 'reverse interviewing', 'job search']
-    },
-    content: `
+  id: '41',
+  slug: 'decoding-company-culture',
+  title: 'Decoding Culture: 5 Questions to Ask Before You Join (To Avoid Toxicity)',
+  excerpt: 'Every company says they have a "Great Culture." Most are lying. You need to be a detective. Learn the "Reverse Interview" techniques to uncover burnout, micromanagement, and political infighting before you sign the offer.',
+  seo: {
+    title: 'Questions to Ask in an Interview to Check Culture',
+    description: 'How to spot a toxic workplace during the interview. The best questions to ask hiring managers and peers to reveal the truth about work-life balance and leadership.',
+    keywords: ['company culture', 'interview questions', 'toxic workplace', 'due diligence', 'reverse interviewing', 'job search']
+  },
+  content: `
     <div class="bg-emerald-50 border-l-4 border-emerald-500 p-6 rounded-r-lg mb-8">
       <h3 class="text-emerald-900 font-bold mb-2 mt-0">The "Values" on the Wall</h3>
       <p class="text-emerald-800 mb-0">
@@ -21,6 +21,8 @@ export const post41: BlogPost = {
     <p class="lead text-xl text-slate-600 mb-6">
       An interview is a two-way street. They are vetting you for skills. You are vetting them for sanity.
     </p>
+
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Question 1: "How is conflict resolved here? Can you give an example?"</h2>
     
@@ -80,6 +82,8 @@ export const post41: BlogPost = {
         <li>Does everyone look exhausted (dark circles, disheveled)?</li>
     </ul>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       You spend more time with your coworkers than your spouse. Choosing a toxic culture can destroy your mental health faster than unemployment. Invest the time in due diligence.
@@ -93,13 +97,13 @@ export const post41: BlogPost = {
       </a>
     </div>
   `,
-    author: 'Ayman',
-    date: '2025-09-20',
-    image: '/images/blog/decoding-culture.png',
-    category: 'Due Diligence',
-    tags: ['Company Culture', 'Interview Questions', 'Due Diligence', 'Red Flags', 'Career Strategy']
-,
-  
+  author: 'Ayman',
+  date: '2025-09-20',
+  image: '/images/blog/decoding-culture.png',
+  category: 'Due Diligence',
+  tags: ['Company Culture', 'Interview Questions', 'Due Diligence', 'Red Flags', 'Career Strategy']
+  ,
+
   sidebarAds: {
     ad1: {
       type: 'placeholder',
@@ -114,7 +118,7 @@ export const post41: BlogPost = {
     // --------------------------------------------------------
     // COPY & PASTE these templates to replace the placeholders above
     // --------------------------------------------------------
-    
+
     // TEMPLATE: Custom Ad
     /*
     ad1: {
@@ -144,25 +148,25 @@ export const post41: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Job Interview: Get the Job By Asking Two Critical Questions (e-Report)",
+      author: "Peggy McKee",
+      description: "Boost your chances of getting the job by 30-40 percent just by asking two simple, strategic questions in the interview.",
+      image: "https://m.media-amazon.com/images/I/810Zi7P+eWL._SL1500_.jpg",
+      link: "https://amzn.to/4toKtvr",
+      rating: 4.0,
+      reviews: 97
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "301 Best Questions to Ask on Your Interview, Second Edition",
+      author: "John Kador",
+      description: "Revised and updated for today’s job market, the bestselling handbook for the ahead-of-the-curve job seeker",
+      image: "https://m.media-amazon.com/images/I/712LmeYeP8L._SL1360_.jpg",
+      link: "https://amzn.to/4rCRzuC",
+      rating: 4.4,
+      reviews: 80
     }
   ]
-,
+  ,
   smallAds: [
     {
       type: 'placeholder',

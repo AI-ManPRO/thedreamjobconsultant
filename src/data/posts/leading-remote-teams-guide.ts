@@ -26,6 +26,8 @@ export const post39: BlogPost = {
       If you require your team to be "on call" 9-5, you are not running a remote team; you are running an office team with a long commute (from the bedroom to the kitchen). True remote work is <strong>Asynchronous</strong>.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Sync vs. Async: The Golden Rule</h2>
     
     <p class="mb-4">
@@ -120,6 +122,8 @@ export const post39: BlogPost = {
         <strong>The Lesson:</strong> If the output is elite, ignore the input. The manager stopped tracking her hours and Promoted her.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Remote management is harder than office management. It forces you to be a better planner and a better writer. But if you master it, you have access to the global talent pool, not just the people who live within 10 miles of your office.
@@ -184,22 +188,22 @@ export const post39: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Leading from Anywhere: Unlock the Power and Performance of Remote Teams",
+      author: "David Burkus",
+      description: "The ultimate guide to leading remote teams, tackling the key challenges that managers face—from hiring and onboarding new members from afar to building culture remotely, tracking productivity, communicating speedily, and retaining star employeesIt’s undeniable that we’re entering a new era of remote work.",
+      image: "https://m.media-amazon.com/images/I/71zAn05IpBL._SY425_.jpg",
+      link: "https://amzn.to/4rEomjc",
+      rating: 4.4,
+      reviews: 317
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The New Remote Manager: The First-Time Manager’s Ultimate Guide to Managing Remote Employees, Building High-Performing Teams, and Leading Through Change",
+      author: "Matthew Barker",
+      description: "Embrace and adapt to the new virtual world and stay competitive and effective as a manager.",
+      image: "https://m.media-amazon.com/images/I/51u-ziI80nL._SL1500_.jpg",
+      link: "https://amzn.to/4bE6sZ2",
+      rating: 4.6,
+      reviews: 88
     }
   ]
 ,

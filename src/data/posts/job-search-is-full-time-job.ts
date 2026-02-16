@@ -22,6 +22,8 @@ export const post59: BlogPost = {
       You are not "Unemployed." You are a "Consultant" looking for your next client. Act like one.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Physical Setup (The Office)</h2>
     
     <p class="mb-4">
@@ -88,6 +90,8 @@ export const post59: BlogPost = {
       <strong>The Fix:</strong> At 5:00 PM, close the laptop. Say out loud: "I have done enough today." Then stop. If you work at 9 PM, you will burn out by Thursday. You need recovery to be sharp for interviews.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Discipline is freedom. By structuring your day, you remove the guilt of "not doing enough" and replace it with the confidence of "executing a plan."
@@ -152,22 +156,22 @@ export const post59: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "You Are The CEO of Your Career: Mastering The Job Search in 10 Easy Steps",
+      author: "Mindy Stern",
+      description: "Mindy Stern shares her experience of an employer, recruiter, applicant and career coach with real-life stories that will motivate and enlighten job seekers of any age. This book offers a practical approach for job applicants to find their ideal next job; with exercises and effective resources that can enhance anyone's job search.",
+      image: "https://m.media-amazon.com/images/I/61gqy60TZyL._SL1360_.jpg",
+      link: "https://amzn.to/4qvRjfY",
       rating: 5.0,
-      reviews: 0
+      reviews: 3
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Job Search Mastery: How to WIN Your Dream Job",
+      author: "Tom Caravela",
+      description: "Are you having trouble getting interviews? Are you applying to positions but not hearing back? Do you feel stuck in your job search? (Job Search Mastery. How to WIN Your Dream Job) is a step-by-step guide for any and all job seekers looking to make their next career move.",
+      image: "https://m.media-amazon.com/images/I/61Cw3hf-TqL._SL1360_.jpg",
+      link: "https://amzn.to/46NtWYi",
+      rating: 4.9,
+      reviews: 29
     }
   ]
 ,

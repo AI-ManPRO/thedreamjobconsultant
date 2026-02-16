@@ -26,6 +26,8 @@ export const post37: BlogPost = {
       Before you send a single application, you must perform a "Digital Audit." This isn't just about hiding beer bong photos. It's about ensuring your online persona matches your professional brand.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Incognito" Test</h2>
     
     <p class="mb-4">
@@ -111,6 +113,8 @@ export const post37: BlogPost = {
         <strong>The Lesson:</strong> The internet never forgets, but you can make it harder for them to remember.
     </p>
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Your digital reputation is your new credit score. You might think it's unfair that companies judge you for your personal life, but they do. Clean up your house before you invite guests in.
@@ -175,22 +179,22 @@ export const post37: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Digital Hygiene: The guide to taking care of ourselves in an increasingly technological world",
+      author: "Ana María Oliva PhD",
+      description: "In an increasingly technological world, it's important to stop and think for a second. Is more technologically advanced synonymous with better? What impact does what we're doing have on our health and lives?.",
+      image: "https://m.media-amazon.com/images/I/61-9eMOe-pL._SL1500_.jpg",
+      link: "https://amzn.to/46pZOSG",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Complete 5-in-1 Executive Functioning Workbook for Adults: Overcome Procrastination, Manage ADHD, and Build Lasting Focus in 30 days or less with Science-Backed Tools & Daily Routines That Stick",
+      author: "Elliot Reese",
+      description: "Do you ever feel like no matter how hard you try, you still miss deadlines, struggle to start tasks, or feel like your brain just won’t cooperate",
+      image: "https://m.media-amazon.com/images/I/719xNDQhYiL._SY425_.jpg",
+      link: "https://amzn.to/3ZoAVmI",
+      rating: 4.9,
+      reviews: 138
     }
   ]
 ,

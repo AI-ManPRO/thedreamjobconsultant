@@ -34,6 +34,8 @@ export const post24: BlogPost = {
       They are Headhunters. And if you don't understand how they get paid, you will never understand how to get their attention. The executive search industry is a $20 billion machine designed to exclude 99% of the population. This guide is your key to the other 1%.
     </p>
 
+    {{AD_1}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The 3 Tiers of Recruiters: Know Who Is Calling</h2>
     
     <p class="mb-4">
@@ -218,6 +220,8 @@ export const post24: BlogPost = {
         </div>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion: Play the Long Game</h2>
     <p class="mb-6">
       Headhunters are not career coaches. They are brokers for high-stakes talent. They are not paid to help you find a job; they are paid to solve a problem for their client.
@@ -285,22 +289,22 @@ export const post24: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Headhunter Confidential: The Unwritten Rules For Landing A Job You Love",
+      author: "Katharine Day Bremer",
+      description: "Headhunter Confidential: The Unwritten Rules for Landing a Job You Love offers practical guidance for anyone seeking a career transition or new opportunity.",
+      image: "https://m.media-amazon.com/images/I/510algPDOcL._SL1360_.jpg",
+      link: "https://amzn.to/4qiZexb",
+      rating: 4.9,
+      reviews: 27
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Next Job, Best Job: A Headhunter's 11 Strategies to Get Hired Now",
+      author: "Rob Barnett",
+      description: "If you’re struggling to find work in an uncertain job market, Next Job, Best Job by headhunter Rob Barnett delivers game changing strategies to get you hired now.",
+      image: "https://m.media-amazon.com/images/I/71yrdZdUoJL._SY425_.jpg",
+      link: "https://amzn.to/3ZrHLHY",
+      rating: 4.7,
+      reviews: 93
     }
   ]
 ,

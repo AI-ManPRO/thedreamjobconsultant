@@ -22,6 +22,8 @@ export const post47: BlogPost = {
       Job Seekers obsess over the wrong list. They take courses in Python and Tableau, but they fail the interview because they interrupt the recruiter.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Defining the Difference</h2>
     
     <div class="grid md:grid-cols-2 gap-6 mb-8">
@@ -132,6 +134,8 @@ export const post47: BlogPost = {
       <br>4. Lead a volunteer project (Great for leadership without authority).
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Hard skills get you the interview. Soft skills get you the job. And most importantly, Soft Skills get you the <strong>promotion</strong>. The CEO isn't the best coder; she is the best communicator.
@@ -196,22 +200,22 @@ export const post47: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Soft Skills That Make or Break Your Success: 12 soft skills to master yourself, become a team player, and lead your company to absolute success",
+      author: "Dr. Assegid Habtewold",
+      description: "Master These 12 Soft Skills and Propel Your Career Into Success - Become an Amazing Team Player and Learn How to Successfully Lead Your Team With Realistic Approaches That WORK!",
+      image: "https://m.media-amazon.com/images/I/6189nb7fIXL._SY425_.jpg",
+      link: "https://amzn.to/45XTnGp",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Soft Skills Training: A Workbook to Develop Skills for Employment (Second Edition)",
+      author: "Frederick H Wentz",
+      description: "Written to inspire students who have not done well in conventional classrooms and are performing below their capability.",
+      image: "https://m.media-amazon.com/images/I/71LjO278TCL._SY342_.jpg",
+      link: "https://amzn.to/4qt6ir8",
+      rating: 4.6,
+      reviews: 102
     }
   ]
 ,

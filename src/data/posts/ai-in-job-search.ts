@@ -36,6 +36,8 @@ export const post9: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Prompt Engineering" for Resumes</h2>
 
     <p class="mb-4">
@@ -202,6 +204,8 @@ export const post9: BlogPost = {
         </div>
     </dl>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">
@@ -288,22 +292,22 @@ export const post9: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "AI-Enhanced Job Search: A 3-Week Step-By-Step Plan To Kickstart Your Job Hunt",
+      author: "Ann Marie Leahy",
+      description: "The AI-Enhanced Job Search: A 3-Week Step-By-Step Plan To Kickstart Your Job Hunt makes your job search faster and smarter.",
+      image: "https://m.media-amazon.com/images/I/61KPSltO4XL._SL1293_.jpg",
+      link: "https://amzn.to/4a7zdL6",
       rating: 5.0,
-      reviews: 0
+      reviews: 2
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "A Results Oriented 5 Point Strategy for a Successful Job Search: In the 21st Century, The Age of AI",
+      author: "Lanning Levine",
+      description: "A Results-Oriented: A 5-Point Strategy for a Successful Job Search in the Age of Al is your clear, step-by-step guide to navigating this new reality with confidence and a results-driven mindset.",
+      image: "https://m.media-amazon.com/images/I/61LxXQOxblL._SY425_.jpg",
+      link: "https://amzn.to/46AdVEZ",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

@@ -22,6 +22,8 @@ export const post58: BlogPost = {
       Olympic athletes have coaches. CEOs have coaches. Why do you think you can navigate the most complex job market in history alone?
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Sign 1: You Apply, But Get No Calls</h2>
     
     <p class="mb-4">
@@ -112,6 +114,8 @@ export const post58: BlogPost = {
         You save $28,000 by spending $2,000. It is a no-brainer investment.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       You can learn everything on YouTube for free. But it will take you 6 months of trial and error. A coach shrinks that timeline to 6 weeks. Time is your most expensive asset.
@@ -176,22 +180,22 @@ export const post58: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Be Your Own Career Coach: The Toolkit You Need To Build The Career You Want",
+      author: "Rus Slater",
+      description: "Take control of your career, improve your employability, identify your unique brand and skill set and fast track your career to the next level.",
+      image: "https://m.media-amazon.com/images/I/51A+r3IyTiL._SY425_.jpg",
+      link: "https://amzn.to/4krYggI",
+      rating: 4.2,
+      reviews: 121
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Job Search Guide: Be Your Own Career Coach",
+      author: "Jan Tegze",
+      description: "Stop wasting your life on unfulfilling work. Land your DREAM JOB now.",
+      image: "https://m.media-amazon.com/images/I/516PaK+0YpL._SL1360_.jpg",
+      link: "https://amzn.to/4c9iEBt",
+      rating: 4.5,
+      reviews: 9
     }
   ]
 ,

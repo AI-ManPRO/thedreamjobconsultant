@@ -22,6 +22,8 @@ export const post63: BlogPost = {
       "I am a Google Engineer" is a dangerous sentence. Because if Google fires you, you are nothing. "I am a Problem Solver who loves Code" is a safe sentence. No one can fire you from that.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Human Being" vs "Human Doing"</h2>
     
     <p class="mb-4">
@@ -69,6 +71,8 @@ export const post63: BlogPost = {
         No one talks about your Quarterly Business Review. They talk about how you made them feel.
         <br><strong>The Lesson:</strong> Invest in the things people will talk about at your funeral. Those are the only things that you truly own. Your job is just a rental.
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
@@ -134,22 +138,22 @@ export const post63: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "HEAL from a Layoff: A Guided Workbook to Help You Heal, Rebuild, and Return to Your Career",
+      author: "Brianna Koucos Midgley",
+      description: "Losing your job can feel like the end of your career—but it doesn't have to be. It’s just the start of a new journey, once you have allowed yourself to experience your feelings around the layoff.",
+      image: "https://m.media-amazon.com/images/I/619lw1V11hL._SL1293_.jpg",
+      link: "https://amzn.to/4aKBb5E",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Job Loss, Not Life Loss: A Step-by-Step Guide to Emotional, Financial, and Career Recovery",
+      author: "Niyi Adeoshun",
+      description: "Job loss can feel like the end of everything—your finances, your career, your confidence, and even your sense of purpose. But it doesn’t have to be.",
+      image: "https://m.media-amazon.com/images/I/61y0VjaCS6L._SL1500_.jpg",
+      link: "https://amzn.to/3OaI0Vr",
+      rating: 4.5,
+      reviews: 2
     }
   ]
 ,

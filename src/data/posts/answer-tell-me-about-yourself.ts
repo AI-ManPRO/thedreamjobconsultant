@@ -34,13 +34,8 @@ export const post15: BlogPost = {
     <p class="mb-8">
       Your answer needs to be a trailer for the movie of your career. Highlights only. Explosions only. Leave them wanting to see the full film.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/tell-me-about-yourself-body.jpg" alt="Guide illustration for answer-tell-me-about-yourself" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for answer tell me about yourself</figcaption>
-    </figure>
 
-
-    <hr class="my-10 border-slate-200" />
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Structure: Present, Past, Future</h2>
     
@@ -81,6 +76,15 @@ export const post15: BlogPost = {
         </ul>
     </div>
 
+    <figure class="my-10">
+      <img src="/images/blog/tell-me-about-yourself-body.jpg" alt="Guide illustration for answer-tell-me-about-yourself" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for answer tell me about yourself</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
+
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">3. Scripts for Every Situation</h2>
     
     <h4 class="font-bold text-navy-700 mt-6 mb-2">Script A: The Career Pivoter</h4>
@@ -111,6 +115,8 @@ export const post15: BlogPost = {
             <p class="text-sm text-slate-700">"Then in 2012, I managed the migration of the SQL database to version 4.2..." Too detailed. Keep it high level. "I led a major cloud migration."</p>
         </div>
     </div>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -190,22 +196,22 @@ export const post15: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Tell Me About Yourself: Job Interviews 101 Ways to Nail the Interview and Get the Offer",
+      author: "Shannon Michelle",
+      description: "Unlock Your Dream Job: Master the Interview and Impress Like a Pro!",
+      image: "https://m.media-amazon.com/images/I/61tAHHlOxcL._SL1500_.jpg",
+      link: "https://amzn.to/4rb2fRG",
+      rating: 4.8,
+      reviews: 105
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Answers to the Top 20 Interview Questions: Conquering the Job Interview Process",
+      author: "Katie Weiser",
+      description: "A Career Coach's Expert Guide on How to Answer the Top 20 Interview Questions",
+      image: "https://m.media-amazon.com/images/I/61aHdIwtJ0L._SY425_.jpg",
+      link: "https://amzn.to/3O8wtpx",
+      rating: 4.4,
+      reviews: 150
     }
   ]
 ,

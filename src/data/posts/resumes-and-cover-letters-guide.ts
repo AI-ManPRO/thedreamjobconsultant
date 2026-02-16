@@ -26,6 +26,8 @@ export const post46: BlogPost = {
       <strong>The Old Way:</strong> "To Whom It May Concern, I am writing to apply for the X role. I have 10 years of experience. I am hardworking. Please find my resume attached." (Delete this immediately).
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The "Pain Letter" Strategy (Disruptive)</h2>
     
     <p class="mb-4">
@@ -90,6 +92,8 @@ export const post46: BlogPost = {
     <p class="font-bold text-navy-900 mb-8">
         "P.S. I actually used your product to build a side project last month—I have some specific feedback on the onboarding flow I'd love to share."
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">5. When NOT to send one</h2>
     
@@ -163,22 +167,22 @@ export const post46: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "How to Write an Impressive CV and Cover Letter: A Comprehensive Guide for Jobseekers",
+      author: "Tracey Whitmore",
+      description: "Your CV, cover letter and LinkedIn profile are your first communication with a prospective employer. As the job market is more competitive than ever, grabbing an employer's attention and making the right first impression has never been more important.",
+      image: "https://m.media-amazon.com/images/I/71HMGFVB-gL._SL1500_.jpg",
+      link: "https://amzn.to/4qTkdaR",
+      rating: 4.1,
+      reviews: 108
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Perfect Cover Letter 3rd Edition",
+      author: "Richard H. Beatty",
+      description: "With fewer job opportunities and more applicants, just being qualified isn't enough to get the job you want. So how can you separate yourself from the pack? With the perfect cover letter, of course!",
+      image: "https://m.media-amazon.com/images/I/61QP88lITQL._SL1360_.jpg",
+      link: "https://amzn.to/4qkd3eX",
       rating: 5.0,
-      reviews: 0
+      reviews: 6
     }
   ]
 ,

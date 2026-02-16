@@ -22,6 +22,8 @@ export const post56: BlogPost = {
       Don't spend the night before the interview cramming code. Spend it setting the stage.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Phase 1: Research (The Intel)</h2>
     
     <p class="mb-4">
@@ -80,6 +82,8 @@ export const post56: BlogPost = {
     <p class="mb-4">
       <strong>10. Sleep:</strong> Your brain IQ drops 15 points if you are tired. Sleep beats cramming.
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
@@ -145,22 +149,22 @@ export const post56: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "INTERVIEW PREPARATION: How to Improve your Job Interview skills and Be Yourself",
+      author: "Jim Hunting",
+      description: "Do you want to hone your interview skills and ensure to get through an interview positively?",
+      image: "https://m.media-amazon.com/images/I/613YuitxFyL._SL1360_.jpg",
+      link: "https://amzn.to/4rcLvcJ",
       rating: 5.0,
-      reviews: 0
+      reviews: 2
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Interview Book: How to prepare and perform at your best in any interview",
+      author: "James Innes",
+      description: "This is the definitive, bestselling guide to planning, preparing and performing in interviews to maximise your chances of landing the job you want.",
+      image: "https://m.media-amazon.com/images/I/61wZNlTHsPL._SL1360_.jpg",
+      link: "https://amzn.to/4rL4B9F",
+      rating: 4.2,
+      reviews: 123
     }
   ]
 ,

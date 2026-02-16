@@ -22,6 +22,8 @@ export const post53: BlogPost = {
       Salespeople have a quota. You have a quota (1 Job Offer). Salespeople use a CRM. You should too.
     </p>
 
+    {{AD_1}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. Top of Funnel: Prospecting (Sourcing)</h2>
     
     <p class="mb-4">
@@ -108,6 +110,8 @@ export const post53: BlogPost = {
         </ul>
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Treating your job search like a numbers game ("I'll just apply to more") leads to burnout. Treating it like a strategic sales funnel leads to optimized effort and, eventually, a signed contract.
@@ -172,22 +176,22 @@ export const post53: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The 30-Day Job Search: Supercharge your Resume, Renew your Motivation, Secure & Succeed at more Job Interviews, and Negotiate your Salary like a Pro!",
+      author: "Hamza Zaouali",
+      description: "Discover an effective job hunting method that goes beyond the standard 'job search in hours' quick-fix approach.",
+      image: "https://m.media-amazon.com/images/I/613BmYmJ9TL._SL1491_.jpg",
+      link: "https://amzn.to/4artUXd",
+      rating: 4.9,
+      reviews: 113
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Take Control of Your Job Search!: 10 Emotions You Must Master to Land the Job",
+      author: "Lauren Herring",
+      description: "Take Control of Your Job Search! will help you discover that the key to success often depends on managing and even mastering your emotions. In this book you’ll learn to identify, confront and conquer the 10 emotions that are preventing you from landing that new job including emotions of loss and emotions that paralyze.",
+      image: "https://m.media-amazon.com/images/I/71RJQUiX6hL._SL1360_.jpg",
+      link: "https://amzn.to/3OzFhVC",
+      rating: 4.8,
+      reviews: 42
     }
   ]
 ,

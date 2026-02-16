@@ -34,13 +34,8 @@ export const post22: BlogPost = {
     <p class="mb-8">
       True toxicity is systemic. It is psychological warfare. It is a culture of fear, blame, and manipulation. Recognizing it is the first step to escaping it.
     </p>
-    <figure class="my-10">
-      <img src="/images/blog/toxic-workplace-body.jpg" alt="Guide illustration for toxic-workplace-signs" class="rounded-xl shadow-lg w-full" />
-      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for toxic workplace signs</figcaption>
-    </figure>
-
-
-    <hr class="my-10 border-slate-200" />
+    
+    {{AD_1}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Top 5 Red Flags</h2>
     
@@ -66,6 +61,14 @@ export const post22: BlogPost = {
             <p class="text-slate-700">If everyone on the team has been there less than 6 months, run. People don't leave good jobs in droves.</p>
         </div>
     </div>
+
+    <figure class="my-10">
+      <img src="/images/blog/toxic-workplace-body.jpg" alt="Guide illustration for toxic-workplace-signs" class="rounded-xl shadow-lg w-full" />
+      <figcaption class="text-center text-sm text-slate-500 mt-3">Visual guide for toxic workplace signs</figcaption>
+    </figure>
+
+
+    <hr class="my-10 border-slate-200" />
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">2. Survival Mode: The "CYA" File</h2>
     
@@ -119,6 +122,8 @@ export const post22: BlogPost = {
         <li>"What happened to the last person in this role?"</li>
         <li>Watch the interactions. Do people look happy? Or terrified?</li>
     </ul>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
@@ -198,22 +203,22 @@ export const post22: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "The Highly Sensitive Person's Guide to Dealing with Toxic People: How to Reclaim Your Power from Narcissists and Other Manipulators",
+      author: "Shahida Arabi MA",
+      description: "Reclaim your power from narcissists, manipulators, and other toxic people.",
+      image: "https://m.media-amazon.com/images/I/81EyJg8QSOL._SL1500_.jpg",
+      link: "https://amzn.to/4qlyJY0",
+      rating: 4.7,
+      reviews: 1536
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Rising Above a Toxic Workplace: Taking Care of Yourself in an Unhealthy Environment",
+      author: "Gary Chapman, Paul White",
+      description: "In Rising Above a Toxic Workplace, you’ll learn how to endure, cope, or quit if necessary. Drawing from authentic—sometimes horrific—real-life stories, authors Gary Chapman, Paul White, and Harold Myra blend their expertise to give you practical guidance, empowering insight, and realistic hope.",
+      image: "https://m.media-amazon.com/images/I/719vjb+dg1L._SL1500_.jpg",
+      link: "https://amzn.to/3MhpD0u",
+      rating: 4.3,
+      reviews: 536
     }
   ]
 ,

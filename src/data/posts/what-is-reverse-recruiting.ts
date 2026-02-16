@@ -40,6 +40,8 @@ export const post8: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Traditional vs. Reverse Recruiting: The Core Difference</h2>
 
     <p class="mb-4">
@@ -177,6 +179,8 @@ export const post8: BlogPost = {
 
     <hr class="my-10 border-slate-200" />
 
+    {{AD_2}}
+    
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Frequently Asked Questions</h2>
 
     <div class="space-y-6">

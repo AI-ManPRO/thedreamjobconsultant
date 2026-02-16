@@ -26,6 +26,8 @@ export const post32: BlogPost = {
       The proactive candidate doesn't wait. They find the Hiring Manager's email (it's not that hard) and they pitch them directly. But there is a fine line between being "proactive" and being "annoying."
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Anatomy of a Perfect Cold Email</h2>
     
     <p class="mb-4">
@@ -139,6 +141,8 @@ export const post32: BlogPost = {
         "Hi [Name], bubbling this up in case it got buried. Any thoughts?"
     </div>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       Cold emailing requires a thick skin. You will get ignored. You might get a "No." But you only need one "Yes" to change your career trajectory. Stop waiting for permission. Pick a target and fire.
@@ -203,22 +207,22 @@ export const post32: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "For Executives Only: Applying Business Techniques to Your Job Search (Five O'Clock Club)",
+      author: "Bill Belknap, Helene Seiler",
+      description: "For Executives Only covers what you need to know to execute an effective job search. These techniques are based 25 years of research by The Five O'Clock Club, a national career coaching and outplacement organization. ",
+      image: "https://m.media-amazon.com/images/I/51o-2VGWKXL._SY342_.jpg",
+      link: "https://amzn.to/4bDG4OY",
+      rating: 4.8,
+      reviews: 9
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "Perfect Pitching for Executives in the Hidden Job Market: The Insider's Strategy for Winning in C-Suite Job Interviews for $250K to $1 Million Jobs",
+      author: "Rainer Maria Morita",
+      description: "Are you struggling to tell your story in executive interviews—even when you know you're the best fit?",
+      image: "https://m.media-amazon.com/images/I/61FvlalmPkL._SL1500_.jpg",
+      link: "https://amzn.to/4kpUEMv",
+      rating: 3.6,
+      reviews: 13
     }
   ]
 ,

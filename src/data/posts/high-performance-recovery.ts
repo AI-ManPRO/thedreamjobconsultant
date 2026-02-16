@@ -26,6 +26,8 @@ export const post31: BlogPost = {
       I see executives who try to "push through" burnout like it's a wall. It isn't a wall; it's an empty gas tank. Pushing harder just ruins the engine.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Corporate Athlete Framework</h2>
     
     <p class="mb-4">
@@ -119,6 +121,8 @@ export const post31: BlogPost = {
         <strong>The Result:</strong> James reported "time slowing down." He stopped putting out fires and started preventing them. The company grew 40% that year because the pilot was finally awake.
     </p>
 
+    {{AD_2}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
       If you burnout, you help no one. You are not a martyr; you are a leader. And the first person you must lead is yourself. Prioritize recovery as ruthlessly as you prioritize revenue.
@@ -183,22 +187,22 @@ export const post31: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Executive Burnout: 7 Reasons Why High Performers Crash and Burn Before Reaching Their Full Potential (The Balance Blueprint by Dr. RJ)",
+      author: "Dr. RJ Verwayne ",
+      description: "Dr. RJ's intentions for this book is to help executives in charge of a team and entrepreneurs take action in preventing executive burnout. Remember it is much easier to prevent burnout early on than to repair damaged systems and processes years down the line.",
+      image: "https://m.media-amazon.com/images/I/61+cET2K37L._SL1500_.jpg",
+      link: "https://amzn.to/4ttFQAA",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "Executive Burnout Recovery: A Practical Guide to Reclaiming Energy, Focus, and Fulfillment in Leadership",
+      author: "Sophie Lane",
+      description: "Are you a high-achieving leader feeling overwhelmed and exhausted? Executive Burnout Recovery is your roadmap to healing, resilience, and long-term success. Executive coach Sophie Lane offers compassionate insights and evidence-based strategies to help you recognize burnout, set healthy boundaries, and rediscover your purpose.",
+      image: "https://m.media-amazon.com/images/I/81blnXxzViL._SL1500_.jpg",
+      link: "https://amzn.to/4a3Jc5x",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     }
   ]
 ,

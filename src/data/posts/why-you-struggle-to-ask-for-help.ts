@@ -23,6 +23,8 @@ export const post62: BlogPost = {
       The "Self-Made Man" is a lie. Arnold Schwarzenegger didn't build himself. Elon Musk didn't build himself. Everyone stood on shoulders.
     </p>
 
+    {{AD_1}}
+
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">1. The Difference Between "Begging" and "Strategic Ask"</h2>
     
     <div class="grid md:grid-cols-2 gap-6 mb-8">
@@ -81,6 +83,8 @@ export const post62: BlogPost = {
     <p class="mb-4">
         Gratitude is the currency of networking.
     </p>
+
+    {{AD_2}}
 
     <h2 class="text-2xl font-bold text-navy-900 mt-12 mb-6">Conclusion</h2>
     <p class="mb-6">
@@ -146,22 +150,22 @@ export const post62: BlogPost = {
   },
   affiliateBooks: [
     {
-      title: "Book Title 1 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
+      title: "The Over 50 Professional's Guide to Job Search Success: Proven Techniques to Overcome Age Bias, and Thrive in Today's Job Market (Job Search Essentials)",
+      author: "Jeff Altman",
+      description: "You aren't done. Your career isn’t a VHS tape in a streaming world. It may be the missing piece modern teams desperately need.",
+      image: "https://m.media-amazon.com/images/I/61fhcJAeutL._SL1500_.jpg",
+      link: "https://amzn.to/3MiT2aH",
       rating: 5.0,
-      reviews: 0
+      reviews: 1
     },
     {
-      title: "Book Title 2 Placeholder",
-      author: "Author Name",
-      description: "Description...",
-      image: "https://placehold.co/150x220/e2e8f0/475569?text=Book+Cover",
-      link: "https://amazon.com",
-      rating: 5.0,
-      reviews: 0
+      title: "You Coach You: How to Overcome Challenges and Take Control of Your Career",
+      author: "Helen Tupper",
+      description: "A practical guide giving you the skills and confidence to overcome career challenges on your own.",
+      image: "https://m.media-amazon.com/images/I/41hBe-HugfL._SY445_SX342_FMwebp_.jpg",
+      link: "https://amzn.to/4axHw3b",
+      rating: 4.5,
+      reviews: 171
     }
   ]
 ,
