@@ -27,6 +27,7 @@ import TermsAndConditions from './pages/legal/TermsAndConditions';
 import PrivacyPolicy from './pages/legal/PrivacyPolicy';
 import RefundPolicy from './pages/legal/RefundPolicy';
 import CookiesPolicy from './pages/legal/CookiesPolicy';
+import DoNotSellMyInfo from './pages/legal/DoNotSellMyInfo';
 import Sitemap from './pages/general/Sitemap';
 import BlogPost from './pages/blog/BlogPost';
 import SuccessPage from './pages/general/SuccessPage';
@@ -124,6 +125,7 @@ const AnimatedRoutes = () => {
         <Route path="/privacy-policy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
         <Route path="/refund-policy" element={<PageWrapper><RefundPolicy /></PageWrapper>} />
         <Route path="/cookies-policy" element={<PageWrapper><CookiesPolicy /></PageWrapper>} />
+        <Route path="/do-not-sell" element={<PageWrapper><DoNotSellMyInfo /></PageWrapper>} />
         <Route path="/sitemap" element={<PageWrapper><Sitemap /></PageWrapper>} />
         <Route path="/blog" element={<PageWrapper><Blog /></PageWrapper>} />
         <Route path="/blog/:slug" element={<PageWrapper><BlogPost /></PageWrapper>} />

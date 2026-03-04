@@ -59,7 +59,7 @@ export const activeOffers: Offer[] = [
         description: 'Get a completely rewritten, ATS-optimized executive resume that highlights your leadership impact. Limited slots available for this month.',
         originalPrice: 449,
         discountedPrice: 349, // Will calculate percentage ~22%
-        expiryDate: '2026-03-15T23:59:59',
+        expiryDate: '2026-03-31T23:59:59',
         link: '/services/resume-writing',
         features: ['ATS Optimization', 'Executive Summary', 'Unlimited Revisions', '48h Turnaround', 'Support For Up To One Month'],
         image: '/images/services/resume-writing.jpg'
@@ -70,7 +70,7 @@ export const activeOffers: Offer[] = [
         description: 'Transform your LinkedIn profile into a magnet for recruiters. Includes banner design, headline optimization, and SEO keyword strategy.',
         originalPrice: 599,
         discountedPrice: 469, // Will calculate percentage ~22%
-        expiryDate: '2026-03-07T23:59:59',
+        expiryDate: '2026-03-21T23:59:59',
         link: '/services/linkedin-profile',
         features: ['Headline Optimization', 'Banner Design', 'SEO Keyword Strategy', 'Profile Audit', 'Support For Up To One Month'],
         image: '/images/services/linkedin-profile.jpg'
@@ -81,7 +81,7 @@ export const activeOffers: Offer[] = [
         description: 'One-on-one mock interview coaching with real-time feedback. Master the "Tell me about yourself" question and behavioral interviews.',
         originalPrice: 599,
         discountedPrice: 419, // Will calculate percentage ~30%
-        expiryDate: '2026-02-21T23:59:59',
+        expiryDate: '2026-03-07T23:59:59',
         link: '/services/interview-prep',
         features: ['Mock Interview', 'Real-time Feedback', 'Answer Strategy', 'Body Language Tips', 'Support For Up To One Month'],
         image: '/images/services/interview-preparation.jpg'
@@ -92,7 +92,7 @@ export const activeOffers: Offer[] = [
         description: 'Learn how to build a powerful professional network on LinkedIn and access the 80% of jobs that are never advertised.',
         originalPrice: 599,
         discountedPrice: 499, // Will calculate percentage ~25%
-        expiryDate: '2026-02-28T23:59:59', // Active
+        expiryDate: '2026-03-15T23:59:59', // Active
         link: '/services/networking',
         features: ['Network Building Strategy', 'Outreach Scripts', 'Hidden Job Market Access', 'Informational Interview Guide', 'Support For Up To One Month'],
         image: '/images/services/professional-network.jpg'

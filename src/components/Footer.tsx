@@ -14,15 +14,32 @@ const Footer = () => {
             <Link to="/" className="cursor-pointer mb-4 inline-block">
               <Logo />
             </Link>
-            <p className="text-slate-400 mt-4 leading-relaxed">
+            <p className="text-slate-400 mt-2 leading-relaxed">
               The only Reverse Recruiting service that executes almost &gt; 85% of your job search. Specialized for Executives and Tech Professionals globally.
             </p>
-            <div className="flex gap-4 mt-6">
+            <div className="flex flex-wrap gap-4 mt-6">
               <a href="https://www.linkedin.com/company/thedreamjobconsultant" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white"><i className="fab fa-linkedin text-xl"></i></a>
               <a href="https://www.reddit.com/user/DreamJobConsultant/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white"><i className="fab fa-reddit text-xl"></i></a>
-              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-twitter text-xl"></i></a>
               <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-facebook text-xl"></i></a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-instagram text-xl"></i></a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-twitter text-xl"></i></a>
+              <a href="https://topmate.io/dreamjob_consultant" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center transition-all opacity-80 hover:opacity-100 grayscale hover:grayscale-0" title="Topmate">
+                <img src="https://topmate.io/favicon.ico" alt="Topmate" className="w-[18px] h-[18px] rounded-sm" />
+              </a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-discord text-xl"></i></a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-meetup text-xl"></i></a>
+
             </div>
+
+            {/*}
+            <div className="flex gap-3 mt-1">
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-meetup text-xl"></i></a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-discord text-xl"></i></a>
+              <a href="#" className="text-slate-400 hover:text-white"><i className="fab fa-topmate text-xl"></i></a>
+
+            </div>
+            */}
+
           </div>
 
           {/* Col 2 - Services (New) */}
@@ -45,11 +62,11 @@ const Footer = () => {
             <h4 className="text-white font-bold uppercase tracking-wider mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li><Link to="/blog" className="text-slate-400 hover:text-gold-400">Blog</Link></li>
-              <li><Link to="/tools-resources" className="text-slate-400 hover:text-gold-400"> Free Tools & Resources</Link></li>
-              <li><Link to="/competitors-comparison" className="text-slate-400 hover:text-gold-400">Competitors Comparison</Link></li>
-              <li><Link to="/reviews" className="text-slate-400 hover:text-gold-400">Tools & Apps Reviews</Link></li>
-              <li><Link to="/testimonials" className="text-slate-400 hover:text-gold-400">Testimonials</Link></li>
               <li><Link to="/get-started" className="text-slate-400 hover:text-gold-400">Get Started</Link></li>
+              <li><Link to="/tools-apps-reviews" className="text-slate-400 hover:text-gold-400">Tools & Apps Reviews</Link></li>
+              <li><Link to="/free-tools-resources" className="text-slate-400 hover:text-gold-400"> Free Tools & Resources</Link></li>
+              <li><Link to="/competitors-comparison" className="text-slate-400 hover:text-gold-400">Competitors Comparison</Link></li>
+              <li><Link to="/testimonials" className="text-slate-400 hover:text-gold-400">Testimonials</Link></li>
               <li><Link to="/login" className="text-slate-400 hover:text-gold-400">Login</Link></li>
             </ul>
           </div>
@@ -61,9 +78,9 @@ const Footer = () => {
               <li><Link to="/about" className="text-slate-400 hover:text-gold-400">About Us</Link></li>
               <li><Link to="/contact" className="text-slate-400 hover:text-gold-400">Contact Us</Link></li>
               <li><Link to="/case-studies" className="text-slate-400 hover:text-gold-400">Case Studies</Link></li>
-              <li><Link to="/affiliate-program" className="text-slate-400 hover:text-gold-400">Affiliate Program</Link></li>              
-              <li><Link to="/outplacement" className="text-slate-400 hover:text-gold-400">Outplacement Services</Link></li>
+              <li><Link to="/affiliate-program" className="text-slate-400 hover:text-gold-400">Affiliate Program</Link></li>
               <li><Link to="/offers" className="text-slate-400 hover:text-gold-400">Offers & Promotions</Link></li>
+              <li><Link to="/outplacement" className="text-slate-400 hover:text-gold-400">Outplacement Services</Link></li>
               <li><Link to="/employer-login" className="text-slate-400 hover:text-gold-400">Employer Login</Link></li>
             </ul>
           </div>
@@ -76,9 +93,10 @@ const Footer = () => {
               <li><Link to="/privacy-policy" className="text-slate-400 hover:text-gold-400">Privacy Policy</Link></li>
               <li><Link to="/refund-policy" className="text-slate-400 hover:text-gold-400">Refund Policy</Link></li>
               <li><Link to="/cookies-policy" className="text-slate-400 hover:text-gold-400">Cookies Policy</Link></li>
+              <li><Link to="/do-not-sell" className="text-slate-400 hover:text-gold-400">Do Not Sell or Share My Personal Information</Link></li>
               <li><Link to="/sitemap" className="text-slate-400 hover:text-gold-400">Sitemap</Link></li>
               <li><Link to="/faq" className="text-slate-400 hover:text-gold-400">FAQ</Link></li>
-              
+
             </ul>
           </div>
 
