@@ -16,9 +16,12 @@ const Sitemap = () => {
                 { name: "Case Studies", path: "/case-studies" },
                 { name: "Pricing", path: "/pricing" },
                 { name: "Pricing (Retainer)", path: "/three-models" },
+                { name: "Offers & Promotions", path: "/offers" },
+                { name: "Affiliate Program", path: "/affiliate-program" },
                 { name: "FAQ", path: "/faq" },
                 { name: "Contact", path: "/contact" },
                 { name: "Booking", path: "/booking" },
+                { name: "Get Started", path: "/get-started" },
             ]
         },
         {
@@ -69,6 +72,7 @@ const Sitemap = () => {
                 { name: "Privacy Policy", path: "/privacy-policy" },
                 { name: "Refund Policy", path: "/refund-policy" },
                 { name: "Cookies Policy", path: "/cookies-policy" },
+                { name: "Do Not Sell My Info", path: "/do-not-sell" },
             ]
         }
     ];
